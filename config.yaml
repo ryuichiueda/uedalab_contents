@@ -17,6 +17,8 @@ links:
   href: '/?page=member'
 - text: '文献'
   href: '/?page=publication'
+- text: '講義'
+  href: '/?page=lecture'
 - text: 'プロジェクト'
   href: '/?page=project'
 - text: '共同研究の案内'
