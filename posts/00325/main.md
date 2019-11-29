@@ -1,2 +1,0 @@
-# Publication list
-<h2>2015</h2>
