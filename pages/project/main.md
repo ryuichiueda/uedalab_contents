@@ -6,3 +6,4 @@ Copyright: (C) Ryuichi Ueda
 
 * [PFoE](/?page=kaken_project_2017)
 * [ロボットとXR](/?page=robot_ar)
+* [Tamiya Hack](/?page=tamiya)
