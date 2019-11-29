@@ -3,7 +3,7 @@ host: 'lab.ueda.tech'
 sitetitle: '千葉工大自律ロボット研究室'
 subtitle: '（上田研究室）'
 headline:
-- text: 'お知らせ: 卒論を書きましょう。'
+- text: '以前のWordpress製のサイトをラボ主がぶっ壊してしまいましたのでbashcms2に引っ越しました。まだリンク等、おかしいところがあります。'
 twitter:
 - account: 'uedalaboratory'
 facebook: '@'
