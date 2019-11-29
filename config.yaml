@@ -15,7 +15,7 @@ links:
   href: '/?post'
 - text: 'member'
   href: '/?page=member'
-- text: 'publications'
+- text: '文献'
   href: '/?page=publication'
 - text: '共同研究の案内'
   href: '/?page=collaboration_info'
