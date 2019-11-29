@@ -1,5 +1,5 @@
 # エクセルからラズパイマウスを動かすことに成功
-03059 表題の通りです。B4某氏がExcel方眼紙へのオマージュ（嘘）として遊びで作ったそうです。
+表題の通りです。B4某氏がExcel方眼紙へのオマージュ（嘘）として遊びで作ったそうです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UnfgtCqpD50" frameborder="0" allowfullscreen></iframe>
 

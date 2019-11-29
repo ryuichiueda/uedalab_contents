@@ -1,5 +1,5 @@
 # 資料
-00456 <h2>2019</h2>
+<h2>2019</h2>
 <ul>
  	<li> <a href="https://lab.ueda.tech/?presenpress=%e7%a0%94%e7%a9%b6%e5%ae%a4%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b92019">研究室の使い方2019</a></li>
 </ul>

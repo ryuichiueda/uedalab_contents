@@ -1,5 +1,5 @@
 # ROSのナビゲーション関係のパッケージをラズパイマウスに搭載
-03069 ラズパイマウスでgmapping、amcl、move_baseが一通り動くようになりました。B3岡崎さんの仕事です。
+ラズパイマウスでgmapping、amcl、move_baseが一通り動くようになりました。B3岡崎さんの仕事です。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ngdNWk1a2mI" frameborder="0" allowfullscreen></iframe>
 

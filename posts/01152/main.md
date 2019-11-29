@@ -1,5 +1,5 @@
 # ロボットシステム学（2016/6s）
-01152 ハッシュタグ: <a href="https://twitter.com/hashtag/robosys2016?f=tweets&amp;vertical=default" target="_blank">#robosys2016</a>
+ハッシュタグ: <a href="https://twitter.com/hashtag/robosys2016?f=tweets&amp;vertical=default" target="_blank">#robosys2016</a>
 <h2>第1回</h2>
 <ul>
  	<li><a href="https://lab.ueda.tech/?presenpress=%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e5%ad%a6">スライド</a></li>

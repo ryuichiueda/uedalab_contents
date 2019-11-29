@@ -1,5 +1,5 @@
 # 確率ロボティクス（大学院2016年度秋学期）
-01233 ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2016?src=hash" target="_blank" rel="noopener">#probrobo2016</a>
+ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2016?src=hash" target="_blank" rel="noopener">#probrobo2016</a>
 
 iPhoneのブラウザ（ChromeとSafari）だとスライドが見られないという現象があります。
 <h2>第1回</h2>

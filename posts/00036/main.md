@@ -1,5 +1,5 @@
 # Members
-00036 <h2>staff</h2>
+<h2>staff</h2>
 <ul>
  	<li id="ryuichiueda"><a href="https://lab.ueda.tech/?page_id=42">Ryuichi Ueda</a></li>
 </ul>

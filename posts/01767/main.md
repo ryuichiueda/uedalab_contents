@@ -1,5 +1,5 @@
 # ロボット設計製作論3（2017/4s）
-01767 マニピュレータのコントローラ、リニューアルの準備中です。
+マニピュレータのコントローラ、リニューアルの準備中です。
 <h2>講義の情報</h2>
 こちら: <a href="http://www.kikulab.it-chiba.ac.jp/class/sekkei3/index.html">http://www.kikulab.it-chiba.ac.jp/class/sekkei3/index.html</a>
 <h2>マニピュレータ講習日程（2017年度）</h2>

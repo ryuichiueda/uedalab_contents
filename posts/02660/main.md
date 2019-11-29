@@ -1,5 +1,5 @@
 # SLAM with a tiny robot
-02660 Yesterday we successfully created a room map by using a tiny micromouse type robot that has a Hokuyo URG-LX04. The robot, <a href="http://products.rt-net.jp/micromouse/raspberry-pi-mouse">Raspberry Pi Mouse</a>, is provided by RT-Corporation. 
+Yesterday we successfully created a room map by using a tiny micromouse type robot that has a Hokuyo URG-LX04. The robot, <a href="http://products.rt-net.jp/micromouse/raspberry-pi-mouse">Raspberry Pi Mouse</a>, is provided by RT-Corporation. 
 
 In the following movie, the gmapping node on ROS works on the laptop pc and the robot sends the scan data and its odometry to the laptop pc through ROS. We have also verified that the gmapping node can work on Raspberry Pi 3 with a standalone fashion. 
 

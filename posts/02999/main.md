@@ -1,5 +1,5 @@
 # ROSを使ったRaspberry Pi Mouseのナビゲーション
-02999 B3の岡崎さんが <a href="https://github.com/DaikiMaekawa/navigation2d_example">https://github.com/DaikiMaekawa/navigation2d_example</a> を参考に Raspberry Pi MouseにROSのナビゲーションメタパッケージを適用する仕事をしています。Hector SLAMで地図生成を行い、その地図を使って指定した位置までロボットを移動させるところまで成功しています。
+B3の岡崎さんが <a href="https://github.com/DaikiMaekawa/navigation2d_example">https://github.com/DaikiMaekawa/navigation2d_example</a> を参考に Raspberry Pi MouseにROSのナビゲーションメタパッケージを適用する仕事をしています。Hector SLAMで地図生成を行い、その地図を使って指定した位置までロボットを移動させるところまで成功しています。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FpcTqOiYzMc" frameborder="0" allowfullscreen></iframe>
 

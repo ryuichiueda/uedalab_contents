@@ -1,5 +1,5 @@
 # 日経Linux7月号 (Nikkei Linux, July 2016)
-00885 連載「Raspberry Piで作ろう お手軽ロボット教室」の第7回が掲載された日経Linux7月号が発売されました。
+連載「Raspberry Piで作ろう お手軽ロボット教室」の第7回が掲載された日経Linux7月号が発売されました。
 
 今回はROSを扱っています。
 

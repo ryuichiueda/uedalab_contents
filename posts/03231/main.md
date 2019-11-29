@@ -1,5 +1,5 @@
 # ロボット開発のためのAR
-03231 ロボットのデバッグ用に拡張現実（augmented reality, AR）を応用する研究です。
+ロボットのデバッグ用に拡張現実（augmented reality, AR）を応用する研究です。
 <ul>
  	<li>project tangoのソフトウェアを利用したもの</li>
 </ul>

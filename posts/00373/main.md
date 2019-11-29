@@ -1,5 +1,5 @@
 # 確率ロボティクス（大学院2015年度冬学期）
-00373 ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2015?src=hash" target="_blank">#probrobo2015</a>
+ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2015?src=hash" target="_blank">#probrobo2015</a>
 
 <h2>講義内容</h2>
 

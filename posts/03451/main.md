@@ -1,5 +1,5 @@
 # ロボットシステム学（2018/6s）
-03451 ハッシュタグ: <a href="https://twitter.com/hashtag/robosys2018?f=tweets&amp;src=hash">#robosys2018</a>
+ハッシュタグ: <a href="https://twitter.com/hashtag/robosys2018?f=tweets&amp;src=hash">#robosys2018</a>
 <h2>資料</h2>
 資料はGitHubにアップしてあります。
 <ul>

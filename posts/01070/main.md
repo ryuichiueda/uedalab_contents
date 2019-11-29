@@ -1,5 +1,5 @@
 # Open Source unConference 2016 Chiba
-01070 In July 23, we have participated in <a href="http://ospn.connpass.com/event/33412/" target="_blank">Open Source unConference (OSunC)</a> as a host laboratory.
+In July 23, we have participated in <a href="http://ospn.connpass.com/event/33412/" target="_blank">Open Source unConference (OSunC)</a> as a host laboratory.
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">まさか千葉工大でこの幟を見る日が来るとは <a href="https://twitter.com/hashtag/osunc_chiba?src=hash">#osunc_chiba</a> <a href="https://t.co/AollJViwpt">pic.twitter.com/AollJViwpt</a></p>&mdash; upsilon (\@kim_upsilon) <a href="https://twitter.com/kim_upsilon/status/756729580602347520">July 23, 2016</a></blockquote>

@@ -1,5 +1,5 @@
 # Ryuichi Ueda
-00042 Associate Professor, Director of the autonomous robot lab.
+Associate Professor, Director of the autonomous robot lab.
 <a href="https://lab.ueda.tech/wp-content/uploads/2019/11/ueda_s.png"><img class="alignright size-medium wp-image-3622" src="https://lab.ueda.tech/wp-content/uploads/2019/11/ueda_s-300x300.png" alt="" width="300" height="300" /></a>
 <div class="social-profile">
 <ul>

@@ -1,5 +1,5 @@
 # 問い合わせ
-00079 <h2>問い合わせ</h2>
+<h2>問い合わせ</h2>
 
 <a href="https://twitter.com/uedalaboratory" target="_blank">\@uedalaboratory</a>まで。
 

@@ -1,5 +1,5 @@
 # 2016年度 未来ロボティクス総合セミナー２
-00972 <h1 style="font-size:250%">RoboCup2016<br>\@homeリーグ</h1>
+<h1 style="font-size:250%">RoboCup2016<br>\@homeリーグ</h1>
 
 <p>&nbsp;</p>
 <p>上田 隆一</p>

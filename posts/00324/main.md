@@ -1,5 +1,5 @@
 # 出版物リスト
-00324 Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=06033" target="_blank" rel="noopener noreferrer">here</a>.
+Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=06033" target="_blank" rel="noopener noreferrer">here</a>.
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
