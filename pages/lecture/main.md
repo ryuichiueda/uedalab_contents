@@ -15,7 +15,11 @@ Copyright: (C) Ryuichi Ueda
 </li>
  	<li><a href="https://lab.ueda.tech/?page=robosys_2019">ロボットシステム学</a></li>
  	<li><a href="https://lab.ueda.tech/?page=robotdesign3_2019">ロボット設計製作論3</a></li>
- 	<li><a href="https://lab.ueda.tech/?page=prob_robot_2019">確率ロボティクス</a></li>
+ 	<li>確率ロボティクス
+	  <ul>
+	    <li>今年から「<a href="https://b.ueda.tech/?page=lnpr">詳解確率ロボティクス</a>」を使います</li>
+	  </ul>
+	</li>
 </ul>
 <h2>2018</h2>
 <ul>
