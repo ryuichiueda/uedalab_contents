@@ -1,0 +1,20 @@
+protocol: 'https:'
+host: 'lab.ueda.tech'
+sitetitle: '千葉工大自律ロボット研究室'
+subtitle: '（上田研究室）'
+headline:
+- text: 'お知らせ: 卒論を書きましょう。'
+twitter:
+- account: 'uedalaboratory'
+facebook: '@'
+hatena: '@'
+pocket: '@'
+line: '@'
+links:
+- text: 'latest'
+  href: '/?post'
+- text: 'publications'
+  href: '/?page=publication'
+sociallinks:
+- icon: 'fa-twitter-square'
+  href: 'https://twitter.com/uedalaboratory'
