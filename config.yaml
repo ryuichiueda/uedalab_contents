@@ -13,6 +13,8 @@ line: '@'
 links:
 - text: 'latest'
   href: '/?post'
+- text: 'member'
+  href: '/?page=member'
 - text: 'publications'
   href: '/?page=publication'
 sociallinks:
