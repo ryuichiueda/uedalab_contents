@@ -1,1 +1,152 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第3回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年10月5日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>センサ値と状態、信念</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>前回</h2>-c-c-c-<ul>-c-c-c- 	<li>制御出力[latex]\\boldsymbol{u}_t[/latex]で状態[latex]\\boldsymbol{x}_{t-1}[/latex]から[latex]\\boldsymbol{x}_t[/latex]に変化</li>-c-c-c- 	<li>自律ロボット（エージェント）にとって、状態[latex]\\boldsymbol{x}_t[/latex]は、未知</li>-c-c-c- 	<li>エージェントは状態[latex]\\boldsymbol{x}_t[/latex]に対する認識である信念[latex]bel_t[/latex]を持つ</li>-c-c-c- 	<li>[latex]bel_t[/latex]には、制御出力に対する実際の動きの雑音が蓄積していく-c-c-c-<ul>-c-c-c- 	<li>ガウス分布に従う場合は共分散行列に雑音が足されていく</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>状態を（間接的に）観測する</h2>-c-c-c-<ul>-c-c-c- 	<li>センサの値には状態に対するヒント（情報）が隠れている</li>-c-c-c- 	<li>センサ入力の定義-c-c-c-<ul>-c-c-c- 	<li>[latex]\\boldsymbol{z} = (z_1,z_2,\\dots,z_m) \\in \\mathcal{Z}[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>多くの場合、情報は間接的-c-c-c-<ul>-c-c-c- 	<li>レーザレンジファインダーは移動ロボットの-c-c-c-[latex]\\boldsymbol{x} = (x,y,\\theta)[/latex]を直接は教えてくれない-c-c-c-<ul>-c-c-c- 	<li>変数が違う（[latex]\\mathcal{X} \\neq \\mathcal{Z}[/latex]）</li>-c-c-c- 	<li>雑音もある</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>観測方程式</h2>-c-c-c-<ul>-c-c-c- 	<li>センサ入力と状態を結びつける式-c-c-c-<ul>-c-c-c- 	<li>現代制御に出てくる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>線形な場合-c-c-c-<ul>-c-c-c- 	<li>[latex]\\boldsymbol{z} = C\\boldsymbol{x} + \\delta[/latex]-c-c-c-<ul>-c-c-c- 	<li>時刻の添字[latex]t[/latex]は省略</li>-c-c-c- 	<li>[latex]\\delta[/latex]: センサ入力の値に混入する雑音</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>非線形な場合-c-c-c-<ul>-c-c-c- 	<li>[latex]\\boldsymbol{z} = h(\\boldsymbol{x}) + \\delta[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>前回の制御のときと同様、このような定式化をしてしまうと-c-c-c-観測にまつわる不確かさの表現力に乏しい</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>観測にまつわる不確かさの表現</h2>-c-c-c-<ul>-c-c-c- 	<li>[latex]p(\\boldsymbol{z}|\\boldsymbol{x})[/latex]: 状態[latex]\\boldsymbol{x}[/latex]にいた場合に、[latex]\\boldsymbol{z}[/latex]というセンサ入力を得る確率の密度</li>-c-c-c- 	<li><span style="color: #ffff00;">[latex]\\ell(\\boldsymbol{x}|\\boldsymbol{z})[/latex]（尤度）</span>:センサ入力[latex]\\boldsymbol{z}[/latex]を得た場合に、[latex]\\boldsymbol{x}[/latex]が真の状態でありそうな度合いを数値化したもの-c-c-c-<ul>-c-c-c- 	<li>[latex]p(\\boldsymbol{z}|\\boldsymbol{x})[/latex]と基本的には同じもので、因果をひっくり返したもの</li>-c-c-c- 	<li>ただし確率の性質を満たす必要はない</li>-c-c-c- 	<li>[latex]\\ell[/latex]を<span style="color: #ffff00;">尤度関数</span>と呼ぶ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>これをエージェントが知っていると、エージェントが状態を推定できる</li>-c-c-c- 	<li> どうやってこれを知るか？-c-c-c-<ul>-c-c-c- 	<li>事前実験</li>-c-c-c- 	<li>センサの特性や環境の特性の知識</li>-c-c-c- 	<li>正解はない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>センサ入力に生じる雑音に対する考察</h2>-c-c-c-<ul>-c-c-c- 	<li>ガウス分布状にノイズが乗るセンサの尤度-c-c-c-<ul>-c-c-c- 	<li><a href="http://www.slideshare.net/ryuichiueda/ss-53911082?ref=https://lab.ueda.asia/?page_id=180" target="_blank">昨年の講義資料の第三回</a>の11ページ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>動的な障害物とセンサの関係-c-c-c-<ul>-c-c-c- 	<li><a href="http://www.slideshare.net/ryuichiueda/ss-53911082?ref=https://lab.ueda.asia/?page_id=180" target="_blank">昨年の講義資料の第三回</a>の17-19ページ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>センサ入力からの[latex]bel[/latex]の更新</h2>-c-c-c-<ul>-c-c-c- 	<li>センサ入力と尤度関数から<span style="color: #ffff00;">ベイズの定理を使って</span>[latex]bel[/latex]を更新</li>-c-c-c- 	<li>[latex]bel(\\boldsymbol{x}|\\boldsymbol{z}) = \\frac{p(\\boldsymbol{z}|\\boldsymbol{x})bel(\\boldsymbol{x})}{\\int_{\\mathcal{x}}p(\\boldsymbol{z}|\\boldsymbol{x}')bel(\\boldsymbol{x}')d\\boldsymbol{x}'} \\\\-c-c-c-= \\eta p(\\boldsymbol{z}|\\boldsymbol{x})bel(\\boldsymbol{x}) \\\\-c-c-c-= \\eta \\ell(\\boldsymbol{x}|\\boldsymbol{z})bel(\\boldsymbol{x})[/latex]</li>-c-c-c- 	<li>計算が終わったら[latex]bel(\\boldsymbol{x}|\\boldsymbol{z})[/latex]を[latex]bel(\\boldsymbol{x})[/latex]と表記-c-c-c-<ul>-c-c-c- 	<li>本来[latex]bel_t[/latex]は過去のロボットの制御出力、センサ入力全てから得られる条件つき確率になっている</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>1次元、ガウス分布に雑音が従う場合の問題</h2>-c-c-c-<ul>-c-c-c- 	<li>今、[latex]bel[/latex]が、次の式で表されているとします。-c-c-c-<ul>-c-c-c- 	<li>[latex]bel(x) = \\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp \\{-\\frac{(x-\\hat{x})^2}{2\\sigma^2}\\}[/latex]</li>-c-c-c- 	<li>[latex]\\sigma[/latex]: 標準偏差</li>-c-c-c- 	<li>[latex]\\hat{x}[/latex]: 推定の中心（推定値）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>センサ入力[latex]z[/latex]がありました。-c-c-c-<ul>-c-c-c- 	<li>[latex]z[/latex]の値は、[latex]x[/latex]をロボットの真の位置とするとき、対して次の分布に従います-c-c-c-<ul>-c-c-c- 	<li>[latex]p(z|x) = \\ell(x|z) = \\frac{1}{\\sqrt{2\\pi \\zeta^2}}\\exp \\{-\\frac{(z-x)^2}{2\\zeta^2}\\}[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>さて[latex]bel[/latex]はどのように更新されるでしょうか？</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>計算</h2>-c-c-c-<ul>-c-c-c- 	<li>[latex]x[/latex]に関係ない項を[latex]\\eta[/latex]に放り込みながら整理-c-c-c-<ul>-c-c-c- 	<li>[latex]bel(x) = \\eta e^{-\\frac{(x-\\hat{x})^2}{2\\sigma^2}}e^{-\\frac{(z-x)^2}{2\\zeta^2}} \\\\-c-c-c-=\\eta e^{-\\frac{1}{2\\sigma^2}x^2 -\\frac{1}{2\\zeta^2}x^2 + \\frac{\\hat{x}}{\\sigma^2}x + \\frac{z}{\\zeta^2}x }  \\\\-c-c-c-= \\eta e^{-\\frac{\\sigma^2 + \\zeta^2}{2\\sigma^2\\zeta^2}\\left\\{ x^2 - 2(\\frac{\\zeta^2\\hat{x}}{\\sigma^2 + \\zeta^2} +\\frac{\\sigma^2 z}{\\sigma^2 + \\zeta^2})x \\right\\} } \\\\-c-c-c-= \\eta e^{-\\frac{\\sigma^2 + \\zeta^2}{2\\sigma^2\\zeta^2}\\left\\{ (x - \\frac{\\zeta^2\\hat{x}}{\\sigma^2 + \\zeta^2} - \\frac{\\sigma^2 z}{\\sigma^2 + \\zeta^2}) \\right\\}^2  }[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第3回</h2>
+上田 隆一
+
+2016年10月5日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>センサ値と状態、信念</li>
+</ul>
+<!--nextpage-->
+<h2>前回</h2>
+<ul>
+ 	<li>制御出力[latex]\\boldsymbol{u}_t[/latex]で状態[latex]\\boldsymbol{x}_{t-1}[/latex]から[latex]\\boldsymbol{x}_t[/latex]に変化</li>
+ 	<li>自律ロボット（エージェント）にとって、状態[latex]\\boldsymbol{x}_t[/latex]は、未知</li>
+ 	<li>エージェントは状態[latex]\\boldsymbol{x}_t[/latex]に対する認識である信念[latex]bel_t[/latex]を持つ</li>
+ 	<li>[latex]bel_t[/latex]には、制御出力に対する実際の動きの雑音が蓄積していく
+<ul>
+ 	<li>ガウス分布に従う場合は共分散行列に雑音が足されていく</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>状態を（間接的に）観測する</h2>
+<ul>
+ 	<li>センサの値には状態に対するヒント（情報）が隠れている</li>
+ 	<li>センサ入力の定義
+<ul>
+ 	<li>[latex]\\boldsymbol{z} = (z_1,z_2,\\dots,z_m) \\in \\mathcal{Z}[/latex]</li>
+</ul>
+</li>
+ 	<li>多くの場合、情報は間接的
+<ul>
+ 	<li>レーザレンジファインダーは移動ロボットの
+[latex]\\boldsymbol{x} = (x,y,\\theta)[/latex]を直接は教えてくれない
+<ul>
+ 	<li>変数が違う（[latex]\\mathcal{X} \\neq \\mathcal{Z}[/latex]）</li>
+ 	<li>雑音もある</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>観測方程式</h2>
+<ul>
+ 	<li>センサ入力と状態を結びつける式
+<ul>
+ 	<li>現代制御に出てくる</li>
+</ul>
+</li>
+ 	<li>線形な場合
+<ul>
+ 	<li>[latex]\\boldsymbol{z} = C\\boldsymbol{x} + \\delta[/latex]
+<ul>
+ 	<li>時刻の添字[latex]t[/latex]は省略</li>
+ 	<li>[latex]\\delta[/latex]: センサ入力の値に混入する雑音</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>非線形な場合
+<ul>
+ 	<li>[latex]\\boldsymbol{z} = h(\\boldsymbol{x}) + \\delta[/latex]</li>
+</ul>
+</li>
+ 	<li>前回の制御のときと同様、このような定式化をしてしまうと
+観測にまつわる不確かさの表現力に乏しい</li>
+</ul>
+<!--nextpage-->
+<h2>観測にまつわる不確かさの表現</h2>
+<ul>
+ 	<li>[latex]p(\\boldsymbol{z}|\\boldsymbol{x})[/latex]: 状態[latex]\\boldsymbol{x}[/latex]にいた場合に、[latex]\\boldsymbol{z}[/latex]というセンサ入力を得る確率の密度</li>
+ 	<li><span style="color: #ffff00;">[latex]\\ell(\\boldsymbol{x}|\\boldsymbol{z})[/latex]（尤度）</span>:センサ入力[latex]\\boldsymbol{z}[/latex]を得た場合に、[latex]\\boldsymbol{x}[/latex]が真の状態でありそうな度合いを数値化したもの
+<ul>
+ 	<li>[latex]p(\\boldsymbol{z}|\\boldsymbol{x})[/latex]と基本的には同じもので、因果をひっくり返したもの</li>
+ 	<li>ただし確率の性質を満たす必要はない</li>
+ 	<li>[latex]\\ell[/latex]を<span style="color: #ffff00;">尤度関数</span>と呼ぶ</li>
+</ul>
+</li>
+ 	<li>これをエージェントが知っていると、エージェントが状態を推定できる</li>
+ 	<li> どうやってこれを知るか？
+<ul>
+ 	<li>事前実験</li>
+ 	<li>センサの特性や環境の特性の知識</li>
+ 	<li>正解はない</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>センサ入力に生じる雑音に対する考察</h2>
+<ul>
+ 	<li>ガウス分布状にノイズが乗るセンサの尤度
+<ul>
+ 	<li><a href="http://www.slideshare.net/ryuichiueda/ss-53911082?ref=https://lab.ueda.asia/?page_id=180" target="_blank">昨年の講義資料の第三回</a>の11ページ</li>
+</ul>
+</li>
+ 	<li>動的な障害物とセンサの関係
+<ul>
+ 	<li><a href="http://www.slideshare.net/ryuichiueda/ss-53911082?ref=https://lab.ueda.asia/?page_id=180" target="_blank">昨年の講義資料の第三回</a>の17-19ページ</li>
+</ul>
+</li>
+</ul>
+&nbsp;
+
+<!--nextpage-->
+<h2>センサ入力からの[latex]bel[/latex]の更新</h2>
+<ul>
+ 	<li>センサ入力と尤度関数から<span style="color: #ffff00;">ベイズの定理を使って</span>[latex]bel[/latex]を更新</li>
+ 	<li>[latex]bel(\\boldsymbol{x}|\\boldsymbol{z}) = \\frac{p(\\boldsymbol{z}|\\boldsymbol{x})bel(\\boldsymbol{x})}{\\int_{\\mathcal{x}}p(\\boldsymbol{z}|\\boldsymbol{x}')bel(\\boldsymbol{x}')d\\boldsymbol{x}'} \\\\
+= \\eta p(\\boldsymbol{z}|\\boldsymbol{x})bel(\\boldsymbol{x}) \\\\
+= \\eta \\ell(\\boldsymbol{x}|\\boldsymbol{z})bel(\\boldsymbol{x})[/latex]</li>
+ 	<li>計算が終わったら[latex]bel(\\boldsymbol{x}|\\boldsymbol{z})[/latex]を[latex]bel(\\boldsymbol{x})[/latex]と表記
+<ul>
+ 	<li>本来[latex]bel_t[/latex]は過去のロボットの制御出力、センサ入力全てから得られる条件つき確率になっている</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>1次元、ガウス分布に雑音が従う場合の問題</h2>
+<ul>
+ 	<li>今、[latex]bel[/latex]が、次の式で表されているとします。
+<ul>
+ 	<li>[latex]bel(x) = \\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\exp \\{-\\frac{(x-\\hat{x})^2}{2\\sigma^2}\\}[/latex]</li>
+ 	<li>[latex]\\sigma[/latex]: 標準偏差</li>
+ 	<li>[latex]\\hat{x}[/latex]: 推定の中心（推定値）</li>
+</ul>
+</li>
+ 	<li>センサ入力[latex]z[/latex]がありました。
+<ul>
+ 	<li>[latex]z[/latex]の値は、[latex]x[/latex]をロボットの真の位置とするとき、対して次の分布に従います
+<ul>
+ 	<li>[latex]p(z|x) = \\ell(x|z) = \\frac{1}{\\sqrt{2\\pi \\zeta^2}}\\exp \\{-\\frac{(z-x)^2}{2\\zeta^2}\\}[/latex]</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>さて[latex]bel[/latex]はどのように更新されるでしょうか？</li>
+</ul>
+<!--nextpage-->
+<h2>計算</h2>
+<ul>
+ 	<li>[latex]x[/latex]に関係ない項を[latex]\\eta[/latex]に放り込みながら整理
+<ul>
+ 	<li>[latex]bel(x) = \\eta e^{-\\frac{(x-\\hat{x})^2}{2\\sigma^2}}e^{-\\frac{(z-x)^2}{2\\zeta^2}} \\\\
+=\\eta e^{-\\frac{1}{2\\sigma^2}x^2 -\\frac{1}{2\\zeta^2}x^2 + \\frac{\\hat{x}}{\\sigma^2}x + \\frac{z}{\\zeta^2}x }  \\\\
+= \\eta e^{-\\frac{\\sigma^2 + \\zeta^2}{2\\sigma^2\\zeta^2}\\left\\{ x^2 - 2(\\frac{\\zeta^2\\hat{x}}{\\sigma^2 + \\zeta^2} +\\frac{\\sigma^2 z}{\\sigma^2 + \\zeta^2})x \\right\\} } \\\\
+= \\eta e^{-\\frac{\\sigma^2 + \\zeta^2}{2\\sigma^2\\zeta^2}\\left\\{ (x - \\frac{\\zeta^2\\hat{x}}{\\sigma^2 + \\zeta^2} - \\frac{\\sigma^2 z}{\\sigma^2 + \\zeta^2}) \\right\\}^2  }[/latex]</li>
+</ul>
+</li>
+</ul>

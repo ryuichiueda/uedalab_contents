@@ -1,1 +1,68 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第3回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>マイコンの仕組み-c-c-c-<ul>-c-c-c- 	<li>本講義はOSの存在を前提としているので仕組みだけ簡単に</li>-c-c-c- 	<li>OSの説明のために知識だけ簡潔に</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイコン</h2>-c-c-c-<ul>-c-c-c- 	<li>この２つのモノの略語-c-c-c-<ul>-c-c-c- 	<li>マイクロコンピュータ-c-c-c-<ul>-c-c-c- 	<li>今で言うPC</li>-c-c-c- 	<li><a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AB64" target="_blank">例（コモドール64）</a></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ffff00;">マイクロコントローラ</span>-c-c-c-<ul>-c-c-c- 	<li>ピンから様々な入出力ができるようになっているIC</li>-c-c-c- 	<li><a href="https://ja.wikipedia.org/wiki/Atmel_AVR" target="_blank">例（Atmel AVR）</a></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイクロコントローラ</h2>-c-c-c-<ul>-c-c-c- 	<li>何のために使うか-c-c-c-<ul>-c-c-c- 	<li>（おそらく私より皆さんの方が詳しいでしょう）</li>-c-c-c- 	<li>デジタル回路に組み込んで使って機器を動かす-c-c-c-<ul>-c-c-c- 	<li>いくつかのピンから電気信号を入力</li>-c-c-c- 	<li>しかるべき電気信号を出力</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイコンが無いと・・・</h2>-c-c-c-<ul>-c-c-c- 	<li>回路の部分が増える、回路が増えると・・・-c-c-c-<ul>-c-c-c- 	<li>変更できない</li>-c-c-c- 	<li>基板の面積をとる</li>-c-c-c- 	<li>故障したら自分で直さなければならない</li>-c-c-c- 	<li>電圧・電流の計算面倒くさい</li>-c-c-c- 	<li>・・・</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>数値計算の回路はややこしい</li>-c-c-c- 	<li>ソフトウェアで入出力の関係を-c-c-c-実装できるのがマイコンの有り難み</li>-c-c-c-</ul>-c-c-c-<iframe src="https://www.youtube.com/embed/WtzpbZUF2eg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第3回</h2>
+上田 隆一
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>マイコンの仕組み
+<ul>
+ 	<li>本講義はOSの存在を前提としているので仕組みだけ簡単に</li>
+ 	<li>OSの説明のために知識だけ簡潔に</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイコン</h2>
+<ul>
+ 	<li>この２つのモノの略語
+<ul>
+ 	<li>マイクロコンピュータ
+<ul>
+ 	<li>今で言うPC</li>
+ 	<li><a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AB64" target="_blank">例（コモドール64）</a></li>
+</ul>
+</li>
+ 	<li><span style="color: #ffff00;">マイクロコントローラ</span>
+<ul>
+ 	<li>ピンから様々な入出力ができるようになっているIC</li>
+ 	<li><a href="https://ja.wikipedia.org/wiki/Atmel_AVR" target="_blank">例（Atmel AVR）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイクロコントローラ</h2>
+<ul>
+ 	<li>何のために使うか
+<ul>
+ 	<li>（おそらく私より皆さんの方が詳しいでしょう）</li>
+ 	<li>デジタル回路に組み込んで使って機器を動かす
+<ul>
+ 	<li>いくつかのピンから電気信号を入力</li>
+ 	<li>しかるべき電気信号を出力</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイコンが無いと・・・</h2>
+<ul>
+ 	<li>回路の部分が増える、回路が増えると・・・
+<ul>
+ 	<li>変更できない</li>
+ 	<li>基板の面積をとる</li>
+ 	<li>故障したら自分で直さなければならない</li>
+ 	<li>電圧・電流の計算面倒くさい</li>
+ 	<li>・・・</li>
+</ul>
+</li>
+ 	<li>数値計算の回路はややこしい</li>
+ 	<li>ソフトウェアで入出力の関係を
+実装できるのがマイコンの有り難み</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/WtzpbZUF2eg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

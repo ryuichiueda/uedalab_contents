@@ -1,1 +1,22 @@
-<h2>staff</h2>-c-c-c--c-c-c-<ul>-c-c-c- <li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<h2>B4 (senior year)</h2>-c-c-c--c-c-c--c-c-c-<ul>-c-c-c- <li>Makoto Inoue</li>-c-c-c- <li>Yuichi Okane</li>-c-c-c-</ul>-c-c-c--c-c-c-<h2>B3 (junior year)</h2>-c-c-c--c-c-c-<ul>-c-c-c- <li>Masaki Igari</li>-c-c-c- <li>Yuki Sato</li>-c-c-c-</ul>-c-c-c-
+<h2>staff</h2>
+
+<ul>
+ <li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>
+</ul>
+
+
+<h2>B4 (senior year)</h2>
+
+
+<ul>
+ <li>Makoto Inoue</li>
+ <li>Yuichi Okane</li>
+</ul>
+
+<h2>B3 (junior year)</h2>
+
+<ul>
+ <li>Masaki Igari</li>
+ <li>Yuki Sato</li>
+</ul>
+

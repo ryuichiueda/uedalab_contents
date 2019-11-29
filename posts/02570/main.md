@@ -1,1 +1,170 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第11回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年12月21日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>ロボットと通信</h2>-c-c-c-<ul>-c-c-c- 	<li>自律分散系には必須ですね-c-c-c-<ul>-c-c-c- 	<li>そうですよね？</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>使いますよね-c-c-c-<ul>-c-c-c- 	<li>リモート監視・操作等</li>-c-c-c- 	<li>環境に埋め込んだセンサやアクチュエータの操作</li>-c-c-c- 	<li>ソフトウェアのインストール</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ff0000;">必須 </span></li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>本日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>ネットワーク関係の設定方法を一通りおさえる</li>-c-c-c- 	<li>イーサネット・TCP/IP IP-c-c-c-<ul>-c-c-c- 	<li>アドレス・ポート</li>-c-c-c- 	<li>ソケット通信については前期やったそうなので割愛</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ssh</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>IPアドレスの体系</h2>-c-c-c-<ul>-c-c-c- 	<li>計算機の住所（ただし複数持つことができる）</li>-c-c-c- 	<li>IPアドレス: 0-255の数字を4つドットでつないで表記-c-c-c-<ul>-c-c-c- 	<li>例: 192.168.0.1</li>-c-c-c- 	<li>ローカルのものとグローバルのものが存在-c-c-c-<ul>-c-c-c- 	<li>グローバル-c-c-c-<ul>-c-c-c- 	<li>世界中でその計算機しか持っていない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ローカル（プライベートIPアドレス）-c-c-c-<ul>-c-c-c- 	<li>閉じた環境で使うアドレス</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ネットワーク部・ホスト部</h2>-c-c-c-<ul>-c-c-c- 	<li>IPアドレスを2進数で書いた時、左側の何桁かは「ネットワーク部」を表し、残りは「ホスト部」を表す</li>-c-c-c- 	<li>ネットワーク部-c-c-c-<ul>-c-c-c- 	<li>インターネットの中の一つのグループ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ホスト部-c-c-c-<ul>-c-c-c- 	<li>各PC固有の番号（住所で言うと番地）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>サブネットマスク-c-c-c-<ul>-c-c-c- 	<li>どの部分がネットワーク部を表すかを示す数字</li>-c-c-c- 	<li>例: 255.255.255.0-c-c-c-<ul>-c-c-c- 	<li>2進数にすると11111111.11111111.11111111.00000000</li>-c-c-c- 	<li>ということで、左から24ビットがネットワーク部となる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<ul>-c-c-c- 	<li>表記の例-c-c-c-<ul>-c-c-c- 	<li>192.168.1.2/255.255.255.0-c-c-c-<ul>-c-c-c- 	<li>192.168.1がネットワーク部で2がホスト部</li>-c-c-c- 	<li>192.168.1.2/24という書き方もある-c-c-c-<ul>-c-c-c- 	<li>左側24ビットがネットワーク部</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>コマンドで確かめてみましょう-c-c-c-<ul>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">$ ip addr</span></pre>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>IPアドレスの設定</h2>-c-c-c-<ul>-c-c-c- 	<li>有線（Raspberry Piの場合）-c-c-c-<ul>-c-c-c- 	<li>最初からDHCPに設定されている</li>-c-c-c- 	<li>通常はこのままDHCPで良い-c-c-c-<ul>-c-c-c- 	<li>固定すると別の環境でログインできなくなる等、難しくなる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>IPアドレスはルータのウェブページ、nmap等で確認可能-c-c-c-<ul>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">$ nmap -sP 192.168.2.0/24</span></pre>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>DHCPでもルータ等で固定できる</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>固定IPの設定</h2>-c-c-c-<ul>-c-c-c- 	<li>/etc/network/interfacesに設定を書く-c-c-c-<ul>-c-c-c- 	<li>下図: デフォルトの設定例（バージョンによって異なる）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">pi\@raspberrypi ~ $ cat /etc/network/interfaces</span>-c-c-c-<span style="color: #ffffff;">auto lo</span>-c-c-c-<span style="color: #ffffff;">iface lo inet loopback</span>-c-c-c--c-c-c-<span style="color: #ffffff;">iface eth0 inet dhcp </span></pre>-c-c-c-<!--nextpage-->-c-c-c-<ul>-c-c-c- 	<li>固定にする例</li>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">pi\@raspberrypi ~ $ cat /etc/network/interfaces</span>-c-c-c-<span style="color: #ffffff;">auto lo</span>-c-c-c--c-c-c-<span style="color: #ffffff;">iface lo inet loopback</span>-c-c-c-<span style="color: #ffffff;">#iface eth0 inet dhcp</span>-c-c-c-<span style="color: #ffffff;">auto eth0</span>-c-c-c-<span style="color: #ffffff;">iface eth0 inet static</span>-c-c-c-<span style="color: #ffffff;">address 192.168.1.200</span>-c-c-c-<span style="color: #ffffff;">netmask 255.255.255.0</span>-c-c-c-<span style="color: #ffffff;">gateway 192.168.1.1</span></pre>-c-c-c-<ul>-c-c-c- 	<li>dhcpの設定は#でコメントアウトを</li>-c-c-c- 	<li>設定後はrebootするのが素直</li>-c-c-c- 	<li>したくない時は</li>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">$ sudo service networking restart</span></pre>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第11回</h2>
+上田 隆一
+
+2016年12月21日\@千葉工業大学
+
+<!--nextpage-->
+<h2>ロボットと通信</h2>
+<ul>
+ 	<li>自律分散系には必須ですね
+<ul>
+ 	<li>そうですよね？</li>
+</ul>
+</li>
+ 	<li>使いますよね
+<ul>
+ 	<li>リモート監視・操作等</li>
+ 	<li>環境に埋め込んだセンサやアクチュエータの操作</li>
+ 	<li>ソフトウェアのインストール</li>
+</ul>
+</li>
+ 	<li><span style="color: #ff0000;">必須 </span></li>
+</ul>
+<!--nextpage-->
+<h2>本日の内容</h2>
+<ul>
+ 	<li>ネットワーク関係の設定方法を一通りおさえる</li>
+ 	<li>イーサネット・TCP/IP IP
+<ul>
+ 	<li>アドレス・ポート</li>
+ 	<li>ソケット通信については前期やったそうなので割愛</li>
+</ul>
+</li>
+ 	<li>ssh</li>
+</ul>
+<!--nextpage-->
+<h2>IPアドレスの体系</h2>
+<ul>
+ 	<li>計算機の住所（ただし複数持つことができる）</li>
+ 	<li>IPアドレス: 0-255の数字を4つドットでつないで表記
+<ul>
+ 	<li>例: 192.168.0.1</li>
+ 	<li>ローカルのものとグローバルのものが存在
+<ul>
+ 	<li>グローバル
+<ul>
+ 	<li>世界中でその計算機しか持っていない</li>
+</ul>
+</li>
+ 	<li>ローカル（プライベートIPアドレス）
+<ul>
+ 	<li>閉じた環境で使うアドレス</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>ネットワーク部・ホスト部</h2>
+<ul>
+ 	<li>IPアドレスを2進数で書いた時、左側の何桁かは「ネットワーク部」を表し、残りは「ホスト部」を表す</li>
+ 	<li>ネットワーク部
+<ul>
+ 	<li>インターネットの中の一つのグループ</li>
+</ul>
+</li>
+ 	<li>ホスト部
+<ul>
+ 	<li>各PC固有の番号（住所で言うと番地）</li>
+</ul>
+</li>
+ 	<li>サブネットマスク
+<ul>
+ 	<li>どの部分がネットワーク部を表すかを示す数字</li>
+ 	<li>例: 255.255.255.0
+<ul>
+ 	<li>2進数にすると11111111.11111111.11111111.00000000</li>
+ 	<li>ということで、左から24ビットがネットワーク部となる</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<ul>
+ 	<li>表記の例
+<ul>
+ 	<li>192.168.1.2/255.255.255.0
+<ul>
+ 	<li>192.168.1がネットワーク部で2がホスト部</li>
+ 	<li>192.168.1.2/24という書き方もある
+<ul>
+ 	<li>左側24ビットがネットワーク部</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>コマンドで確かめてみましょう
+<ul>
+ 	<li>
+<pre><span style="color: #ffffff;">$ ip addr</span></pre>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>IPアドレスの設定</h2>
+<ul>
+ 	<li>有線（Raspberry Piの場合）
+<ul>
+ 	<li>最初からDHCPに設定されている</li>
+ 	<li>通常はこのままDHCPで良い
+<ul>
+ 	<li>固定すると別の環境でログインできなくなる等、難しくなる</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>IPアドレスはルータのウェブページ、nmap等で確認可能
+<ul>
+ 	<li>
+<pre><span style="color: #ffffff;">$ nmap -sP 192.168.2.0/24</span></pre>
+</li>
+</ul>
+</li>
+ 	<li>DHCPでもルータ等で固定できる</li>
+</ul>
+<!--nextpage-->
+<h2>固定IPの設定</h2>
+<ul>
+ 	<li>/etc/network/interfacesに設定を書く
+<ul>
+ 	<li>下図: デフォルトの設定例（バージョンによって異なる）</li>
+</ul>
+</li>
+</ul>
+<pre><span style="color: #ffffff;">pi\@raspberrypi ~ $ cat /etc/network/interfaces</span>
+<span style="color: #ffffff;">auto lo</span>
+<span style="color: #ffffff;">iface lo inet loopback</span>
+
+<span style="color: #ffffff;">iface eth0 inet dhcp </span></pre>
+<!--nextpage-->
+<ul>
+ 	<li>固定にする例</li>
+ 	<li>
+<pre><span style="color: #ffffff;">pi\@raspberrypi ~ $ cat /etc/network/interfaces</span>
+<span style="color: #ffffff;">auto lo</span>
+
+<span style="color: #ffffff;">iface lo inet loopback</span>
+<span style="color: #ffffff;">#iface eth0 inet dhcp</span>
+<span style="color: #ffffff;">auto eth0</span>
+<span style="color: #ffffff;">iface eth0 inet static</span>
+<span style="color: #ffffff;">address 192.168.1.200</span>
+<span style="color: #ffffff;">netmask 255.255.255.0</span>
+<span style="color: #ffffff;">gateway 192.168.1.1</span></pre>
+<ul>
+ 	<li>dhcpの設定は#でコメントアウトを</li>
+ 	<li>設定後はrebootするのが素直</li>
+ 	<li>したくない時は</li>
+ 	<li>
+<pre><span style="color: #ffffff;">$ sudo service networking restart</span></pre>
+</li>
+</ul>
+</li>
+</ul>

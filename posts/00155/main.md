@@ -1,1 +1,53 @@
-Associate Professor, Director of the autonomous robot lab.-c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/ueda.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/ueda-200x300.jpg" alt="ueda" width="200" height="300" class="alignright size-medium wp-image-106" /></a>-c-c-c--c-c-c-<div class="social-profile">-c-c-c- <ul>-c-c-c- <li class="facebook"><a href="https://www.facebook.com/profile.php?id=675930229170437#!/profile.php?id=675930229170437" title="Facebook" target="_blank">Facebook</a></li>-c-c-c- <li class="twitter"><a href="https://twitter.com/ryuichiueda" title="Twitter" target="_blank">Twitter</a></li>-c-c-c- <li class="linkedin"><a href="https://www.linkedin.com/profile/view?id=172472847" title="Linkedin" target="_blank">Linkedin</a></li>-c-c-c- <li class="you-tube"><a href="https://www.youtube.com/user/ryuichiueda/videos" title="YouTube" target="_blank">YouTube</a></li>-c-c-c- <li class="slideshare"><a href="http://www.slideshare.net/ryuichiueda" title="Slideshare" target="_blank">Slideshare</a></li>-c-c-c- <li></li>-c-c-c- </ul>-c-c-c-<br />-c-c-c-<div style="float:left" />-c-c-c-<a href="https://blog.ueda.asia" target="_blank">personal blog</a>-c-c-c-<a href="https://blog.ueda.asia/?page_id=728" target="_blank">personal publication list</a>-c-c-c-<a target="_blank" href="https://github.com/ryuichiueda">GitHub</a>-c-c-c-</div>-c-c-c--c-c-c--c-c-c--c-c-c-<div style="clear:both">&nbsp;</div>-c-c-c--c-c-c--c-c-c-<h2>Biographical Sketch</h2>-c-c-c--c-c-c-Ryuichi Ueda received his BE, ME, and PhD in Precision Engineering from University of Tokyo, in 2001, 2003, and 2007. He worked in Univ. of Tokyo as an assistant professor from 2004 to 2009, and in Universal Shell Programming (USP) Laboratory Ltd. as a researcher from 2009 to 2013. He was an assistant professor of Advanced Institute of Industrial Technology and the advisory fellow of USP Lab. from Aug. 2013 to Aug. 2015. In Sep. 2015, he joined Dept. of Advanced Robotics, Chiba Institute of Technology as an associate professor. His research interests are in probabilistic approaches in robotics, and in UNIX programming.-c-c-c--c-c-c-He obtained Young Investigator Excellence Award, The Robotics Society of Japan, for my presentation of "Vector Quantization for State-Action Map Compression" at Robotics Symposia, 2004. Also he obtained Young Author's Award, Systems and Information Division, The Society of Instrument and Control Engineers, for his presentation of "Pose Estimation of Multiple Cameras with Particle Filters ---Evaluation on Simulation" at SSI, 2007. He is the translator of "Probabilistic Robotics."-c-c-c--c-c-c-He is the chairman of USP Tomonokai （USP友の会）, which is the society of shell script programmers. He is not only a researcher but also a technical writer in programming. He has written dozens of articles about shell scripts and other programming languages on one of the most major computer magazines in Japan. He has written two books for shell scripting. He is now writing an article about robot programming in Linux environment.-c-c-c--c-c-c-<h2>Recent Works</h2>-c-c-c--c-c-c-Ryuichi Ueda: "<a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2015.1009943#.Vf1cbp3tmko" target="_blank">Generation of compensation behavior of autonomous robot for uncertainty of information with probabilistic flow control</a>," Vol. 29(11), 2015.-c-c-c--c-c-c-Ryuichi Ueda: シェルプログラミング実用テクニック（practical techniques of shell programming）, Gijutsu-Hyohron Co., Ltd., May 2015.-c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_programming.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_programming-238x300.jpg" alt="shell_programming" width="238" height="300" class="alignright size-medium wp-image-132" /></a>-c-c-c--c-c-c-<div style="clear:both" />-c-c-c- -c-c-c-Ryuichi Ueda: シェルスクリプト高速開発手法入門（an introduction of rapid development of web sites with shell scripts）, KADOKAWA/ASCII MEDIA WORKS, July, 2014.-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_script_rapid.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_script_rapid-233x300.jpg" alt="shell_script_rapid" width="233" height="300" class="alignright size-medium wp-image-147" /></a>-c-c-c--c-c-c-<div style="clear:both" />-c-c-c--c-c-c-Japanese version of Probabilistic ROBOTICS has been revived since April 2015.-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/probrobo.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/probrobo-233x300.jpg" alt="probrobo" width="233" height="300" class="alignright size-medium wp-image-153" /></a>-c-c-c--c-c-c--c-c-c-<div style="clear:both" />
+Associate Professor, Director of the autonomous robot lab.
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/ueda.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/ueda-200x300.jpg" alt="ueda" width="200" height="300" class="alignright size-medium wp-image-106" /></a>
+
+<div class="social-profile">
+ <ul>
+ <li class="facebook"><a href="https://www.facebook.com/profile.php?id=675930229170437#!/profile.php?id=675930229170437" title="Facebook" target="_blank">Facebook</a></li>
+ <li class="twitter"><a href="https://twitter.com/ryuichiueda" title="Twitter" target="_blank">Twitter</a></li>
+ <li class="linkedin"><a href="https://www.linkedin.com/profile/view?id=172472847" title="Linkedin" target="_blank">Linkedin</a></li>
+ <li class="you-tube"><a href="https://www.youtube.com/user/ryuichiueda/videos" title="YouTube" target="_blank">YouTube</a></li>
+ <li class="slideshare"><a href="http://www.slideshare.net/ryuichiueda" title="Slideshare" target="_blank">Slideshare</a></li>
+ <li></li>
+ </ul>
+<br />
+<div style="float:left" />
+<a href="https://blog.ueda.asia" target="_blank">personal blog</a>
+<a href="https://blog.ueda.asia/?page_id=728" target="_blank">personal publication list</a>
+<a target="_blank" href="https://github.com/ryuichiueda">GitHub</a>
+</div>
+
+
+
+<div style="clear:both">&nbsp;</div>
+
+
+<h2>Biographical Sketch</h2>
+
+Ryuichi Ueda received his BE, ME, and PhD in Precision Engineering from University of Tokyo, in 2001, 2003, and 2007. He worked in Univ. of Tokyo as an assistant professor from 2004 to 2009, and in Universal Shell Programming (USP) Laboratory Ltd. as a researcher from 2009 to 2013. He was an assistant professor of Advanced Institute of Industrial Technology and the advisory fellow of USP Lab. from Aug. 2013 to Aug. 2015. In Sep. 2015, he joined Dept. of Advanced Robotics, Chiba Institute of Technology as an associate professor. His research interests are in probabilistic approaches in robotics, and in UNIX programming.
+
+He obtained Young Investigator Excellence Award, The Robotics Society of Japan, for my presentation of "Vector Quantization for State-Action Map Compression" at Robotics Symposia, 2004. Also he obtained Young Author's Award, Systems and Information Division, The Society of Instrument and Control Engineers, for his presentation of "Pose Estimation of Multiple Cameras with Particle Filters ---Evaluation on Simulation" at SSI, 2007. He is the translator of "Probabilistic Robotics."
+
+He is the chairman of USP Tomonokai （USP友の会）, which is the society of shell script programmers. He is not only a researcher but also a technical writer in programming. He has written dozens of articles about shell scripts and other programming languages on one of the most major computer magazines in Japan. He has written two books for shell scripting. He is now writing an article about robot programming in Linux environment.
+
+<h2>Recent Works</h2>
+
+Ryuichi Ueda: "<a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2015.1009943#.Vf1cbp3tmko" target="_blank">Generation of compensation behavior of autonomous robot for uncertainty of information with probabilistic flow control</a>," Vol. 29(11), 2015.
+
+Ryuichi Ueda: シェルプログラミング実用テクニック（practical techniques of shell programming）, Gijutsu-Hyohron Co., Ltd., May 2015.
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_programming.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_programming-238x300.jpg" alt="shell_programming" width="238" height="300" class="alignright size-medium wp-image-132" /></a>
+
+<div style="clear:both" />
+ 
+Ryuichi Ueda: シェルスクリプト高速開発手法入門（an introduction of rapid development of web sites with shell scripts）, KADOKAWA/ASCII MEDIA WORKS, July, 2014.
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_script_rapid.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/shell_script_rapid-233x300.jpg" alt="shell_script_rapid" width="233" height="300" class="alignright size-medium wp-image-147" /></a>
+
+<div style="clear:both" />
+
+Japanese version of Probabilistic ROBOTICS has been revived since April 2015.
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/09/probrobo.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2015/09/probrobo-233x300.jpg" alt="probrobo" width="233" height="300" class="alignright size-medium wp-image-153" /></a>
+
+
+<div style="clear:both" />

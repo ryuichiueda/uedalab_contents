@@ -1,1 +1,82 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第3回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>マイコンの仕組み-c-c-c-<ul>-c-c-c- 	<li>本講義はOSの存在を前提としているので仕組みだけ簡単に</li>-c-c-c- 	<li>OSの説明のために知識だけ簡潔に</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイコン</h2>-c-c-c-<ul>-c-c-c- 	<li>この２つのモノの略語-c-c-c-<ul>-c-c-c- 	<li>マイクロコンピュータ-c-c-c-<ul>-c-c-c- 	<li>今で言うPC</li>-c-c-c- 	<li><a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AB64" target="_blank">例（コモドール64）</a></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ffff00;">マイクロコントローラ</span>-c-c-c-<ul>-c-c-c- 	<li>ピンから様々な入出力ができるようになっているIC</li>-c-c-c- 	<li><a href="https://ja.wikipedia.org/wiki/Atmel_AVR" target="_blank">例（Atmel AVR）</a></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイクロコントローラ</h2>-c-c-c-<ul>-c-c-c- 	<li>何のために使うか-c-c-c-<ul>-c-c-c- 	<li>（おそらく私より皆さんの方が詳しいでしょう）</li>-c-c-c- 	<li>デジタル回路に組み込んで使って機器を動かす-c-c-c-<ul>-c-c-c- 	<li>いくつかのピンから電気信号を入力</li>-c-c-c- 	<li>しかるべき電気信号を出力</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>マイコンが無いと・・・</h2>-c-c-c-<ul>-c-c-c- 	<li>回路の部分が増える、回路が増えると・・・-c-c-c-<ul>-c-c-c- 	<li>変更できない、基板の面積をとる、故障したら自分で直さなければならない、電圧・電流の計算面倒くさい、・・・</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>計算の回路は本質的にややこしい-c-c-c-<ul>-c-c-c- 	<li>例: リレー式計算機-c-c-c-<iframe src="https://www.youtube.com/embed/WtzpbZUF2eg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ソフトウェアで入出力の関係を実装できるのがマイコンの有り難み</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>とても簡単な例</h2>-c-c-c-<ul>-c-c-c- 	<li>簡単なLチカ回路-c-c-c-<ul>-c-c-c- 	<li>同じ回路で・・・-c-c-c-<ul>-c-c-c- 	<li>スイッチのON/OFFとLEDのON/OFFの関係を変更可能</li>-c-c-c- 	<li>LEDの明るさ等を変更可能</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-photo.jpg"><img class="size-medium wp-image-1487 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-photo-295x300.jpg" alt="circuit-photo" width="295" height="300" />　</a><a href="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit.jpg"><img class="size-medium wp-image-1486 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-300x201.jpg" alt="circuit" width="300" height="201" /></a>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第3回</h2>
+上田 隆一
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>マイコンの仕組み
+<ul>
+ 	<li>本講義はOSの存在を前提としているので仕組みだけ簡単に</li>
+ 	<li>OSの説明のために知識だけ簡潔に</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイコン</h2>
+<ul>
+ 	<li>この２つのモノの略語
+<ul>
+ 	<li>マイクロコンピュータ
+<ul>
+ 	<li>今で言うPC</li>
+ 	<li><a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%A2%E3%83%89%E3%83%BC%E3%83%AB64" target="_blank">例（コモドール64）</a></li>
+</ul>
+</li>
+ 	<li><span style="color: #ffff00;">マイクロコントローラ</span>
+<ul>
+ 	<li>ピンから様々な入出力ができるようになっているIC</li>
+ 	<li><a href="https://ja.wikipedia.org/wiki/Atmel_AVR" target="_blank">例（Atmel AVR）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイクロコントローラ</h2>
+<ul>
+ 	<li>何のために使うか
+<ul>
+ 	<li>（おそらく私より皆さんの方が詳しいでしょう）</li>
+ 	<li>デジタル回路に組み込んで使って機器を動かす
+<ul>
+ 	<li>いくつかのピンから電気信号を入力</li>
+ 	<li>しかるべき電気信号を出力</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>マイコンが無いと・・・</h2>
+<ul>
+ 	<li>回路の部分が増える、回路が増えると・・・
+<ul>
+ 	<li>変更できない、基板の面積をとる、故障したら自分で直さなければならない、電圧・電流の計算面倒くさい、・・・</li>
+</ul>
+</li>
+ 	<li>計算の回路は本質的にややこしい
+<ul>
+ 	<li>例: リレー式計算機
+<iframe src="https://www.youtube.com/embed/WtzpbZUF2eg" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></li>
+</ul>
+</li>
+ 	<li>ソフトウェアで入出力の関係を実装できるのがマイコンの有り難み</li>
+</ul>
+<!--nextpage-->
+<h2>とても簡単な例</h2>
+<ul>
+ 	<li>簡単なLチカ回路
+<ul>
+ 	<li>同じ回路で・・・
+<ul>
+ 	<li>スイッチのON/OFFとLEDのON/OFFの関係を変更可能</li>
+ 	<li>LEDの明るさ等を変更可能</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-photo.jpg"><img class="size-medium wp-image-1487 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-photo-295x300.jpg" alt="circuit-photo" width="295" height="300" />　</a><a href="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit.jpg"><img class="size-medium wp-image-1486 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/09/circuit-300x201.jpg" alt="circuit" width="300" height="201" /></a>

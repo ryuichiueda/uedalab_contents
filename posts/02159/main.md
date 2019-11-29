@@ -1,1 +1,254 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第6回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年11月2日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>デバイスドライバを作る</li>-c-c-c- 	<li>次回はGPIOの操作に挑戦しますが、今回はPCの中で完結する話-c-c-c-<ul>-c-c-c- 	<li>仮想マシンでもOK</li>-c-c-c- 	<li>RaspbianとUbuntuでは少しやり方が違う</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>-c-c-c-<ul>-c-c-c- 	<li>GPIO25とGNDの間にLEDを接続-c-c-c-<ul>-c-c-c- 	<li>GPIO25: 22番ピン</li>-c-c-c- 	<li>GND: 39番ピン</li>-c-c-c- 	<li>LEDのアノード（足の長い方）をGPIO25に</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>抵抗はなくても特に問題ない-c-c-c-<ul>-c-c-c- 	<li>抵抗をつなぐとLEDに優しい</li>-c-c-c- 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>最初のコード</h2>-c-c-c-<ul>-c-c-c- 	<li>適当なディレクトリを作ってその中に</li>-c-c-c- 	<li>ファイル名は「myled.c」にしましょう</li>-c-c-c- 	<li>コードの中身-c-c-c-<ul>-c-c-c- 	<li>カーネルモジュールの初期化と後始末の関数を書く</li>-c-c-c- 	<li>マクロに関数名を与える</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;-c-c-c--c-c-c-static int __init init_mod(void)-c-c-c-{-c-c-c- return 0;-c-c-c-}-c-c-c--c-c-c-static void __exit cleanup_mod(void)-c-c-c-{-c-c-c-}-c-c-c--c-c-c-module_init(init_mod);-c-c-c-module_exit(cleanup_mod);-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>Makefileを書く</h2>-c-c-c-<ul>-c-c-c- 	<li>Makefileという名前のファイルを作って次のように書く</li>-c-c-c- 	<li><span style="color: #ff0000;">インデントはタブで</span></li>-c-c-c- 	<li>Makefileのごくごく簡単な説明-c-c-c-<ul style="font-size: 80%;">-c-c-c- 	<li>&lt;作りたいファイル or 行いたい処理&gt;: &lt;必要なファイル&gt;と書いてその下に実行するコマンドを書く</li>-c-c-c- 	<li>コロンの左側をターゲットと言う</li>-c-c-c- 	<li>makeと打つと最初に書いてあるターゲットの作成が試みられる</li>-c-c-c- 	<li>必要なファイルがないと、ないファイルのターゲットの処理が試みられる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<pre class="p1"><span class="s1" style="color: #ffffff;">obj-m:= myled.o #オブジェクトファイルの名前を指定（拡張子はo）</span>-c-c-c--c-c-c-<span class="s1" style="color: #ffffff;">myled.ko: myled.c </span>-c-c-c-<span class="s1" style="color: #ffffff;"> make -C /usr/src/linux M=`pwd` V=1 modules #makeと打つと実行される</span>-c-c-c-<span class="s1" style="color: #ffffff;">clean:</span>-c-c-c-<span class="s1" style="color: #ffffff;"> make -C /usr/src/linux M=`pwd` V=1 clean #make cleanで実行</span></pre>-c-c-c-&nbsp;-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>コンパイルと実行-c-c-c-インストール</h2>-c-c-c-<ul>-c-c-c- 	<li>insmodでインストールできる</li>-c-c-c- 	<li>/dev/等にはまだ何も出てこない</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ make #Makefileとmyled.cが正しければこれでOK</span>-c-c-c-<span style="color: #ffffff;">$ ls #確認</span>-c-c-c-<span class="s1"><span style="color: #ffffff;">Makefile<span class="Apple-converted-space">  </span>Module.symvers<span class="Apple-converted-space">  </span>modules.order<span class="Apple-converted-space">  </span>myled.c<span class="Apple-converted-space">  </span>myled.ko<span class="Apple-converted-space">  </span>myled.mod.c<span class="Apple-converted-space">  </span>myled.mod.o<span class="Apple-converted-space">  </span>myled.o-c-c-c-$ sudo insmod myled.ko-c-c-c-</span></span><span style="color: #ffffff;"><span class="s1">$</span><span class="s2"> lsmod-c-c-c-</span><span class="s2">Module<span class="Apple-converted-space">                  </span>Size<span class="Apple-converted-space">  </span>Used by-c-c-c-</span><span class="s2">myled<span class="Apple-converted-space">                    </span>735<span class="Apple-converted-space">  </span>0 -c-c-c-...-c-c-c-</span><span class="s1">$</span><span class="s2"> sudo rmmod myled</span></span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>ログを吐くようにする</h2>-c-c-c-<ul>-c-c-c- 	<li>init_modとcleanup_modに「printk」という関数を追加</li>-c-c-c- 	<li>KERN_INFO: ログのレベルを示すマクロ</li>-c-c-c- 	<li>__FILE__: ソースコードのファイル名</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">static int __init init_mod(void)-c-c-c-{-c-c-c- printk(KERN_INFO "%s is loaded.\\n",__FILE__);-c-c-c- return 0;-c-c-c-}-c-c-c--c-c-c-static void __exit cleanup_mod(void)-c-c-c-{-c-c-c- printk(KERN_INFO "%s is unloaded.\\n",__FILE__);-c-c-c-}-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>動作確認</h2>-c-c-c-<ul>-c-c-c- 	<li>/var/log/messagesにカーネルモジュールの脱着が記録される</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ make-c-c-c-$ sudo insmod myled.ko-c-c-c-pi\@raspberrypi:~/myled_lecture $ tail /var/log/messages-c-c-c-...-c-c-c-Oct 23 11:42:48 raspberrypi kernel: [ 5639.631142] /home/pi/myled_lecture/myled.c is loaded.-c-c-c-$ sudo rmmod myled -c-c-c-pi\@raspberrypi:~/myled_lecture $ tail /var/log/messages-c-c-c-...-c-c-c-Oct 23 11:44:23 raspberrypi kernel: [ 5734.994105] /home/pi/myled_lecture/myled.c is unloaded.-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>ヘッダにモジュールの情報を記述</h2>-c-c-c-<ul>-c-c-c- 	<li>作者、何のモジュール化、ライセンスは何か、バージョン</li>-c-c-c- 	<li>ライセンス-c-c-c-<ul>-c-c-c- 	<li>基本的にはGPL（後日説明）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;-c-c-c-MODULE_AUTHOR("Ryuichi Ueda");-c-c-c-MODULE_DESCRIPTION("driver for LED control");-c-c-c-MODULE_LICENSE("GPL");-c-c-c-MODULE_VERSION("0.1");-c-c-c--c-c-c-static int __init init_mod(void)-c-c-c-（以下略）-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>情報の確認</h2>-c-c-c-<ul>-c-c-c-<ul>-c-c-c- 	<li>modinfoというコマンドを利用</li>-c-c-c-</ul>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ modinfo myled.ko-c-c-c-filename: /home/pi/myled_lecture/myled.ko-c-c-c-version: 0.1-c-c-c-license: GPL-c-c-c-description: driver for LED control-c-c-c-author: Ryuichi Ueda-c-c-c-srcversion: 1278C67A0C932CB5D86D367-c-c-c-depends: -c-c-c-vermagic: 4.4.27-v7+ SMP mod_unload modversions ARMv7</span> -c-c-c-</pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>デバイス番号の取得</h2>-c-c-c-<ul>-c-c-c- 	<li>解説は次ページ</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;-c-c-c-<span style="color: #ffff00;">#include &lt;linux/fs.h&gt;</span>-c-c-c-（中略）（MODULE_AUTHOR〜MODULE_VERSION）-c-c-c-<span style="color: #ffff00;">static dev_t dev;</span>-c-c-c--c-c-c-static int __init init_mod(void)-c-c-c-{-c-c-c-<span style="color: #ffff00;">	int retval;-c-c-c-	retval = alloc_chrdev_region(&amp;dev, 0, 1, "myled");-c-c-c-	if(retval &lt; 0){-c-c-c-		printk(KERN_ERR "alloc_chrdev_region failed.\\n");-c-c-c-		return retval;-c-c-c-	}-c-c-c-	printk(KERN_INFO "%s is loaded. major:%d\\n",__FILE__,MAJOR(dev));-c-c-c-</span>	return 0;-c-c-c-}-c-c-c--c-c-c-static void __exit cleanup_mod(void)-c-c-c-{-c-c-c-<span style="color: #ffff00;">	unregister_chrdev_region(dev, 1);-c-c-c-	printk(KERN_INFO "%s is unloaded. major:%d\\n",__FILE__,MAJOR(dev));</span>-c-c-c-}-c-c-c-</span><span style="color: #ffffff;">（略）-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<ul>-c-c-c- 	<li>alloc_chrdev_region: デバイス番号の取得-c-c-c-<ul>-c-c-c- 	<li>引数: dev（番号の入れ物）のアドレス、0番から1個マイナー番号が欲しい、デバイスの名前はmyled</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>unregister_chrdev_region: デバイス番号の解放-c-c-c-<ul>-c-c-c- 	<li>引数: dev、マイナー番号を1個返す</li>-c-c-c- 	<li>これを怠るとinsmodのたびに番号が増えていくので実験すると面白い</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>MAJOR: devからメジャー番号を取り出すマクロ</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>メジャー番号の確認</h2>-c-c-c-&nbsp;-c-c-c-<pre><span style="color: #ffffff;">$ make-c-c-c-$ sudo insmod myled.ko-c-c-c-$ tail /var/log/messages-c-c-c-（略）-c-c-c-Oct 23 12:26:56 raspberrypi kernel: [ 492.932021] /home/pi/myled_lecture/myled.c -c-c-c-</span><span style="color: #ffffff;">is loaded. <span style="color: #ffff00;">major:243-c-c-c-<span style="color: #ffffff;">$ cat /proc/devices | grep myled-c-c-c-<span style="color: #ffff00;">243 myled</span>-c-c-c-$sudo rmmod myled</span></span></span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>キャラクタ型デバイスを作る</h2>-c-c-c-<ul>-c-c-c- 	<li>コードに以下を追加-c-c-c-<ul>-c-c-c- 	<li>ヘッダファイル: linux/cdev.hのinclude</li>-c-c-c- 	<li>キャラクタデバイスの挙動</li>-c-c-c- 	<li>キャラクタデバイスの登録</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;-c-c-c-#include &lt;linux/fs.h&gt;-c-c-c-<span style="color: #ffff00;">#include &lt;linux/cdev.h&gt;-c-c-c-</span>（中略）（MODULE_AUTHOR〜MODULE_VERSION）-c-c-c-static dev_t dev;-c-c-c-<span style="color: #ffff00;">static struct cdev cdv;-c-c-c-</span>-c-c-c-<span style="color: #ffff00;">static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_t* pos)-c-c-c-{-c-c-c- printk(KERN_INFO "led_write is called\\n");-c-c-c- return 1;-c-c-c-}-c-c-c--c-c-c-static struct file_operations led_fops = {-c-c-c- .owner = THIS_MODULE,-c-c-c- .write = led_write-c-c-c-};</span>-c-c-c-（次ページへ）-c-c-c-</span></pre>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第6回</h2>
+上田 隆一
+
+2016年11月2日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>デバイスドライバを作る</li>
+ 	<li>次回はGPIOの操作に挑戦しますが、今回はPCの中で完結する話
+<ul>
+ 	<li>仮想マシンでもOK</li>
+ 	<li>RaspbianとUbuntuでは少しやり方が違う</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>
+<ul>
+ 	<li>GPIO25とGNDの間にLEDを接続
+<ul>
+ 	<li>GPIO25: 22番ピン</li>
+ 	<li>GND: 39番ピン</li>
+ 	<li>LEDのアノード（足の長い方）をGPIO25に</li>
+</ul>
+</li>
+ 	<li>抵抗はなくても特に問題ない
+<ul>
+ 	<li>抵抗をつなぐとLEDに優しい</li>
+ 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>最初のコード</h2>
+<ul>
+ 	<li>適当なディレクトリを作ってその中に</li>
+ 	<li>ファイル名は「myled.c」にしましょう</li>
+ 	<li>コードの中身
+<ul>
+ 	<li>カーネルモジュールの初期化と後始末の関数を書く</li>
+ 	<li>マクロに関数名を与える</li>
+</ul>
+</li>
+</ul>
+<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;
+
+static int __init init_mod(void)
+{
+ return 0;
+}
+
+static void __exit cleanup_mod(void)
+{
+}
+
+module_init(init_mod);
+module_exit(cleanup_mod);
+</span></pre>
+<!--nextpage-->
+<h2>Makefileを書く</h2>
+<ul>
+ 	<li>Makefileという名前のファイルを作って次のように書く</li>
+ 	<li><span style="color: #ff0000;">インデントはタブで</span></li>
+ 	<li>Makefileのごくごく簡単な説明
+<ul style="font-size: 80%;">
+ 	<li>&lt;作りたいファイル or 行いたい処理&gt;: &lt;必要なファイル&gt;と書いてその下に実行するコマンドを書く</li>
+ 	<li>コロンの左側をターゲットと言う</li>
+ 	<li>makeと打つと最初に書いてあるターゲットの作成が試みられる</li>
+ 	<li>必要なファイルがないと、ないファイルのターゲットの処理が試みられる</li>
+</ul>
+</li>
+</ul>
+<pre class="p1"><span class="s1" style="color: #ffffff;">obj-m:= myled.o #オブジェクトファイルの名前を指定（拡張子はo）</span>
+
+<span class="s1" style="color: #ffffff;">myled.ko: myled.c </span>
+<span class="s1" style="color: #ffffff;"> make -C /usr/src/linux M=`pwd` V=1 modules #makeと打つと実行される</span>
+<span class="s1" style="color: #ffffff;">clean:</span>
+<span class="s1" style="color: #ffffff;"> make -C /usr/src/linux M=`pwd` V=1 clean #make cleanで実行</span></pre>
+&nbsp;
+
+<!--nextpage-->
+<h2>コンパイルと実行
+インストール</h2>
+<ul>
+ 	<li>insmodでインストールできる</li>
+ 	<li>/dev/等にはまだ何も出てこない</li>
+</ul>
+<pre><span style="color: #ffffff;">$ make #Makefileとmyled.cが正しければこれでOK</span>
+<span style="color: #ffffff;">$ ls #確認</span>
+<span class="s1"><span style="color: #ffffff;">Makefile<span class="Apple-converted-space">  </span>Module.symvers<span class="Apple-converted-space">  </span>modules.order<span class="Apple-converted-space">  </span>myled.c<span class="Apple-converted-space">  </span>myled.ko<span class="Apple-converted-space">  </span>myled.mod.c<span class="Apple-converted-space">  </span>myled.mod.o<span class="Apple-converted-space">  </span>myled.o
+$ sudo insmod myled.ko
+</span></span><span style="color: #ffffff;"><span class="s1">$</span><span class="s2"> lsmod
+</span><span class="s2">Module<span class="Apple-converted-space">                  </span>Size<span class="Apple-converted-space">  </span>Used by
+</span><span class="s2">myled<span class="Apple-converted-space">                    </span>735<span class="Apple-converted-space">  </span>0 
+...
+</span><span class="s1">$</span><span class="s2"> sudo rmmod myled</span></span></pre>
+<!--nextpage-->
+<h2>ログを吐くようにする</h2>
+<ul>
+ 	<li>init_modとcleanup_modに「printk」という関数を追加</li>
+ 	<li>KERN_INFO: ログのレベルを示すマクロ</li>
+ 	<li>__FILE__: ソースコードのファイル名</li>
+</ul>
+<pre><span style="color: #ffffff;">static int __init init_mod(void)
+{
+ printk(KERN_INFO "%s is loaded.\\n",__FILE__);
+ return 0;
+}
+
+static void __exit cleanup_mod(void)
+{
+ printk(KERN_INFO "%s is unloaded.\\n",__FILE__);
+}
+</span></pre>
+<!--nextpage-->
+<h2>動作確認</h2>
+<ul>
+ 	<li>/var/log/messagesにカーネルモジュールの脱着が記録される</li>
+</ul>
+<pre><span style="color: #ffffff;">$ make
+$ sudo insmod myled.ko
+pi\@raspberrypi:~/myled_lecture $ tail /var/log/messages
+...
+Oct 23 11:42:48 raspberrypi kernel: [ 5639.631142] /home/pi/myled_lecture/myled.c is loaded.
+$ sudo rmmod myled 
+pi\@raspberrypi:~/myled_lecture $ tail /var/log/messages
+...
+Oct 23 11:44:23 raspberrypi kernel: [ 5734.994105] /home/pi/myled_lecture/myled.c is unloaded.
+</span></pre>
+<!--nextpage-->
+<h2>ヘッダにモジュールの情報を記述</h2>
+<ul>
+ 	<li>作者、何のモジュール化、ライセンスは何か、バージョン</li>
+ 	<li>ライセンス
+<ul>
+ 	<li>基本的にはGPL（後日説明）</li>
+</ul>
+</li>
+</ul>
+<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;
+MODULE_AUTHOR("Ryuichi Ueda");
+MODULE_DESCRIPTION("driver for LED control");
+MODULE_LICENSE("GPL");
+MODULE_VERSION("0.1");
+
+static int __init init_mod(void)
+（以下略）
+</span></pre>
+<!--nextpage-->
+<h2>情報の確認</h2>
+<ul>
+<ul>
+ 	<li>modinfoというコマンドを利用</li>
+</ul>
+</ul>
+<pre><span style="color: #ffffff;">$ modinfo myled.ko
+filename: /home/pi/myled_lecture/myled.ko
+version: 0.1
+license: GPL
+description: driver for LED control
+author: Ryuichi Ueda
+srcversion: 1278C67A0C932CB5D86D367
+depends: 
+vermagic: 4.4.27-v7+ SMP mod_unload modversions ARMv7</span> 
+</pre>
+<!--nextpage-->
+<h2>デバイス番号の取得</h2>
+<ul>
+ 	<li>解説は次ページ</li>
+</ul>
+<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;
+<span style="color: #ffff00;">#include &lt;linux/fs.h&gt;</span>
+（中略）（MODULE_AUTHOR〜MODULE_VERSION）
+<span style="color: #ffff00;">static dev_t dev;</span>
+
+static int __init init_mod(void)
+{
+<span style="color: #ffff00;">	int retval;
+	retval = alloc_chrdev_region(&amp;dev, 0, 1, "myled");
+	if(retval &lt; 0){
+		printk(KERN_ERR "alloc_chrdev_region failed.\\n");
+		return retval;
+	}
+	printk(KERN_INFO "%s is loaded. major:%d\\n",__FILE__,MAJOR(dev));
+</span>	return 0;
+}
+
+static void __exit cleanup_mod(void)
+{
+<span style="color: #ffff00;">	unregister_chrdev_region(dev, 1);
+	printk(KERN_INFO "%s is unloaded. major:%d\\n",__FILE__,MAJOR(dev));</span>
+}
+</span><span style="color: #ffffff;">（略）
+</span></pre>
+<!--nextpage-->
+<ul>
+ 	<li>alloc_chrdev_region: デバイス番号の取得
+<ul>
+ 	<li>引数: dev（番号の入れ物）のアドレス、0番から1個マイナー番号が欲しい、デバイスの名前はmyled</li>
+</ul>
+</li>
+ 	<li>unregister_chrdev_region: デバイス番号の解放
+<ul>
+ 	<li>引数: dev、マイナー番号を1個返す</li>
+ 	<li>これを怠るとinsmodのたびに番号が増えていくので実験すると面白い</li>
+</ul>
+</li>
+ 	<li>MAJOR: devからメジャー番号を取り出すマクロ</li>
+</ul>
+<!--nextpage-->
+<h2>メジャー番号の確認</h2>
+&nbsp;
+<pre><span style="color: #ffffff;">$ make
+$ sudo insmod myled.ko
+$ tail /var/log/messages
+（略）
+Oct 23 12:26:56 raspberrypi kernel: [ 492.932021] /home/pi/myled_lecture/myled.c 
+</span><span style="color: #ffffff;">is loaded. <span style="color: #ffff00;">major:243
+<span style="color: #ffffff;">$ cat /proc/devices | grep myled
+<span style="color: #ffff00;">243 myled</span>
+$sudo rmmod myled</span></span></span></pre>
+<!--nextpage-->
+<h2>キャラクタ型デバイスを作る</h2>
+<ul>
+ 	<li>コードに以下を追加
+<ul>
+ 	<li>ヘッダファイル: linux/cdev.hのinclude</li>
+ 	<li>キャラクタデバイスの挙動</li>
+ 	<li>キャラクタデバイスの登録</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<pre><span style="color: #ffffff;">#include &lt;linux/module.h&gt;
+#include &lt;linux/fs.h&gt;
+<span style="color: #ffff00;">#include &lt;linux/cdev.h&gt;
+</span>（中略）（MODULE_AUTHOR〜MODULE_VERSION）
+static dev_t dev;
+<span style="color: #ffff00;">static struct cdev cdv;
+</span>
+<span style="color: #ffff00;">static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_t* pos)
+{
+ printk(KERN_INFO "led_write is called\\n");
+ return 1;
+}
+
+static struct file_operations led_fops = {
+ .owner = THIS_MODULE,
+ .write = led_write
+};</span>
+（次ページへ）
+</span></pre>

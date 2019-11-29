@@ -1,1 +1,35 @@
-<h2>staff</h2>-c-c-c-<ul>-c-c-c- 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>-c-c-c-</ul>-c-c-c-<h2>research student</h2>-c-c-c-<ul>-c-c-c- 	<li>Yusuke Seto</li>-c-c-c-</ul>-c-c-c-<h2>M1 (the first year of the master's program)</h2>-c-c-c-<ul>-c-c-c- 	<li>Shun Ito</li>-c-c-c-</ul>-c-c-c-<h2>B4 (senior year)</h2>-c-c-c-<ul>-c-c-c- 	<li>Makoto Inoue</li>-c-c-c- 	<li><a href="http://habatafuture.hatenablog.jp/" target="_blank">Shota Hirama</a></li>-c-c-c- 	<li>Masahiro Kato</li>-c-c-c- 	<li>Akira Kudo</li>-c-c-c- 	<li>Hayato Nakano</li>-c-c-c- 	<li><a href="http://routecompass.net/member/okawa/" target="_blank">Masaya Okawa</a></li>-c-c-c- 	<li>Shogo Ota</li>-c-c-c- 	<li><a href="https://tiryoh.com/blog/about" target="_blank">Daisuke Sato</a></li>-c-c-c- 	<li>Hideto Sato</li>-c-c-c- 	<li>Yuki Sato</li>-c-c-c- 	<li>Ryouga Sato</li>-c-c-c- 	<li>Huang Shuai</li>-c-c-c- 	<li>Kousei Yamagata</li>-c-c-c-</ul>-c-c-c--c-c-c-<hr /> -c-c-c--c-c-c-<h2>alumni</h2>-c-c-c-<ul>-c-c-c- 	<li>Yuichi Okane</li>-c-c-c-</ul>
+<h2>staff</h2>
+<ul>
+ 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>
+</ul>
+<h2>research student</h2>
+<ul>
+ 	<li>Yusuke Seto</li>
+</ul>
+<h2>M1 (the first year of the master's program)</h2>
+<ul>
+ 	<li>Shun Ito</li>
+</ul>
+<h2>B4 (senior year)</h2>
+<ul>
+ 	<li>Makoto Inoue</li>
+ 	<li><a href="http://habatafuture.hatenablog.jp/" target="_blank">Shota Hirama</a></li>
+ 	<li>Masahiro Kato</li>
+ 	<li>Akira Kudo</li>
+ 	<li>Hayato Nakano</li>
+ 	<li><a href="http://routecompass.net/member/okawa/" target="_blank">Masaya Okawa</a></li>
+ 	<li>Shogo Ota</li>
+ 	<li><a href="https://tiryoh.com/blog/about" target="_blank">Daisuke Sato</a></li>
+ 	<li>Hideto Sato</li>
+ 	<li>Yuki Sato</li>
+ 	<li>Ryouga Sato</li>
+ 	<li>Huang Shuai</li>
+ 	<li>Kousei Yamagata</li>
+</ul>
+
+<hr /> 
+
+<h2>alumni</h2>
+<ul>
+ 	<li>Yuichi Okane</li>
+</ul>

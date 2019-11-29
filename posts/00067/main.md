@@ -1,1 +1,7 @@
-<ul>-c-c-c- <li><a href="#pfc">emergence of intelligent behavior under uncertain environments</a></li>-c-c-c- <li>explanation of hippocampus based on robotics</li>-c-c-c- <li>development of robots for education</li>-c-c-c-</ul>-c-c-c--c-c-c-<h2 id="pfc">emergence of intelligent behavior under uncertain environments</h2>
+<ul>
+ <li><a href="#pfc">emergence of intelligent behavior under uncertain environments</a></li>
+ <li>explanation of hippocampus based on robotics</li>
+ <li>development of robots for education</li>
+</ul>
+
+<h2 id="pfc">emergence of intelligent behavior under uncertain environments</h2>

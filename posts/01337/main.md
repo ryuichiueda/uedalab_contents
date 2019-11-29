@@ -1,1 +1,373 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第1回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>動機付け（なんでこの講義があるのか）</li>-c-c-c- 	<li>定式化</li>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>移動ロボットの-c-c-c-ナビゲーション</h2>-c-c-c-　-c-c-c-<div style="float:left;width:50%">-c-c-c-<ul>-c-c-c-	<li>ナビゲーション: 航海術</li>-c-c-c-　-c-c-c-	<li>その昔、課題となったこと</li>-c-c-c-	<ul style="font-size:85%">-c-c-c-		<li>どこにいるか知りたい</li>-c-c-c-		<li>正確な地図を知りたい</li>-c-c-c-		<li>安全で短い経路が知りたい</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c-</div>-c-c-c--c-c-c-<div style="float:left;width:50%">-c-c-c-<a href="https://commons.wikimedia.org/wiki/File:Chasing_the_light.jpg#/media/File:Chasing_the_light.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Chasing_the_light.jpg" alt="Chasing the light.jpg"></a><br><p style="font-size:75%">遭難したらおしまい</p><p style="font-size:50%">By <a href="//en.wikipedia.org/wiki/George_Grie" class="extiw" title="en:George Grie">George Grie</a> - <span class="int-own-work" lang="ja">投稿者自身による作品</span>, <a rel="nofollow" class="external autonumber" href="http://www.neosurrealismart.com">[1]</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC 表示-継承 3.0</a>, https://commons.wikimedia.org/w/index.php?curid=3298445</p>-c-c-c-</div>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>ナビゲーション技術</h2>-c-c-c-<ul>-c-c-c-	<li>自己位置推定</li>-c-c-c-	<li>SLAM（simultaneous localization and mapping）</li>-c-c-c-	<li>目的地までの経路探索</li>-c-c-c-</ul>-c-c-c-　-c-c-c-<iframe width="420" height="315" src="https://www.youtube.com/embed/A3FqZraWqX4" frameborder="0" allowfullscreen></iframe>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>最近（ここ20年）の考え方</h2>-c-c-c-　-c-c-c-<ul>-c-c-c-	<li>確率論（ベイズ推論）の導入</li>-c-c-c-	<ul>-c-c-c-		<li>自身の分かっていること/分かっていないことを-c-c-c-確率分布で表現-c-c-c-<p><img style="border-style:none" src="https://blog.ueda.asia/wp-content/uploads/2016/05/prob_representation.png" /></p></li>-c-c-c-		<li>センサが良くなるまでのつなぎ扱いになることも</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<p><img src="https://blog.ueda.asia/wp-content/uploads/2016/05/prob_representation2.png" /></p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>確率分布の記述</h2>-c-c-c-　-c-c-c-<ul>-c-c-c-	<li>ガウス分布</li>-c-c-c-	<ul>-c-c-c-			<li>カルマンフィルタ（1960年〜）</li>-c-c-c-	</ul>-c-c-c-　-c-c-c-	<li>格子地図</li>-c-c-c-	<ul>-c-c-c-			<li>状態空間を切って格子一つ一つに確率を記述</li>-c-c-c-	</ul>-c-c-c-　-c-c-c-	<li>パーティクルフィルタ</li>-c-c-c-	<ul>-c-c-c-			<li>確率分布から標本抽出した標本の分布で記述</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c-　-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>よく使われるアルゴリズム</h2>-c-c-c-　-c-c-c-<ul>-c-c-c-	<li>こちらが詳しいです</li>-c-c-c-	<ul>-c-c-c-		<li><a href="http://myenigma.hatenablog.com" target="_blank">MyEnigma | <a href="https://twitter.com/atsushi_twi" target="_blank">\@Atsushi_twi</a></a></li>-c-c-c-	</ul>-c-c-c-	<li><a href="http://myenigma.hatenablog.com/entry/20140628/1403956852" target="_blank">Monte Carlo Locaization</a>（MCL）</li>-c-c-c-	<li>FastSLAM</li>-c-c-c-	<ul>-c-c-c-		<li>MCLのパーティクルに地図を持たせたもの</li>-c-c-c-		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/EeW9OL1J9sM" frameborder="0" allowfullscreen></iframe></li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->　-c-c-c--c-c-c-<ul>-c-c-c-	<li>graph-based SLAM</li>-c-c-c-	<ul>-c-c-c-		<li>精度行列（情報行列）に移動履歴やセンサでの-c-c-c-観測履歴を登録し、後で最も精度行列を操作して-c-c-c-ロボットの経路と地図を得る</li>-c-c-c-　-c-c-c-		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/nLEbJZFm5-E" frameborder="0" allowfullscreen></iframe></li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<ul>-c-c-c-	<li>visual SLAM</li>-c-c-c-	<ul>-c-c-c-		<li>画像の重ね合わせ</li>-c-c-c-		<li>画像どうしの相対姿勢からカメラの経路を推定-c-c-c-（visual odometry）</li>-c-c-c-　-c-c-c-		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/XySrhZpODYs" frameborder="0" allowfullscreen></iframe></li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>講義の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>第1回: 確率ロボティクスとは（今回）-c-c-c-<ul>-c-c-c- 	<li>後半、理論の話をします</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>第2回: デッドレコニング</li>-c-c-c- 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>-c-c-c- 	<li>第4回: センサ情報処理の実装</li>-c-c-c- 	<li>第5回: リサンプリング、リセット</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第6回: マルコフ決定過程</li>-c-c-c- 	<li>第7回: 価値反復</li>-c-c-c- 	<li>第8回: 強化学習</li>-c-c-c- 	<li>第9回: POMDP</li>-c-c-c- 	<li>第10回: POMDPに対する実装の例</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第11回: SLAM</li>-c-c-c- 	<li>第12回: オンラインSLAM</li>-c-c-c- 	<li>第13回: オフラインSLAM</li>-c-c-c- 	<li>第14回: 課題についての議論と解説</li>-c-c-c- 	<li>第15回: まとめ</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>進め方</h2>-c-c-c-<ul>-c-c-c- 	<li>式を説明して練習問題を解くような形式で進める予定-c-c-c-<ul>-c-c-c- 	<li>古典的、基礎的なところを重視</li>-c-c-c- 	<li>講師の個人的な事情もあり・・・</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>テスト・レポート等</h2>-c-c-c-<ul>-c-c-c- 	<li>課題は2回-c-c-c-<ul>-c-c-c- 	<li>各20点（＋α）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>テストは1回-c-c-c-<ul>-c-c-c- 	<li>60点</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>出席-c-c-c-<ul>-c-c-c- 	<li>8回以上で成績をつける対象</li>-c-c-c- 	<li>遅刻、早退は0.5回とカウント</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>参考図書</h2>-c-c-c-<ul>-c-c-c- 	<li>Thrun et al.: Probabilistic ROBOTICS, MIT press, 2005.</li>-c-c-c- 	<li>Bishop: Pattern Recognition and Machine Learning, Springer, 2006.</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>さっそく始めましょう</h2>-c-c-c-<ul>-c-c-c- 	<li>まずは「状態」について考えます</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ロボットの問題を一般的に表す</h2>-c-c-c-<ul>-c-c-c- 	<li>ロボットの研究によくある登場人物-c-c-c-<ul>-c-c-c- 	<li>ロボット、環境、障害物（動くもの、動かないもの）、人・・・</li>-c-c-c- 	<li><span style="color: #ffff00;">どうやって数式で表すか？</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ポイント-c-c-c-<ul>-c-c-c- 	<li>物理法則に支配されている</li>-c-c-c- 	<li>ただ、ロボットは自分の判断で状況を変えることができる</li>-c-c-c- 	<li><span style="color: #ffff00;">ロボットの体は</span>環境の一部か否か-c-c-c-<ul>-c-c-c- 	<li>「判断する何か」から見たら<span style="color: #ffff00;">環境の一部</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>世界の表現</h2>-c-c-c-<ul>-c-c-c- 	<li>とりあえず「判断する何か」はおいておき、目の前に存在する世界を表現しましょう-c-c-c-<ul>-c-c-c- 	<li>表現できないとプログラムも書けない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ロボットでよく使われる表現-c-c-c-<ul>-c-c-c- 	<li>コンフィグレーション空間-c-c-c-<ul>-c-c-c- 	<li>ロボットアーム等の関節各の組み合わせでロボットの姿勢を表現</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>タイルワールド-c-c-c-<ul>-c-c-c- 	<li>将棋のマス目のように環境を分割</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ffff00;">状態空間</span>-c-c-c-<ul>-c-c-c- 	<li>制御で使われる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2> 状態空間と状態</h2>-c-c-c-<ul>-c-c-c- 	<li>状態空間-c-c-c-<ul>-c-c-c- 	<li>制御中の全局面（状態）の集合で構成</li>-c-c-c- 	<li>[latex]\\mathcal{X}[/latex]で表しましょう</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>状態の一般的な表現-c-c-c-<ul>-c-c-c- 	<li>n個の<span style="color: #ffff00;">状態変数</span>で表現</li>-c-c-c- 	<li>状態空間との関係性: [latex]\\boldsymbol{x} \\in \\mathcal{X} [/latex]</li>-c-c-c- 	<li>[latex]\\boldsymbol{x} = (x_1,x_2,x_3,\\dots,x_n)[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>状態を定義してみましょう</h2>-c-c-c-<ul>-c-c-c- 	<li>次のページから挙げるロボットの状態を定義してみましょう-c-c-c-<ul>-c-c-c- 	<li> ポイント-c-c-c-<ul>-c-c-c- 	<li><span style="color: #ffff00;">同じ[latex]\\boldsymbol{x}[/latex]が別の状態を指さないようにする</span>-c-c-c-<ul>-c-c-c- 	<li>これはロボットの知覚の問題</li>-c-c-c- 	<li>ロボットが「同じだ！」と思ってしまったら別の行動ができない</li>-c-c-c- 	<li>例: 雨が状態に考慮されていないと、ロボットは雨が降っても絶対に傘はささない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ffff00;">問題は厳密なものではありません</span>-c-c-c-<ul>-c-c-c- 	<li>こういう場合はこうなる、みたいな議論を</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>移動ロボット1</h2>-c-c-c-<ul>-c-c-c- 	<li>平面上をゆっくり動く</li>-c-c-c-</ul>-c-c-c-<iframe src="https://www.youtube.com/embed/XozlE7fuTso" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>移動ロボット2</h2>-c-c-c-<ul>-c-c-c- 	<li>速く走る</li>-c-c-c- 	<li>できることは壁沿い走行だけ</li>-c-c-c-</ul>-c-c-c-<iframe src="https://www.youtube.com/embed/nNwKVeCqjus" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>移動ロボット3</h2>-c-c-c-<ul>-c-c-c- 	<li>平面上を動く</li>-c-c-c- 	<li>全方位移動機構-c-c-c-<ul>-c-c-c- 	<li><span style="color: #ffff00;">[latex]x,y[/latex]はともかく、向きはどうしましょうか？？？</span></li>-c-c-c- 	<li>速度はどうする？</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<iframe src="https://www.youtube.com/embed/CHbAPKXKB6M" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>マニピュレータ</h2>-c-c-c-<iframe src="https://www.youtube.com/embed/p8Fi3NZNtnQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c-<ul>-c-c-c- 	<li>麻雀牌はどうする？</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>生物</h2>-c-c-c-<iframe src="https://www.youtube.com/embed/W-IsVwURoDA" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>バリエーション</h2>-c-c-c-<ul>-c-c-c- 	<li>移動ロボットがビルの各フロアを行き来するときはどうする？</li>-c-c-c- 	<li>移動ロボットが螺旋状にフロアがつながっている建物を移動するときはどうする？-c-c-c-<ul>-c-c-c- 	<li>表参道ヒルズのような話</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>人がロボットの周囲にたくさんいる</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>まとめ</h2>-c-c-c-<ul>-c-c-c- 	<li>何をしたいか、何をしても問題ないかで状態の定義は変わる-c-c-c-<ul>-c-c-c- 	<li>速度を状態変数に入れる/入れない-c-c-c-<ul>-c-c-c- 	<li>動的/準静的</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>建物の階数を入れる/入れない-c-c-c-<ul>-c-c-c- 	<li>別のフロアで別の行動が潜在的に可能/不可能</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>フレーム問題とも関係する話</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>自分の体/他人の体に関する状態変数-c-c-c-<ul>-c-c-c- 	<li>制御できるかどうかを別にすると同じもの</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>やわらかいものは難しい</li>-c-c-c- 	<li>・・・</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>次回</h2>-c-c-c-<ul>-c-c-c- 	<li>「状態の不確かさ」について考えます。</li>-c-c-c-</ul>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第1回</h2>
+上田 隆一
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>動機付け（なんでこの講義があるのか）</li>
+ 	<li>定式化</li>
+</ul>
+
+<!--nextpage-->
+
+<h2>移動ロボットの
+ナビゲーション</h2>
+　
+<div style="float:left;width:50%">
+<ul>
+	<li>ナビゲーション: 航海術</li>
+　
+	<li>その昔、課題となったこと</li>
+	<ul style="font-size:85%">
+		<li>どこにいるか知りたい</li>
+		<li>正確な地図を知りたい</li>
+		<li>安全で短い経路が知りたい</li>
+	</ul>
+</ul>
+</div>
+
+<div style="float:left;width:50%">
+<a href="https://commons.wikimedia.org/wiki/File:Chasing_the_light.jpg#/media/File:Chasing_the_light.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Chasing_the_light.jpg" alt="Chasing the light.jpg"></a><br><p style="font-size:75%">遭難したらおしまい</p><p style="font-size:50%">By <a href="//en.wikipedia.org/wiki/George_Grie" class="extiw" title="en:George Grie">George Grie</a> - <span class="int-own-work" lang="ja">投稿者自身による作品</span>, <a rel="nofollow" class="external autonumber" href="http://www.neosurrealismart.com">[1]</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC 表示-継承 3.0</a>, https://commons.wikimedia.org/w/index.php?curid=3298445</p>
+</div>
+
+<!--nextpage-->
+
+<h2>ナビゲーション技術</h2>
+<ul>
+	<li>自己位置推定</li>
+	<li>SLAM（simultaneous localization and mapping）</li>
+	<li>目的地までの経路探索</li>
+</ul>
+　
+<iframe width="420" height="315" src="https://www.youtube.com/embed/A3FqZraWqX4" frameborder="0" allowfullscreen></iframe>
+
+
+<!--nextpage-->
+
+<h2>最近（ここ20年）の考え方</h2>
+　
+<ul>
+	<li>確率論（ベイズ推論）の導入</li>
+	<ul>
+		<li>自身の分かっていること/分かっていないことを
+確率分布で表現
+<p><img style="border-style:none" src="https://blog.ueda.asia/wp-content/uploads/2016/05/prob_representation.png" /></p></li>
+		<li>センサが良くなるまでのつなぎ扱いになることも</li>
+	</ul>
+</ul>
+
+<!--nextpage-->
+
+<p><img src="https://blog.ueda.asia/wp-content/uploads/2016/05/prob_representation2.png" /></p>
+
+
+<!--nextpage-->
+
+<h2>確率分布の記述</h2>
+　
+<ul>
+	<li>ガウス分布</li>
+	<ul>
+			<li>カルマンフィルタ（1960年〜）</li>
+	</ul>
+　
+	<li>格子地図</li>
+	<ul>
+			<li>状態空間を切って格子一つ一つに確率を記述</li>
+	</ul>
+　
+	<li>パーティクルフィルタ</li>
+	<ul>
+			<li>確率分布から標本抽出した標本の分布で記述</li>
+	</ul>
+</ul>
+　
+
+
+<!--nextpage-->
+
+<h2>よく使われるアルゴリズム</h2>
+　
+<ul>
+	<li>こちらが詳しいです</li>
+	<ul>
+		<li><a href="http://myenigma.hatenablog.com" target="_blank">MyEnigma | <a href="https://twitter.com/atsushi_twi" target="_blank">\@Atsushi_twi</a></a></li>
+	</ul>
+	<li><a href="http://myenigma.hatenablog.com/entry/20140628/1403956852" target="_blank">Monte Carlo Locaization</a>（MCL）</li>
+	<li>FastSLAM</li>
+	<ul>
+		<li>MCLのパーティクルに地図を持たせたもの</li>
+		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/EeW9OL1J9sM" frameborder="0" allowfullscreen></iframe></li>
+	</ul>
+</ul>
+
+<!--nextpage-->　
+
+<ul>
+	<li>graph-based SLAM</li>
+	<ul>
+		<li>精度行列（情報行列）に移動履歴やセンサでの
+観測履歴を登録し、後で最も精度行列を操作して
+ロボットの経路と地図を得る</li>
+　
+		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/nLEbJZFm5-E" frameborder="0" allowfullscreen></iframe></li>
+	</ul>
+</ul>
+
+<!--nextpage-->
+
+<ul>
+	<li>visual SLAM</li>
+	<ul>
+		<li>画像の重ね合わせ</li>
+		<li>画像どうしの相対姿勢からカメラの経路を推定
+（visual odometry）</li>
+　
+		<li><iframe width="560" height="315" src="https://www.youtube.com/embed/XySrhZpODYs" frameborder="0" allowfullscreen></iframe></li>
+	</ul>
+</ul>
+
+
+<!--nextpage-->
+<h2>講義の内容</h2>
+<ul>
+ 	<li>第1回: 確率ロボティクスとは（今回）
+<ul>
+ 	<li>後半、理論の話をします</li>
+</ul>
+</li>
+ 	<li>第2回: デッドレコニング</li>
+ 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>
+ 	<li>第4回: センサ情報処理の実装</li>
+ 	<li>第5回: リサンプリング、リセット</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第6回: マルコフ決定過程</li>
+ 	<li>第7回: 価値反復</li>
+ 	<li>第8回: 強化学習</li>
+ 	<li>第9回: POMDP</li>
+ 	<li>第10回: POMDPに対する実装の例</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第11回: SLAM</li>
+ 	<li>第12回: オンラインSLAM</li>
+ 	<li>第13回: オフラインSLAM</li>
+ 	<li>第14回: 課題についての議論と解説</li>
+ 	<li>第15回: まとめ</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>進め方</h2>
+<ul>
+ 	<li>式を説明して練習問題を解くような形式で進める予定
+<ul>
+ 	<li>古典的、基礎的なところを重視</li>
+ 	<li>講師の個人的な事情もあり・・・</li>
+</ul>
+</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>テスト・レポート等</h2>
+<ul>
+ 	<li>課題は2回
+<ul>
+ 	<li>各20点（＋α）</li>
+</ul>
+</li>
+ 	<li>テストは1回
+<ul>
+ 	<li>60点</li>
+</ul>
+</li>
+ 	<li>出席
+<ul>
+ 	<li>8回以上で成績をつける対象</li>
+ 	<li>遅刻、早退は0.5回とカウント</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>参考図書</h2>
+<ul>
+ 	<li>Thrun et al.: Probabilistic ROBOTICS, MIT press, 2005.</li>
+ 	<li>Bishop: Pattern Recognition and Machine Learning, Springer, 2006.</li>
+</ul>
+<!--nextpage-->
+<h2>さっそく始めましょう</h2>
+<ul>
+ 	<li>まずは「状態」について考えます</li>
+</ul>
+<!--nextpage-->
+<h2>ロボットの問題を一般的に表す</h2>
+<ul>
+ 	<li>ロボットの研究によくある登場人物
+<ul>
+ 	<li>ロボット、環境、障害物（動くもの、動かないもの）、人・・・</li>
+ 	<li><span style="color: #ffff00;">どうやって数式で表すか？</span></li>
+</ul>
+</li>
+ 	<li>ポイント
+<ul>
+ 	<li>物理法則に支配されている</li>
+ 	<li>ただ、ロボットは自分の判断で状況を変えることができる</li>
+ 	<li><span style="color: #ffff00;">ロボットの体は</span>環境の一部か否か
+<ul>
+ 	<li>「判断する何か」から見たら<span style="color: #ffff00;">環境の一部</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>世界の表現</h2>
+<ul>
+ 	<li>とりあえず「判断する何か」はおいておき、目の前に存在する世界を表現しましょう
+<ul>
+ 	<li>表現できないとプログラムも書けない</li>
+</ul>
+</li>
+ 	<li>ロボットでよく使われる表現
+<ul>
+ 	<li>コンフィグレーション空間
+<ul>
+ 	<li>ロボットアーム等の関節各の組み合わせでロボットの姿勢を表現</li>
+</ul>
+</li>
+ 	<li>タイルワールド
+<ul>
+ 	<li>将棋のマス目のように環境を分割</li>
+</ul>
+</li>
+ 	<li><span style="color: #ffff00;">状態空間</span>
+<ul>
+ 	<li>制御で使われる</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2> 状態空間と状態</h2>
+<ul>
+ 	<li>状態空間
+<ul>
+ 	<li>制御中の全局面（状態）の集合で構成</li>
+ 	<li>[latex]\\mathcal{X}[/latex]で表しましょう</li>
+</ul>
+</li>
+ 	<li>状態の一般的な表現
+<ul>
+ 	<li>n個の<span style="color: #ffff00;">状態変数</span>で表現</li>
+ 	<li>状態空間との関係性: [latex]\\boldsymbol{x} \\in \\mathcal{X} [/latex]</li>
+ 	<li>[latex]\\boldsymbol{x} = (x_1,x_2,x_3,\\dots,x_n)[/latex]</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>状態を定義してみましょう</h2>
+<ul>
+ 	<li>次のページから挙げるロボットの状態を定義してみましょう
+<ul>
+ 	<li> ポイント
+<ul>
+ 	<li><span style="color: #ffff00;">同じ[latex]\\boldsymbol{x}[/latex]が別の状態を指さないようにする</span>
+<ul>
+ 	<li>これはロボットの知覚の問題</li>
+ 	<li>ロボットが「同じだ！」と思ってしまったら別の行動ができない</li>
+ 	<li>例: 雨が状態に考慮されていないと、ロボットは雨が降っても絶対に傘はささない</li>
+</ul>
+</li>
+ 	<li><span style="color: #ffff00;">問題は厳密なものではありません</span>
+<ul>
+ 	<li>こういう場合はこうなる、みたいな議論を</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>移動ロボット1</h2>
+<ul>
+ 	<li>平面上をゆっくり動く</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/XozlE7fuTso" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<!--nextpage-->
+<h2>移動ロボット2</h2>
+<ul>
+ 	<li>速く走る</li>
+ 	<li>できることは壁沿い走行だけ</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/nNwKVeCqjus" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<!--nextpage-->
+<h2>移動ロボット3</h2>
+<ul>
+ 	<li>平面上を動く</li>
+ 	<li>全方位移動機構
+<ul>
+ 	<li><span style="color: #ffff00;">[latex]x,y[/latex]はともかく、向きはどうしましょうか？？？</span></li>
+ 	<li>速度はどうする？</li>
+</ul>
+</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/CHbAPKXKB6M" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<!--nextpage-->
+<h2>マニピュレータ</h2>
+<iframe src="https://www.youtube.com/embed/p8Fi3NZNtnQ" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<ul>
+ 	<li>麻雀牌はどうする？</li>
+</ul>
+<!--nextpage-->
+<h2>生物</h2>
+<iframe src="https://www.youtube.com/embed/W-IsVwURoDA" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<!--nextpage-->
+<h2>バリエーション</h2>
+<ul>
+ 	<li>移動ロボットがビルの各フロアを行き来するときはどうする？</li>
+ 	<li>移動ロボットが螺旋状にフロアがつながっている建物を移動するときはどうする？
+<ul>
+ 	<li>表参道ヒルズのような話</li>
+</ul>
+</li>
+ 	<li>人がロボットの周囲にたくさんいる</li>
+</ul>
+<!--nextpage-->
+<h2>まとめ</h2>
+<ul>
+ 	<li>何をしたいか、何をしても問題ないかで状態の定義は変わる
+<ul>
+ 	<li>速度を状態変数に入れる/入れない
+<ul>
+ 	<li>動的/準静的</li>
+</ul>
+</li>
+ 	<li>建物の階数を入れる/入れない
+<ul>
+ 	<li>別のフロアで別の行動が潜在的に可能/不可能</li>
+</ul>
+</li>
+ 	<li>フレーム問題とも関係する話</li>
+</ul>
+</li>
+ 	<li>自分の体/他人の体に関する状態変数
+<ul>
+ 	<li>制御できるかどうかを別にすると同じもの</li>
+</ul>
+</li>
+ 	<li>やわらかいものは難しい</li>
+ 	<li>・・・</li>
+</ul>
+<!--nextpage-->
+<h2>次回</h2>
+<ul>
+ 	<li>「状態の不確かさ」について考えます。</li>
+</ul>

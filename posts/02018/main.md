@@ -1,1 +1,35 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第6回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年11月2日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>デバイスドライバを作る</li>-c-c-c- 	<li>次回はGPIOの操作に挑戦しますが、今回はPCの中で完結する話-c-c-c-<ul>-c-c-c- 	<li>仮想マシンでもOK</li>-c-c-c- 	<li>RaspbianとUbuntuでは少しやり方が違う</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>-c-c-c-<ul>-c-c-c- 	<li>GPIO25とGNDの間にLEDを接続-c-c-c-<ul>-c-c-c- 	<li>GPIO25: 22番ピン</li>-c-c-c- 	<li>GND: 39番ピン</li>-c-c-c- 	<li>LEDのアノード（足の長い方）をGPIO25に</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>抵抗はなくても特に問題ない-c-c-c-<ul>-c-c-c- 	<li>抵抗をつなぐとLEDに優しい</li>-c-c-c- 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第6回</h2>
+上田 隆一
+
+2016年11月2日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>デバイスドライバを作る</li>
+ 	<li>次回はGPIOの操作に挑戦しますが、今回はPCの中で完結する話
+<ul>
+ 	<li>仮想マシンでもOK</li>
+ 	<li>RaspbianとUbuntuでは少しやり方が違う</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>
+<ul>
+ 	<li>GPIO25とGNDの間にLEDを接続
+<ul>
+ 	<li>GPIO25: 22番ピン</li>
+ 	<li>GND: 39番ピン</li>
+ 	<li>LEDのアノード（足の長い方）をGPIO25に</li>
+</ul>
+</li>
+ 	<li>抵抗はなくても特に問題ない
+<ul>
+ 	<li>抵抗をつなぐとLEDに優しい</li>
+ 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->

@@ -1,1 +1,14 @@
-<h1 style="font-size:300%">楽しい（？）研究室生活</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<p>&nbsp;</p>-c-c-c-<p>2016年度配属説明会</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>配属おめでとうございます</h2>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c-
+<h1 style="font-size:300%">楽しい（？）研究室生活</h1>
+　
+<h2>文責: 上田</h2>
+
+<p>&nbsp;</p>
+<p>2016年度配属説明会</p>
+
+<!--nextpage-->
+
+<h2>配属おめでとうございます</h2>
+
+
+<!--nextpage-->
+

@@ -1,1 +1,66 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第4回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年10月10日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>前回・前々回のおさらいと今回</h2>-c-c-c-<ul>-c-c-c- 	<li>前々回-c-c-c-<ul>-c-c-c- 	<li>制御出力（移動）に伴う雑音の扱い</li>-c-c-c- 	<li>信念に反映させる方法</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li> 前回-c-c-c-<ul>-c-c-c- 	<li>センサ入力に乗る雑音の扱い</li>-c-c-c- 	<li>信念に反映させる方法</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>今回-c-c-c-<ul>-c-c-c- 	<li> 制御とセンサ計測を繰り返していくと信念もその都度更新されなければならない-c-c-c-<ul>-c-c-c- 	<li><span style="color: #ff0000;">ベイズフィルタ</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>ベイズフィルタ（の前に）</h2>-c-c-c-<ul>-c-c-c- 	<li>前々回の制御出力の式と前回のセンサ入力の式を並べて記号を整理-c-c-c-<ul>-c-c-c- 	<li>以下のように定義しましょう-c-c-c-<ul>-c-c-c- 	<li>制御出力[latex]\\boldsymbol{u}_t [/latex]後の信念:-c-c-c-<ul>-c-c-c- 	<li>[latex]\\hat{bel}_t(\\boldsymbol{x}) = bel(\\boldsymbol{x} |\\boldsymbol{u}_{1:t},\\boldsymbol{z}_{1:t-1},bel_0)[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>センサ入力[latex]\\boldsymbol{z}_t[/latex]後の信念:-c-c-c-<ul>-c-c-c- 	<li>[latex]bel_t(\\boldsymbol{x}) = bel(\\boldsymbol{x} |\\boldsymbol{u}_{1:t},\\boldsymbol{z}_{1:t},bel_0)[/latex]</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ここで-c-c-c-<ul>-c-c-c- 	<li>[latex]bel_0[/latex]: 最初にエージェントが持つ信念</li>-c-c-c- 	<li>[latex]\\boldsymbol{u}_{1:t}[/latex]: 時刻[latex]1[/latex]から[latex]t[/latex]までの制御出力のシーケンス</li>-c-c-c- 	<li>[latex]\\boldsymbol{z}_{1:t}[/latex]: 時刻[latex]1[/latex]から[latex]t[/latex]までのセンサ入力のシーケンス</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>ベイズフィルタ</h2>-c-c-c-<ul>-c-c-c- 	<li>[latex]\\hat{bel}_t(\\boldsymbol{x}) = \\int_\\mathcal{X} p(\\boldsymbol{x} | \\boldsymbol{x}',\\boldsymbol{u}_t )bel_{t-1}(\\boldsymbol{x}') d\\boldsymbol{x}'[/latex]</li>-c-c-c- 	<li>[latex]bel_t(\\boldsymbol{x}) = \\eta \\ell(\\boldsymbol{x}|\\boldsymbol{z}_t)\\hat{bel}_t(\\boldsymbol{x})[/latex]</li>-c-c-c-</ul>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第4回</h2>
+上田 隆一
+
+2016年10月10日\@千葉工業大学
+
+<!--nextpage-->
+<h2>前回・前々回のおさらいと今回</h2>
+<ul>
+ 	<li>前々回
+<ul>
+ 	<li>制御出力（移動）に伴う雑音の扱い</li>
+ 	<li>信念に反映させる方法</li>
+</ul>
+</li>
+ 	<li> 前回
+<ul>
+ 	<li>センサ入力に乗る雑音の扱い</li>
+ 	<li>信念に反映させる方法</li>
+</ul>
+</li>
+ 	<li>今回
+<ul>
+ 	<li> 制御とセンサ計測を繰り返していくと信念もその都度更新されなければならない
+<ul>
+ 	<li><span style="color: #ff0000;">ベイズフィルタ</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>ベイズフィルタ（の前に）</h2>
+<ul>
+ 	<li>前々回の制御出力の式と前回のセンサ入力の式を並べて記号を整理
+<ul>
+ 	<li>以下のように定義しましょう
+<ul>
+ 	<li>制御出力[latex]\\boldsymbol{u}_t [/latex]後の信念:
+<ul>
+ 	<li>[latex]\\hat{bel}_t(\\boldsymbol{x}) = bel(\\boldsymbol{x} |\\boldsymbol{u}_{1:t},\\boldsymbol{z}_{1:t-1},bel_0)[/latex]</li>
+</ul>
+</li>
+ 	<li>センサ入力[latex]\\boldsymbol{z}_t[/latex]後の信念:
+<ul>
+ 	<li>[latex]bel_t(\\boldsymbol{x}) = bel(\\boldsymbol{x} |\\boldsymbol{u}_{1:t},\\boldsymbol{z}_{1:t},bel_0)[/latex]</li>
+</ul>
+</li>
+ 	<li>ここで
+<ul>
+ 	<li>[latex]bel_0[/latex]: 最初にエージェントが持つ信念</li>
+ 	<li>[latex]\\boldsymbol{u}_{1:t}[/latex]: 時刻[latex]1[/latex]から[latex]t[/latex]までの制御出力のシーケンス</li>
+ 	<li>[latex]\\boldsymbol{z}_{1:t}[/latex]: 時刻[latex]1[/latex]から[latex]t[/latex]までのセンサ入力のシーケンス</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>ベイズフィルタ</h2>
+<ul>
+ 	<li>[latex]\\hat{bel}_t(\\boldsymbol{x}) = \\int_\\mathcal{X} p(\\boldsymbol{x} | \\boldsymbol{x}',\\boldsymbol{u}_t )bel_{t-1}(\\boldsymbol{x}') d\\boldsymbol{x}'[/latex]</li>
+ 	<li>[latex]bel_t(\\boldsymbol{x}) = \\eta \\ell(\\boldsymbol{x}|\\boldsymbol{z}_t)\\hat{bel}_t(\\boldsymbol{x})[/latex]</li>
+</ul>

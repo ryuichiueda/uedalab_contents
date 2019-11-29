@@ -1,1 +1,5 @@
-<ul>-c-c-c- <li>emergence of intelligent behavior under uncertain environments</li>-c-c-c- <li>explanation of hippocampus based on robotics</li>-c-c-c- <li>development of robots for education</li>-c-c-c-</ul>
+<ul>
+ <li>emergence of intelligent behavior under uncertain environments</li>
+ <li>explanation of hippocampus based on robotics</li>
+ <li>development of robots for education</li>
+</ul>

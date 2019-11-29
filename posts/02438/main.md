@@ -1,1 +1,222 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第10回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年12月7日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>先に課題1-c-c-c-<ul>-c-c-c- 	<li>GitとかGitHubとか普段から使っている人は課題をやりましょう</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>Git, GitHub</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>課題1（12/31まで）</h2>-c-c-c-<ul>-c-c-c- 	<li>講義で作ったデバイスドライバをカスタマイズして-c-c-c-<ol>-c-c-c- 	<li>GitHubにプッシュ-c-c-c-<ul>-c-c-c- 	<li>ライセンス、何をやったか分かるREADMEを書く</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>Youtube等、パブリックで見られるところにデモをアップ-c-c-c-<ul>-c-c-c- 	<li>これも何をやっているか説明を書く</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>私まで電子メール-c-c-c-<ul>-c-c-c- 	<li>件名: ロボットシステム学 課題1 名前 学籍番号</li>-c-c-c- 	<li>内容、普通に他人に出すような電子メールで、上記GitHubとビデオのURLを貼る-c-c-c-<ul>-c-c-c- 	<li>「普通」は任せますが、あんまり失礼だと匿名を保った上でTwitterで嘆きます</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ol>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>自分で書いたプログラムの管理</h2>-c-c-c-<ul>-c-c-c- 	<li>自分で作ったプログラムの管理をどうするか？-c-c-c-<ul>-c-c-c- 	<li>別にファイルやディレクトリのコピーでも良い</li>-c-c-c- 	<li>ファイルをhoge.c, hoge.c.org, hoge.c.orgorg...とコピーして保存</li>-c-c-c- 	<li>あるいはディレクトリに日付をつけて管理</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ラズパイやマイコンのコードの管理は結構面倒</li>-c-c-c- 	<li>さらに便利にならないか？-c-c-c-<ul>-c-c-c- 	<li>変更の日付等を自動で管理したい</li>-c-c-c- 	<li>別のPCで使う。別の人が使えるようにしておく。</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>Git</h2>-c-c-c-<ul>-c-c-c- 	<li>版管理（バージョン管理）システム-c-c-c-<ul>-c-c-c- 	<li>ファイルの変更履歴を管理するためのシステム</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>Linus Torvalds が作成-c-c-c-<ul>-c-c-c- 	<li>Linux の共同開発のため</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>単にバージョン管理のためだけでなく、コード公開のプラットフォームになっている-c-c-c-<ul>-c-c-c- 	<li>リポジトリの公開</li>-c-c-c- 	<li>GitHub, BitBucket</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>Gitのインストール</h2>-c-c-c-<ul>-c-c-c- 	<li>sudo apt install git 等-c-c-c-<ul>-c-c-c- 	<li>最近はデフォルトで使える環境が多い</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>使うときは次の2つの登録を-c-c-c-<ul>-c-c-c- 	<li>自身の名前（ハンドルネーム）</li>-c-c-c- 	<li>メールアドレス</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>使用するエディタも登録しておくと混乱しない</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ sudo apt-get install git-c-c-c-###自身の名前とe-mail アドレスを記録しておく###-c-c-c-$ git config --global user.name "Ryuichi Ueda"-c-c-c-$ git config --global user.email "ueda\@hogehoge.com"-c-c-c-$ git config --global core.editor vim-c-c-c-###確認###-c-c-c-$ cat .gitconfig-c-c-c-[user]-c-c-c-name = Ryuichi Ueda-c-c-c-email = ueda\@hogehoge.com-c-c-c-[core]-c-c-c-editor = vim-c-c-c-</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>リポジトリを作る</h2>-c-c-c-<ul>-c-c-c- 	<li>リポジトリ（repository）-c-c-c-<ul>-c-c-c- 	<li>貯蔵庫、倉庫、納骨堂、埋葬所</li>-c-c-c- 	<li>要はバージョン管理するディレクトリ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>2種類-c-c-c-<ul>-c-c-c- 	<li>リモートリポジトリ、ローカルリポジトリ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>Git の基本的な使い方（あくまで基本）-c-c-c-<ul>-c-c-c- 	<li>リモートリポジトリをどこかに置き、そこから自分のマシンにそれをクローンしてローカルリポジトリを作成</li>-c-c-c- 	<li>ローカルリポジトリで何かファイルを更新したらリモートリポジトリに反映</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>GitHub</h2>-c-c-c-<ul>-c-c-c- 	<li>Gitを利用したサービス-c-c-c-<ul>-c-c-c- 	<li>リポジトリのホスティングと公開</li>-c-c-c- 	<li>公開しないリポジトリも作成可能（有料）</li>-c-c-c- 	<li>学校のメールアドレスだと無料で作れるかもしれません</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>利用方法-c-c-c-<ul>-c-c-c- 	<li>ウェブサイト</li>-c-c-c- 	<li>コマンドライン</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>アカウント作成</h2>-c-c-c-<ul>-c-c-c- 	<li>GitHubにアクセス-c-c-c-<ul>-c-c-c- 	<li>https://github.com/</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ユーザ名、email アドレス、パスワードを決めて"Sign up for GitHub"-c-c-c-<ul>-c-c-c- 	<li>ユーザ名は恥ずかしくないものを！</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>・・・</li>-c-c-c- 	<li>プランを選ぶときに"Free"が選択されているのを確認して"Finish sign up"</li>-c-c-c- 	<li>登録したメールアドレスに確認メールが届くのでインストラクションに従う</li>-c-c-c- 	<li>できる人は公開鍵の登録</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>リポジトリの作成</h2>-c-c-c-<ul>-c-c-c- 	<li>GitHubにリモートのものを一つ作ってみましょう</li>-c-c-c- 	<li>GitHubのサイトでの操作-c-c-c-<ul>-c-c-c- 	<li>右下あたりにある"New repository"をクリック</li>-c-c-c- 	<li>必要事項を記入-c-c-c-<ul>-c-c-c- 	<li>後の操作の例のために以下をお願いします-c-c-c-<ul>-c-c-c- 	<li>"Initialize this repository with a README"にチェック</li>-c-c-c- 	<li>ライセンスのプルダウンからMITライセンスを選択</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>"Create repository"ボタンを押す</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ウェブ画面にリポジトリの画面-c-c-c-<ul>-c-c-c- 	<li>READMEとLISENCEができている</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>リモートのリポジトリをローカルに</h2>-c-c-c-<ul>-c-c-c- 	<li>リポジトリの画面の"clone or download"をクリック</li>-c-c-c- 	<li>「HTTPS」を選択してURLをコピー-c-c-c-<ul>-c-c-c- 	<li>クリップボードのアイコンをクリックするとコピーできる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>リポジトリを作りたいディレクトリで次の操作-c-c-c-<pre><span style="color: #ffffff;">$ git clone &lt;さっきクリップボードにコピーした文字列をペースト&gt;-c-c-c-Cloning into 'test'...-c-c-c-remote: Counting objects: 4, done.-c-c-c-remote: Compressing objects: 100% (3/3), done.-c-c-c-remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0-c-c-c-Unpacking objects: 100% (4/4), done.-c-c-c-Checking connectivity... done.</span></pre>-c-c-c-</li>-c-c-c- 	<li></li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>リポジトリにコードを追加</h2>-c-c-c-<ul>-c-c-c- 	<li>READMEでも追加してみましょう。</li>-c-c-c-</ul>-c-c-c-&nbsp;
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第10回</h2>
+上田 隆一
+
+2016年12月7日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>先に課題1
+<ul>
+ 	<li>GitとかGitHubとか普段から使っている人は課題をやりましょう</li>
+</ul>
+</li>
+ 	<li>Git, GitHub</li>
+</ul>
+<!--nextpage-->
+<h2>課題1（12/31まで）</h2>
+<ul>
+ 	<li>講義で作ったデバイスドライバをカスタマイズして
+<ol>
+ 	<li>GitHubにプッシュ
+<ul>
+ 	<li>ライセンス、何をやったか分かるREADMEを書く</li>
+</ul>
+</li>
+ 	<li>Youtube等、パブリックで見られるところにデモをアップ
+<ul>
+ 	<li>これも何をやっているか説明を書く</li>
+</ul>
+</li>
+ 	<li>私まで電子メール
+<ul>
+ 	<li>件名: ロボットシステム学 課題1 名前 学籍番号</li>
+ 	<li>内容、普通に他人に出すような電子メールで、上記GitHubとビデオのURLを貼る
+<ul>
+ 	<li>「普通」は任せますが、あんまり失礼だと匿名を保った上でTwitterで嘆きます</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>自分で書いたプログラムの管理</h2>
+<ul>
+ 	<li>自分で作ったプログラムの管理をどうするか？
+<ul>
+ 	<li>別にファイルやディレクトリのコピーでも良い</li>
+ 	<li>ファイルをhoge.c, hoge.c.org, hoge.c.orgorg...とコピーして保存</li>
+ 	<li>あるいはディレクトリに日付をつけて管理</li>
+</ul>
+</li>
+ 	<li>ラズパイやマイコンのコードの管理は結構面倒</li>
+ 	<li>さらに便利にならないか？
+<ul>
+ 	<li>変更の日付等を自動で管理したい</li>
+ 	<li>別のPCで使う。別の人が使えるようにしておく。</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>Git</h2>
+<ul>
+ 	<li>版管理（バージョン管理）システム
+<ul>
+ 	<li>ファイルの変更履歴を管理するためのシステム</li>
+</ul>
+</li>
+ 	<li>Linus Torvalds が作成
+<ul>
+ 	<li>Linux の共同開発のため</li>
+</ul>
+</li>
+ 	<li>単にバージョン管理のためだけでなく、コード公開のプラットフォームになっている
+<ul>
+ 	<li>リポジトリの公開</li>
+ 	<li>GitHub, BitBucket</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>Gitのインストール</h2>
+<ul>
+ 	<li>sudo apt install git 等
+<ul>
+ 	<li>最近はデフォルトで使える環境が多い</li>
+</ul>
+</li>
+ 	<li>使うときは次の2つの登録を
+<ul>
+ 	<li>自身の名前（ハンドルネーム）</li>
+ 	<li>メールアドレス</li>
+</ul>
+</li>
+ 	<li>使用するエディタも登録しておくと混乱しない</li>
+</ul>
+<pre><span style="color: #ffffff;">$ sudo apt-get install git
+###自身の名前とe-mail アドレスを記録しておく###
+$ git config --global user.name "Ryuichi Ueda"
+$ git config --global user.email "ueda\@hogehoge.com"
+$ git config --global core.editor vim
+###確認###
+$ cat .gitconfig
+[user]
+name = Ryuichi Ueda
+email = ueda\@hogehoge.com
+[core]
+editor = vim
+</span></pre>
+<!--nextpage-->
+<h2>リポジトリを作る</h2>
+<ul>
+ 	<li>リポジトリ（repository）
+<ul>
+ 	<li>貯蔵庫、倉庫、納骨堂、埋葬所</li>
+ 	<li>要はバージョン管理するディレクトリ</li>
+</ul>
+</li>
+ 	<li>2種類
+<ul>
+ 	<li>リモートリポジトリ、ローカルリポジトリ</li>
+</ul>
+</li>
+ 	<li>Git の基本的な使い方（あくまで基本）
+<ul>
+ 	<li>リモートリポジトリをどこかに置き、そこから自分のマシンにそれをクローンしてローカルリポジトリを作成</li>
+ 	<li>ローカルリポジトリで何かファイルを更新したらリモートリポジトリに反映</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>GitHub</h2>
+<ul>
+ 	<li>Gitを利用したサービス
+<ul>
+ 	<li>リポジトリのホスティングと公開</li>
+ 	<li>公開しないリポジトリも作成可能（有料）</li>
+ 	<li>学校のメールアドレスだと無料で作れるかもしれません</li>
+</ul>
+</li>
+ 	<li>利用方法
+<ul>
+ 	<li>ウェブサイト</li>
+ 	<li>コマンドライン</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>アカウント作成</h2>
+<ul>
+ 	<li>GitHubにアクセス
+<ul>
+ 	<li>https://github.com/</li>
+</ul>
+</li>
+ 	<li>ユーザ名、email アドレス、パスワードを決めて"Sign up for GitHub"
+<ul>
+ 	<li>ユーザ名は恥ずかしくないものを！</li>
+</ul>
+</li>
+ 	<li>・・・</li>
+ 	<li>プランを選ぶときに"Free"が選択されているのを確認して"Finish sign up"</li>
+ 	<li>登録したメールアドレスに確認メールが届くのでインストラクションに従う</li>
+ 	<li>できる人は公開鍵の登録</li>
+</ul>
+<!--nextpage-->
+<h2>リポジトリの作成</h2>
+<ul>
+ 	<li>GitHubにリモートのものを一つ作ってみましょう</li>
+ 	<li>GitHubのサイトでの操作
+<ul>
+ 	<li>右下あたりにある"New repository"をクリック</li>
+ 	<li>必要事項を記入
+<ul>
+ 	<li>後の操作の例のために以下をお願いします
+<ul>
+ 	<li>"Initialize this repository with a README"にチェック</li>
+ 	<li>ライセンスのプルダウンからMITライセンスを選択</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>"Create repository"ボタンを押す</li>
+</ul>
+</li>
+ 	<li>ウェブ画面にリポジトリの画面
+<ul>
+ 	<li>READMEとLISENCEができている</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>リモートのリポジトリをローカルに</h2>
+<ul>
+ 	<li>リポジトリの画面の"clone or download"をクリック</li>
+ 	<li>「HTTPS」を選択してURLをコピー
+<ul>
+ 	<li>クリップボードのアイコンをクリックするとコピーできる</li>
+</ul>
+</li>
+ 	<li>リポジトリを作りたいディレクトリで次の操作
+<pre><span style="color: #ffffff;">$ git clone &lt;さっきクリップボードにコピーした文字列をペースト&gt;
+Cloning into 'test'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.</span></pre>
+</li>
+ 	<li></li>
+</ul>
+&nbsp;
+
+<!--nextpage-->
+<h2>リポジトリにコードを追加</h2>
+<ul>
+ 	<li>READMEでも追加してみましょう。</li>
+</ul>
+&nbsp;

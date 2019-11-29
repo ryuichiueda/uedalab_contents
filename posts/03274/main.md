@@ -1,1 +1,47 @@
-<h2>staff</h2>-c-c-c-<ul>-c-c-c- 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>-c-c-c-</ul>-c-c-c-<h2>research student</h2>-c-c-c-<ul>-c-c-c- 	<li>Yusuke Seto</li>-c-c-c-</ul>-c-c-c-<h2>graduate students</h2>-c-c-c-<ul>-c-c-c- 	<li>Shun Ito</li>-c-c-c-</ul>-c-c-c-<h2>undergraduate students</h2>-c-c-c-<ul>-c-c-c- 	<li>Ryoma Aoki</li>-c-c-c- 	<li>Yuki Iida</li>-c-c-c- 	<li><a href="http://routecompass.net/member/okawa/" target="_blank" rel="noopener noreferrer">Masaya Okawa</a></li>-c-c-c- 	<li>Shogo Ota</li>-c-c-c- 	<li><a href="https://zaki0929.github.io/mypages/index.html">Ryo Okazaki</a></li>-c-c-c- 	<li>Masahiro Kato</li>-c-c-c- 	<li>Yusuke Kato</li>-c-c-c- 	<li>Masashi Kaneko</li>-c-c-c- 	<li>Akira Kudo</li>-c-c-c- 	<li>Atsushi Kuwagata</li>-c-c-c- 	<li>Atsushi Saito</li>-c-c-c- 	<li><a href="https://tiryoh.com/" target="_blank" rel="noopener noreferrer">Daisuke Sato</a></li>-c-c-c- 	<li>Hideto Sato</li>-c-c-c- 	<li>Ryouga Sato</li>-c-c-c- 	<li>Yuki Sato</li>-c-c-c- 	<li>Tomotaka Suzuki</li>-c-c-c- 	<li>Huang Shuai</li>-c-c-c- 	<li>Hayato Nakano</li>-c-c-c- 	<li><a href="http://habatafuture.hatenablog.jp/" target="_blank" rel="noopener noreferrer">Shota Hirama</a></li>-c-c-c- 	<li>Taishi Mikami</li>-c-c-c- 	<li>Kouki Megumi</li>-c-c-c- 	<li>Kousei Yamagata</li>-c-c-c- 	<li>Atuyuki Yamano</li>-c-c-c- 	<li>Yuuki Watanabe</li>-c-c-c-</ul>-c-c-c--c-c-c-<hr />-c-c-c--c-c-c-<h2>alumni</h2>-c-c-c-<ul>-c-c-c- 	<li>Yuichi Okane（2017年3月学部卒）</li>-c-c-c- 	<li>Makoto Inoue（2017年9月学部卒）</li>-c-c-c-</ul>
+<h2>staff</h2>
+<ul>
+ 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>
+</ul>
+<h2>research student</h2>
+<ul>
+ 	<li>Yusuke Seto</li>
+</ul>
+<h2>graduate students</h2>
+<ul>
+ 	<li>Shun Ito</li>
+</ul>
+<h2>undergraduate students</h2>
+<ul>
+ 	<li>Ryoma Aoki</li>
+ 	<li>Yuki Iida</li>
+ 	<li><a href="http://routecompass.net/member/okawa/" target="_blank" rel="noopener noreferrer">Masaya Okawa</a></li>
+ 	<li>Shogo Ota</li>
+ 	<li><a href="https://zaki0929.github.io/mypages/index.html">Ryo Okazaki</a></li>
+ 	<li>Masahiro Kato</li>
+ 	<li>Yusuke Kato</li>
+ 	<li>Masashi Kaneko</li>
+ 	<li>Akira Kudo</li>
+ 	<li>Atsushi Kuwagata</li>
+ 	<li>Atsushi Saito</li>
+ 	<li><a href="https://tiryoh.com/" target="_blank" rel="noopener noreferrer">Daisuke Sato</a></li>
+ 	<li>Hideto Sato</li>
+ 	<li>Ryouga Sato</li>
+ 	<li>Yuki Sato</li>
+ 	<li>Tomotaka Suzuki</li>
+ 	<li>Huang Shuai</li>
+ 	<li>Hayato Nakano</li>
+ 	<li><a href="http://habatafuture.hatenablog.jp/" target="_blank" rel="noopener noreferrer">Shota Hirama</a></li>
+ 	<li>Taishi Mikami</li>
+ 	<li>Kouki Megumi</li>
+ 	<li>Kousei Yamagata</li>
+ 	<li>Atuyuki Yamano</li>
+ 	<li>Yuuki Watanabe</li>
+</ul>
+
+<hr />
+
+<h2>alumni</h2>
+<ul>
+ 	<li>Yuichi Okane（2017年3月学部卒）</li>
+ 	<li>Makoto Inoue（2017年9月学部卒）</li>
+</ul>

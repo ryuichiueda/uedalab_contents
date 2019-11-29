@@ -1,1 +1,63 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第1回</h2>-c-c-c-&nbsp;-c-c-c--c-c-c-上田 隆一-c-c-c--c-c-c-&nbsp;-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>動機付け（なんでこの講義があるのか）</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ロボットシステム</h2>-c-c-c-<ul>-c-c-c- 	<li><a href="http://yougo.ascii.jp/caltar/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" target="_blank">システム</a>-c-c-c-<ul>-c-c-c- 	<li>目的を遂行するための体系や組織</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ロボットシステム-c-c-c-<ul>-c-c-c- 	<li>目的を遂行するために動作</li>-c-c-c- 	<li>動作のための様々な要素-c-c-c-<ul>-c-c-c- 	<li>センサ</li>-c-c-c- 	<li>アクチュエータ</li>-c-c-c- 	<li>電気回路</li>-c-c-c- 	<li><span style="color: #ffff00;">コンピュータ</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c--c-c-c-<span style="color: #ffff00;">本講義はコンピュータとその先を中心に扱う</span>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>コンピュータの先</h2>-c-c-c-<ul>-c-c-c- 	<li><a href="http://yougo.ascii.jp/caltar/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" target="_blank">システム</a>-c-c-c-<ul>-c-c-c- 	<li>目的を遂行するための体系や組織</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ロボットシステム-c-c-c-<ul>-c-c-c- 	<li>目的を遂行するために動作</li>-c-c-c- 	<li>動作のための様々な要素-c-c-c-<ul>-c-c-c- 	<li>センサ</li>-c-c-c- 	<li>アクチュエータ</li>-c-c-c- 	<li>電気回路</li>-c-c-c- 	<li>コンピュータ</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第1回</h2>
+&nbsp;
+
+上田 隆一
+
+&nbsp;
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>動機付け（なんでこの講義があるのか）</li>
+</ul>
+<!--nextpage-->
+<h2>ロボットシステム</h2>
+<ul>
+ 	<li><a href="http://yougo.ascii.jp/caltar/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" target="_blank">システム</a>
+<ul>
+ 	<li>目的を遂行するための体系や組織</li>
+</ul>
+</li>
+ 	<li>ロボットシステム
+<ul>
+ 	<li>目的を遂行するために動作</li>
+ 	<li>動作のための様々な要素
+<ul>
+ 	<li>センサ</li>
+ 	<li>アクチュエータ</li>
+ 	<li>電気回路</li>
+ 	<li><span style="color: #ffff00;">コンピュータ</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp;
+
+<span style="color: #ffff00;">本講義はコンピュータとその先を中心に扱う</span>
+
+<!--nextpage-->
+<h2>コンピュータの先</h2>
+<ul>
+ 	<li><a href="http://yougo.ascii.jp/caltar/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" target="_blank">システム</a>
+<ul>
+ 	<li>目的を遂行するための体系や組織</li>
+</ul>
+</li>
+ 	<li>ロボットシステム
+<ul>
+ 	<li>目的を遂行するために動作</li>
+ 	<li>動作のための様々な要素
+<ul>
+ 	<li>センサ</li>
+ 	<li>アクチュエータ</li>
+ 	<li>電気回路</li>
+ 	<li>コンピュータ</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

@@ -1,1 +1,60 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第11回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年12月21日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>ロボットと通信</h2>-c-c-c-<ul>-c-c-c- 	<li>自律分散系には必須ですね-c-c-c-<ul>-c-c-c- 	<li>そうですよね？</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>使いますよね-c-c-c-<ul>-c-c-c- 	<li>リモート監視・操作等</li>-c-c-c- 	<li>環境に埋め込んだセンサやアクチュエータの操作</li>-c-c-c- 	<li>ソフトウェアのインストール</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ff0000;">必須 </span></li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>本日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>ネットワーク関係の設定方法を一通りおさえる</li>-c-c-c- 	<li>イーサネット・TCP/IP IP-c-c-c-<ul>-c-c-c- 	<li>アドレス・ポート</li>-c-c-c- 	<li>ソケット通信については前期やったそうなので割愛</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ssh</li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>IPアドレスの設定</h2>-c-c-c-<ul>-c-c-c- 	<li>有線（Raspberry Piの場合）-c-c-c-<ul>-c-c-c- 	<li>最初からDHCPに設定されている</li>-c-c-c- 	<li>通常はこのままDHCPで良い-c-c-c-<ul>-c-c-c- 	<li>固定すると別の環境でログインできなくなる等、難しくなる</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>IPアドレスはルータのウェブページ、nmap等で確認可能-c-c-c-<ul>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">$ nmap -sP 192.168.2.0/24</span></pre>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>DHCPでもルータ等で固定できる</li>-c-c-c-</ul>
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第11回</h2>
+上田 隆一
+
+2016年12月21日\@千葉工業大学
+
+<!--nextpage-->
+<h2>ロボットと通信</h2>
+<ul>
+ 	<li>自律分散系には必須ですね
+<ul>
+ 	<li>そうですよね？</li>
+</ul>
+</li>
+ 	<li>使いますよね
+<ul>
+ 	<li>リモート監視・操作等</li>
+ 	<li>環境に埋め込んだセンサやアクチュエータの操作</li>
+ 	<li>ソフトウェアのインストール</li>
+</ul>
+</li>
+ 	<li><span style="color: #ff0000;">必須 </span></li>
+</ul>
+<!--nextpage-->
+<h2>本日の内容</h2>
+<ul>
+ 	<li>ネットワーク関係の設定方法を一通りおさえる</li>
+ 	<li>イーサネット・TCP/IP IP
+<ul>
+ 	<li>アドレス・ポート</li>
+ 	<li>ソケット通信については前期やったそうなので割愛</li>
+</ul>
+</li>
+ 	<li>ssh</li>
+</ul>
+&nbsp;
+
+<!--nextpage-->
+<h2>IPアドレスの設定</h2>
+<ul>
+ 	<li>有線（Raspberry Piの場合）
+<ul>
+ 	<li>最初からDHCPに設定されている</li>
+ 	<li>通常はこのままDHCPで良い
+<ul>
+ 	<li>固定すると別の環境でログインできなくなる等、難しくなる</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>IPアドレスはルータのウェブページ、nmap等で確認可能
+<ul>
+ 	<li>
+<pre><span style="color: #ffffff;">$ nmap -sP 192.168.2.0/24</span></pre>
+</li>
+</ul>
+</li>
+ 	<li>DHCPでもルータ等で固定できる</li>
+</ul>

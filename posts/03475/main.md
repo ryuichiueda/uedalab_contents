@@ -1,1 +1,14 @@
-上田研、藤井研主催で、「<a href="http://www.robot.t.u-tokyo.ac.jp/workshop/#ws" rel="noopener" target="_blank">先端ロボット工学合同ワークショップ</a>」を新習志野キャンパスで開催しました。-c-c-c--c-c-c-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田研、藤井研の兄弟研究室の教員、学生が新習志野キャンパスに集まってワークショップを開いています。<br><br>学生さんがプレゼンするのですが、普通の学会より多い250人以上の前で発表しなければなりません・・・ <a href="https://t.co/AJe64AjX8G">pic.twitter.com/AJe64AjX8G</a></p>&mdash; 千葉工大 未来ロボティクス学科 (\@robo_cit) <a href="https://twitter.com/robo_cit/status/1056006753844776960?ref_src=twsrc%5Etfw">October 27, 2018</a></blockquote>-c-c-c-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-c-c-c--c-c-c--c-c-c-会の趣旨、様子は上のツイートの通りです。-c-c-c--c-c-c--c-c-c-この会、発表者はだいたい20人強で、発表は採点され、順位がつきます。本年度は嬉しいことに、本研究室4年生の齊藤君が第3位に入りました。修士が中心の会で立派でした。-c-c-c--c-c-c--c-c-c--c-c-c-
+上田研、藤井研主催で、「<a href="http://www.robot.t.u-tokyo.ac.jp/workshop/#ws" rel="noopener" target="_blank">先端ロボット工学合同ワークショップ</a>」を新習志野キャンパスで開催しました。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">上田研、藤井研の兄弟研究室の教員、学生が新習志野キャンパスに集まってワークショップを開いています。<br><br>学生さんがプレゼンするのですが、普通の学会より多い250人以上の前で発表しなければなりません・・・ <a href="https://t.co/AJe64AjX8G">pic.twitter.com/AJe64AjX8G</a></p>&mdash; 千葉工大 未来ロボティクス学科 (\@robo_cit) <a href="https://twitter.com/robo_cit/status/1056006753844776960?ref_src=twsrc%5Etfw">October 27, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+会の趣旨、様子は上のツイートの通りです。
+
+
+この会、発表者はだいたい20人強で、発表は採点され、順位がつきます。本年度は嬉しいことに、本研究室4年生の齊藤君が第3位に入りました。修士が中心の会で立派でした。
+
+
+
+

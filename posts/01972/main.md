@@ -1,1 +1,114 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第5回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年10月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>ファイルシステムとデバイス</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>カーネルの再構築（宿題）</h2>-c-c-c-<ul>-c-c-c- 	<li>LinuxをGitHubからクローンしてビルドしてカーネルを作ります</li>-c-c-c- 	<li>手順-c-c-c-<ol>-c-c-c- 	<li><span style="color: #00ffff;">$ git clone https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ cd raspberry_pi_kernel_build_scripts</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ sudo ./kernel_build_and_install_for_pi2_pi3.bash</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ sudo reboot</span></li>-c-c-c-</ol>-c-c-c-</li>-c-c-c- 	<li>スクリプトの中は一度読んでおいてください</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>カーネルの入れ替わりの確認</h2>-c-c-c-<ul>-c-c-c- 	<li>uname -aでビルドされた日時を確認</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">pi\@raspberrypi:~ $ uname -a-c-c-c-Linux raspberrypi 4.4.22-v7+ #1 SMP Mon Sep 26 13:11:18 JST 2016 armv7l GNU/Linux</span></pre>-c-c-c-<!--nextpage-->-c-c-c-<h2>ファイルシステム</h2>-c-c-c-<ul>-c-c-c- 	<li>OS の最重要機能の一つ</li>-c-c-c- 	<li>機能-c-c-c-<ul>-c-c-c- 	<li>誰にでも分かりやすいもの</li>-c-c-c- 	<li>HDDを使えるようにする</li>-c-c-c- 	<li>USBメモリを使えるようにする</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>人によっては意外なもの-c-c-c-<ul>-c-c-c- 	<li>外部の機器（センサ等）を使えるようにする</li>-c-c-c- 	<li>OS と通信する</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ローカルファイルシステム</h2>-c-c-c-<ul>-c-c-c- 	<li>ストレージ側のファイルシステム-c-c-c-<ul>-c-c-c- 	<li>何百万、何百兆のゼロイチの並びのどこにファイル・ディレクトリ、その他メタデータ等を置くかを規定・実現</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>主なファイルシステム-c-c-c-<ul style="font-size: 80%;">-c-c-c- 	<li>ext4, ext3, (extended file system): Linux</li>-c-c-c- 	<li>UFS2 (UNIX File System2): FreeBSD</li>-c-c-c- 	<li>HFS+ (Hierarchical File System Plus): Mac OS X</li>-c-c-c- 	<li>NTFS (NT File System), FAT16, FAT32, exFAT: Windows</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>特殊なファイルシステム-c-c-c-<ul>-c-c-c- 	<li>procfs, sysfs, tmpfs, スワップファイルシステム</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ストレージにデータを書く仕組み</h2>-c-c-c-<ul>-c-c-c- 	<li>ストレージがあったら、いくつかのパーティションに分け、それぞれの形式でファイルシステムをフォーマットして使う-c-c-c-<ul>-c-c-c- 	<li>パーティションを確認してみましょう-c-c-c-<ul>-c-c-c- 	<li><span style="color: #0000ff;">$<span class="s2"> sudo parted -l</span></span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ストレージの区分け-c-c-c-<ul>-c-c-c- 	<li>パーティション[latex]\\rightarrow[/latex]ローカルファイルシステム[latex]\\rightarrow[/latex]ブロックグループ[latex]\\rightarrow[/latex]ブロック</li>-c-c-c- 	<li>注意: HDD 自体にもセクタ、トラック、シリンダーという階層構造があるが、それは別の話</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>デバイスドライバ</h2>-c-c-c-<ul>-c-c-c- 	<li>機器の機能をユーザが使えるようにするプログラム</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>-c-c-c-<ul>-c-c-c- 	<li>GPIO25とGNDの間にLEDを接続-c-c-c-<ul>-c-c-c- 	<li>GPIO25: 22番ピン</li>-c-c-c- 	<li>GND: 39番ピン</li>-c-c-c- 	<li>LEDのアノード（足の長い方）をGPIO25に</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>抵抗はなくても特に問題ない-c-c-c-<ul>-c-c-c- 	<li>抵抗をつなぐとLEDに優しい</li>-c-c-c- 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第5回</h2>
+上田 隆一
+
+2016年10月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>ファイルシステムとデバイス</li>
+</ul>
+<!--nextpage-->
+<h2>カーネルの再構築（宿題）</h2>
+<ul>
+ 	<li>LinuxをGitHubからクローンしてビルドしてカーネルを作ります</li>
+ 	<li>手順
+<ol>
+ 	<li><span style="color: #00ffff;">$ git clone https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git</span></li>
+ 	<li><span style="color: #00ffff;">$ cd raspberry_pi_kernel_build_scripts</span></li>
+ 	<li><span style="color: #00ffff;">$ sudo ./kernel_build_and_install_for_pi2_pi3.bash</span></li>
+ 	<li><span style="color: #00ffff;">$ sudo reboot</span></li>
+</ol>
+</li>
+ 	<li>スクリプトの中は一度読んでおいてください</li>
+</ul>
+<!--nextpage-->
+<h2>カーネルの入れ替わりの確認</h2>
+<ul>
+ 	<li>uname -aでビルドされた日時を確認</li>
+</ul>
+<pre><span style="color: #ffffff;">pi\@raspberrypi:~ $ uname -a
+Linux raspberrypi 4.4.22-v7+ #1 SMP Mon Sep 26 13:11:18 JST 2016 armv7l GNU/Linux</span></pre>
+<!--nextpage-->
+<h2>ファイルシステム</h2>
+<ul>
+ 	<li>OS の最重要機能の一つ</li>
+ 	<li>機能
+<ul>
+ 	<li>誰にでも分かりやすいもの</li>
+ 	<li>HDDを使えるようにする</li>
+ 	<li>USBメモリを使えるようにする</li>
+</ul>
+</li>
+ 	<li>人によっては意外なもの
+<ul>
+ 	<li>外部の機器（センサ等）を使えるようにする</li>
+ 	<li>OS と通信する</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>ローカルファイルシステム</h2>
+<ul>
+ 	<li>ストレージ側のファイルシステム
+<ul>
+ 	<li>何百万、何百兆のゼロイチの並びのどこにファイル・ディレクトリ、その他メタデータ等を置くかを規定・実現</li>
+</ul>
+</li>
+ 	<li>主なファイルシステム
+<ul style="font-size: 80%;">
+ 	<li>ext4, ext3, (extended file system): Linux</li>
+ 	<li>UFS2 (UNIX File System2): FreeBSD</li>
+ 	<li>HFS+ (Hierarchical File System Plus): Mac OS X</li>
+ 	<li>NTFS (NT File System), FAT16, FAT32, exFAT: Windows</li>
+</ul>
+</li>
+ 	<li>特殊なファイルシステム
+<ul>
+ 	<li>procfs, sysfs, tmpfs, スワップファイルシステム</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>ストレージにデータを書く仕組み</h2>
+<ul>
+ 	<li>ストレージがあったら、いくつかのパーティションに分け、それぞれの形式でファイルシステムをフォーマットして使う
+<ul>
+ 	<li>パーティションを確認してみましょう
+<ul>
+ 	<li><span style="color: #0000ff;">$<span class="s2"> sudo parted -l</span></span></li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>ストレージの区分け
+<ul>
+ 	<li>パーティション[latex]\\rightarrow[/latex]ローカルファイルシステム[latex]\\rightarrow[/latex]ブロックグループ[latex]\\rightarrow[/latex]ブロック</li>
+ 	<li>注意: HDD 自体にもセクタ、トラック、シリンダーという階層構造があるが、それは別の話</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>デバイスドライバ</h2>
+<ul>
+ 	<li>機器の機能をユーザが使えるようにするプログラム</li>
+</ul>
+<!--nextpage-->
+<h2>回路の例<a href="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25.jpg"><img class="alignright size-medium wp-image-1706" src="https://lab.ueda.asia/wp-content/uploads/2016/09/gpio25-300x225.jpg" alt="gpio25" width="300" height="225" /></a></h2>
+<ul>
+ 	<li>GPIO25とGNDの間にLEDを接続
+<ul>
+ 	<li>GPIO25: 22番ピン</li>
+ 	<li>GND: 39番ピン</li>
+ 	<li>LEDのアノード（足の長い方）をGPIO25に</li>
+</ul>
+</li>
+ 	<li>抵抗はなくても特に問題ない
+<ul>
+ 	<li>抵抗をつなぐとLEDに優しい</li>
+ 	<li>抵抗をつなぐ場合は200-300Ω程度（適当）</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->

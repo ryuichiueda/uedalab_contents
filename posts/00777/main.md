@@ -1,1 +1,25 @@
-<h2>staff</h2>-c-c-c-<ul>-c-c-c- 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>-c-c-c-</ul>-c-c-c-<h2>B4 (senior year)</h2>-c-c-c-<ul>-c-c-c- 	<li>Makoto Inoue</li>-c-c-c- 	<li>Yuichi Okane</li>-c-c-c-</ul>-c-c-c-<h2>B3 (junior year)</h2>-c-c-c-<ul>-c-c-c- 	<li>Shota Hirama</li>-c-c-c- 	<li>Masaki Igari</li>-c-c-c- 	<li>Masahiroi Kato</li>-c-c-c- 	<li>Akira Kudo</li>-c-c-c- 	<li>Hayato Nakano</li>-c-c-c- 	<li>Masaya Okawa</li>-c-c-c- 	<li>Shogo Ota</li>-c-c-c- 	<li>Daisuke Sato</li>-c-c-c- 	<li>Hideto Sato</li>-c-c-c- 	<li>Yuki Sato</li>-c-c-c- 	<li>Ryouga Sato</li>-c-c-c- 	<li>Huang Shuai</li>-c-c-c- 	<li>Kousei Yamagata</li>-c-c-c-</ul>
+<h2>staff</h2>
+<ul>
+ 	<li id="ryuichiueda"><a href="http://lab.ueda.asia/?page_id=42">Ryuichi Ueda</a></li>
+</ul>
+<h2>B4 (senior year)</h2>
+<ul>
+ 	<li>Makoto Inoue</li>
+ 	<li>Yuichi Okane</li>
+</ul>
+<h2>B3 (junior year)</h2>
+<ul>
+ 	<li>Shota Hirama</li>
+ 	<li>Masaki Igari</li>
+ 	<li>Masahiroi Kato</li>
+ 	<li>Akira Kudo</li>
+ 	<li>Hayato Nakano</li>
+ 	<li>Masaya Okawa</li>
+ 	<li>Shogo Ota</li>
+ 	<li>Daisuke Sato</li>
+ 	<li>Hideto Sato</li>
+ 	<li>Yuki Sato</li>
+ 	<li>Ryouga Sato</li>
+ 	<li>Huang Shuai</li>
+ 	<li>Kousei Yamagata</li>
+</ul>

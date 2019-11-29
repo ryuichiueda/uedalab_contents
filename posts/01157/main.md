@@ -1,1 +1,19 @@
-<h1 style="font-size:250%">ロボットシステム学</h1>-c-c-c-<h2>第1回</h2>-c-c-c--c-c-c-<p>&nbsp;</p>-c-c-c-<p>上田 隆一</p>-c-c-c-<p>&nbsp;</p>-c-c-c-<p>2016年9月?日\@千葉工業大学</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>今日の内容</h2>-c-c-c-　-c-c-c-<ul>-c-c-c-	<li>動機付け</li>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c--c-c-c-
+<h1 style="font-size:250%">ロボットシステム学</h1>
+<h2>第1回</h2>
+
+<p>&nbsp;</p>
+<p>上田 隆一</p>
+<p>&nbsp;</p>
+<p>2016年9月?日\@千葉工業大学</p>
+
+<!--nextpage-->
+
+<h2>今日の内容</h2>
+　
+<ul>
+	<li>動機付け</li>
+</ul>
+
+
+
+

@@ -1,1 +1,107 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第1回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>動機付け（なんでこの講義があるのか）</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>講義の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>第1回: 確率ロボティクスとは（今回）-c-c-c-<ul>-c-c-c- 	<li>後半、理論の話をします</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>第2回: デッドレコニング</li>-c-c-c- 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>-c-c-c- 	<li>第4回: センサ情報処理の実装</li>-c-c-c- 	<li>第5回: リサンプリング、リセット</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第6回: マルコフ決定過程</li>-c-c-c- 	<li>第7回: 価値反復</li>-c-c-c- 	<li>第8回: 強化学習</li>-c-c-c- 	<li>第9回: POMDP</li>-c-c-c- 	<li>第10回: POMDPに対する実装の例</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第11回: SLAM</li>-c-c-c- 	<li>第12回: オンラインSLAM</li>-c-c-c- 	<li>第13回: オフラインSLAM</li>-c-c-c- 	<li>第14回: 課題についての議論と解説</li>-c-c-c- 	<li>第15回: まとめ</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>進め方</h2>-c-c-c-<ul>-c-c-c- 	<li>式を説明して練習問題を解くような形式で進める予定-c-c-c-<ul>-c-c-c- 	<li>古典的、基礎的なところを重視</li>-c-c-c- 	<li>講師の個人的な事情もあり・・・</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>テスト・レポート等</h2>-c-c-c-<ul>-c-c-c- 	<li>課題は2回-c-c-c-<ul>-c-c-c- 	<li>各20点（＋α）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>テストは1回-c-c-c-<ul>-c-c-c- 	<li>60点</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>出席-c-c-c-<ul>-c-c-c- 	<li>8回以上で成績をつける対象</li>-c-c-c- 	<li>遅刻、早退は0.5回とカウント</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>参考図書</h2>-c-c-c-<ul>-c-c-c- 	<li>Thrun et al.: Probabilistic ROBOTICS, MIT press, 2005.</li>-c-c-c- 	<li>Bishop: Pattern Recognition and Machine Learning, Springer, 2006.</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>さっそく始めましょう</h2>-c-c-c-<ul>-c-c-c- 	<li>背景となる理論-c-c-c-<ul>-c-c-c- 	<li>最適制御理論</li>-c-c-c- 	<li>確率論</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>ロボットの問題を一般的に表す</h2>-c-c-c-<ul>-c-c-c- 	<li>ロボットの研究によくある登場人物-c-c-c-<ul>-c-c-c- 	<li>ロボット、環境、障害物（動くもの、動かないもの）、人・・・</li>-c-c-c- 	<li><span style="color: #ffff00;">どうやって数式で表すか？</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ポイント-c-c-c-<ul>-c-c-c- 	<li>物理法則に支配されている</li>-c-c-c- 	<li>ただ、ロボットは自分で行動を判断できる</li>-c-c-c- 	<li>ロボットの体は環境の一部か否か-c-c-c-<ul>-c-c-c- 	<li>「判断する何か」から見たら環境の一部</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第1回</h2>
+上田 隆一
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>動機付け（なんでこの講義があるのか）</li>
+</ul>
+<!--nextpage-->
+<h2>講義の内容</h2>
+<ul>
+ 	<li>第1回: 確率ロボティクスとは（今回）
+<ul>
+ 	<li>後半、理論の話をします</li>
+</ul>
+</li>
+ 	<li>第2回: デッドレコニング</li>
+ 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>
+ 	<li>第4回: センサ情報処理の実装</li>
+ 	<li>第5回: リサンプリング、リセット</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第6回: マルコフ決定過程</li>
+ 	<li>第7回: 価値反復</li>
+ 	<li>第8回: 強化学習</li>
+ 	<li>第9回: POMDP</li>
+ 	<li>第10回: POMDPに対する実装の例</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第11回: SLAM</li>
+ 	<li>第12回: オンラインSLAM</li>
+ 	<li>第13回: オフラインSLAM</li>
+ 	<li>第14回: 課題についての議論と解説</li>
+ 	<li>第15回: まとめ</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>進め方</h2>
+<ul>
+ 	<li>式を説明して練習問題を解くような形式で進める予定
+<ul>
+ 	<li>古典的、基礎的なところを重視</li>
+ 	<li>講師の個人的な事情もあり・・・</li>
+</ul>
+</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>テスト・レポート等</h2>
+<ul>
+ 	<li>課題は2回
+<ul>
+ 	<li>各20点（＋α）</li>
+</ul>
+</li>
+ 	<li>テストは1回
+<ul>
+ 	<li>60点</li>
+</ul>
+</li>
+ 	<li>出席
+<ul>
+ 	<li>8回以上で成績をつける対象</li>
+ 	<li>遅刻、早退は0.5回とカウント</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>参考図書</h2>
+<ul>
+ 	<li>Thrun et al.: Probabilistic ROBOTICS, MIT press, 2005.</li>
+ 	<li>Bishop: Pattern Recognition and Machine Learning, Springer, 2006.</li>
+</ul>
+<!--nextpage-->
+<h2>さっそく始めましょう</h2>
+<ul>
+ 	<li>背景となる理論
+<ul>
+ 	<li>最適制御理論</li>
+ 	<li>確率論</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>ロボットの問題を一般的に表す</h2>
+<ul>
+ 	<li>ロボットの研究によくある登場人物
+<ul>
+ 	<li>ロボット、環境、障害物（動くもの、動かないもの）、人・・・</li>
+ 	<li><span style="color: #ffff00;">どうやって数式で表すか？</span></li>
+</ul>
+</li>
+ 	<li>ポイント
+<ul>
+ 	<li>物理法則に支配されている</li>
+ 	<li>ただ、ロボットは自分で行動を判断できる</li>
+ 	<li>ロボットの体は環境の一部か否か
+<ul>
+ 	<li>「判断する何か」から見たら環境の一部</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

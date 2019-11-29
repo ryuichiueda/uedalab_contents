@@ -1,1 +1,56 @@
-Ueda's personal/previous works are listed <a href="https://blog.ueda.asia/?page_id=6033" target="_blank">here</a>.-c-c-c-<h2>2016</h2>-c-c-c-&nbsp;-c-c-c--c-c-c-<h3>Review article</h3>-c-c-c--c-c-c-<ul>-c-c-c- <li>上田 隆一:<br />"確率ロボティクスの歩みと将来展望,"<br />システム/制御/情報, 2016. (to appear)</li>-c-c-c-</ul>-c-c-c--c-c-c-<h3>Journal articles</h3>-c-c-c--c-c-c-<ul>-c-c-c- 	<li>S. Hoshino, T. Ishiwata, R. Ueda: Optimal Patrolling Methodology of Mobile Robot for Unknown Visitors, Advanced Robotics, Vol. 30, No. 16, pp. 1072-1085. doi: <a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1192064" target="_blank">10.1080/01691864.2016.1192064</a></li>-c-c-c- 	<li>Ryuichi Ueda: Small Implementation of Decision Making Policy for the Height Task of the Acrobot, Advanced Robotics, Vol. 30, No. 11-12, pp. 744-757, 2016. doi: 10.1080/01691864.2016.1159980 (<a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1159980" target="_blank">link</a>)-c-c-c-<ul>-c-c-c- 	<li><a href="https://www.researchgate.net/publication/296198818_Small_Implementation_of_Decision_Making_Policy_for_the_Height_Task_of_the_Acrobot" target="_blank">researchgete.net (preprint)</a></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h3>Conference proceedings (peer-reviewed)</h3>-c-c-c--c-c-c-<ul>-c-c-c- 	<li>Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, IAS-14, Shanghai, July, 2016.</li>-c-c-c-</ul>-c-c-c--c-c-c-<h3>Conference proceedings (non-peer-reviewed)</h3>-c-c-c-<ul>-c-c-c- 	<li>夏迫 和也, 井上 裕文, 寺戸 翔太朗, 天野 達也, 久保田 健太, 後藤 大輝, 塩谷 椎名, 嶋村 駿, 長島 貴之, 上田 隆一, 林原 靖男: つくばチャレンジ 2016 に おける千葉工業大学ロボット設計 制御研究室の取り組み, 第17回計測自動制御学会システムインテグレーション部門講演会, 1B2-3, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>井上 裕文, 上田 隆一, 林原 靖男: 高低差格子地図を用いた移動 ロボットの自己位置推定, 第17回計測自動制御学会システムインテグレーション部門講演会, 3I1-4, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>平間 翔大, 中川 友紀子, 中川 範晃, 上田 隆一: 力制御マニピュレータによ る食品の操作 ---深層学習による不定形な揚げ物の検出, 第17回計測自動制御学会システムインテグレーション部門講演会, 3F2-1, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>中川 友紀子, 中川 範晃, 平間 翔大: 力制御マニピュレータによ る食品の操作 ---現場における多種多様な食材に対応する動作の迅速な直接教示手法, 第17回計測自動制御学会システムインテグレーション部門講演会, 3F2-2, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>寺戸 翔太朗, 井上 裕文, 上田 隆一, 林原 靖男: 環境地図に基づくロボットの 特性を考慮した経路生成に関する 研究,第17回計測自動制御学会システムインテグレーション部門講演会, 3I2-2, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>伊藤 駿, 王 志東, 上田 隆一: 屋内での人間及び動的物体の 移動情報に基づいた移動ロボット の大域経路計画器, 第17回計測自動制御学会システムインテグレーション部門講演会, 3I2-3, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>上田 隆一, 中川 友紀子, 青木 政武, 中川 範晃: Raspberry Pi Mouse ---プラットフォームロボット教材のリソース蓄積と講習会の展開, 第17回計測自動制御学会システムインテグレーション部門講演会, 3A4-3, 札幌, 2016. (to appear)</li>-c-c-c- 	<li>-c-c-c-<p class="p1">星野智史, 石渡貴仁, 上田隆一: ベイズ学習と価値反復法に基づいた警備ロボットの最適巡視, 第34回日本ロボット学会学術講演会, RSJ2016AC3G2-06, 2016.</p>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<h3>Nonacademic publications</h3>-c-c-c-<ul>-c-c-c- 	<li>平間翔大: ロボットアームでから揚げを盛り付ける, 日経Linux, 日経PB社, 2016年12月号（雑誌記事）</li>-c-c-c- 	<li>上田隆一: Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜9月号（雑誌連載）</li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c-<h2>2015</h2>-c-c-c-<h3>Conference proceedings</h3>-c-c-c-<ul>-c-c-c- 	<li>Yukiko Nakagawa, Masatake Aoki, Shunsuke Sakura, Noriaki Nakagawa, Ryuichi Ueda, and Amy Eguchi: "Raspberry Pi Mouse: A Micromouse with Full Linux Environment," Proceedings of the 6th International Conference on Advanced Mechatronics (ICAM2015), pp.14-15, Tokyo, Japan, December 5-8, 2015.</li>-c-c-c- 	<li>中川友紀子, 青木政武, 佐倉俊佑, 中川範晃, 上田隆一: "Raspberry Pi マウス ---Linux 環境でプログラミング可能なロボット教材の開発," 第16回システムインテグレーション部門講演会 (SI2015), pp. 1854-1855, 2015.</li>-c-c-c- 	<li>上田隆一, 水田恒太郎, 山川宏, 岡田浩之: "エピソード上のパーティクルフィルタによる齧歯類の迷路学習のシミュレーション," 第33回日本ロボット学会学術講演会, 2015.</li>-c-c-c-</ul>-c-c-c-<h3>Nonacademic publications</h3>-c-c-c-<ul>-c-c-c- 	<li>Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号（雑誌連載）</li>-c-c-c-</ul>
+Ueda's personal/previous works are listed <a href="https://blog.ueda.asia/?page_id=6033" target="_blank">here</a>.
+<h2>2016</h2>
+&nbsp;
+
+<h3>Review article</h3>
+
+<ul>
+ <li>上田 隆一:<br />"確率ロボティクスの歩みと将来展望,"<br />システム/制御/情報, 2016. (to appear)</li>
+</ul>
+
+<h3>Journal articles</h3>
+
+<ul>
+ 	<li>S. Hoshino, T. Ishiwata, R. Ueda: Optimal Patrolling Methodology of Mobile Robot for Unknown Visitors, Advanced Robotics, Vol. 30, No. 16, pp. 1072-1085. doi: <a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1192064" target="_blank">10.1080/01691864.2016.1192064</a></li>
+ 	<li>Ryuichi Ueda: Small Implementation of Decision Making Policy for the Height Task of the Acrobot, Advanced Robotics, Vol. 30, No. 11-12, pp. 744-757, 2016. doi: 10.1080/01691864.2016.1159980 (<a href="http://www.tandfonline.com/doi/abs/10.1080/01691864.2016.1159980" target="_blank">link</a>)
+<ul>
+ 	<li><a href="https://www.researchgate.net/publication/296198818_Small_Implementation_of_Decision_Making_Policy_for_the_Height_Task_of_the_Acrobot" target="_blank">researchgete.net (preprint)</a></li>
+</ul>
+</li>
+</ul>
+<h3>Conference proceedings (peer-reviewed)</h3>
+
+<ul>
+ 	<li>Ryuichi Ueda, Kotaro Mizuta, Hiroshi Yamakawa and Hiroyuki Okada: Particle Filter on Episode for Learning Decision Making Rule, IAS-14, Shanghai, July, 2016.</li>
+</ul>
+
+<h3>Conference proceedings (non-peer-reviewed)</h3>
+<ul>
+ 	<li>夏迫 和也, 井上 裕文, 寺戸 翔太朗, 天野 達也, 久保田 健太, 後藤 大輝, 塩谷 椎名, 嶋村 駿, 長島 貴之, 上田 隆一, 林原 靖男: つくばチャレンジ 2016 に おける千葉工業大学ロボット設計 制御研究室の取り組み, 第17回計測自動制御学会システムインテグレーション部門講演会, 1B2-3, 札幌, 2016. (to appear)</li>
+ 	<li>井上 裕文, 上田 隆一, 林原 靖男: 高低差格子地図を用いた移動 ロボットの自己位置推定, 第17回計測自動制御学会システムインテグレーション部門講演会, 3I1-4, 札幌, 2016. (to appear)</li>
+ 	<li>平間 翔大, 中川 友紀子, 中川 範晃, 上田 隆一: 力制御マニピュレータによ る食品の操作 ---深層学習による不定形な揚げ物の検出, 第17回計測自動制御学会システムインテグレーション部門講演会, 3F2-1, 札幌, 2016. (to appear)</li>
+ 	<li>中川 友紀子, 中川 範晃, 平間 翔大: 力制御マニピュレータによ る食品の操作 ---現場における多種多様な食材に対応する動作の迅速な直接教示手法, 第17回計測自動制御学会システムインテグレーション部門講演会, 3F2-2, 札幌, 2016. (to appear)</li>
+ 	<li>寺戸 翔太朗, 井上 裕文, 上田 隆一, 林原 靖男: 環境地図に基づくロボットの 特性を考慮した経路生成に関する 研究,第17回計測自動制御学会システムインテグレーション部門講演会, 3I2-2, 札幌, 2016. (to appear)</li>
+ 	<li>伊藤 駿, 王 志東, 上田 隆一: 屋内での人間及び動的物体の 移動情報に基づいた移動ロボット の大域経路計画器, 第17回計測自動制御学会システムインテグレーション部門講演会, 3I2-3, 札幌, 2016. (to appear)</li>
+ 	<li>上田 隆一, 中川 友紀子, 青木 政武, 中川 範晃: Raspberry Pi Mouse ---プラットフォームロボット教材のリソース蓄積と講習会の展開, 第17回計測自動制御学会システムインテグレーション部門講演会, 3A4-3, 札幌, 2016. (to appear)</li>
+ 	<li>
+<p class="p1">星野智史, 石渡貴仁, 上田隆一: ベイズ学習と価値反復法に基づいた警備ロボットの最適巡視, 第34回日本ロボット学会学術講演会, RSJ2016AC3G2-06, 2016.</p>
+</li>
+</ul>
+<h3>Nonacademic publications</h3>
+<ul>
+ 	<li>平間翔大: ロボットアームでから揚げを盛り付ける, 日経Linux, 日経PB社, 2016年12月号（雑誌記事）</li>
+ 	<li>上田隆一: Raspberry Piで作ろう お手軽ロボット教室, 日経Linux, 日経PB社, 2016年1月号〜9月号（雑誌連載）</li>
+</ul>
+&nbsp;
+<h2>2015</h2>
+<h3>Conference proceedings</h3>
+<ul>
+ 	<li>Yukiko Nakagawa, Masatake Aoki, Shunsuke Sakura, Noriaki Nakagawa, Ryuichi Ueda, and Amy Eguchi: "Raspberry Pi Mouse: A Micromouse with Full Linux Environment," Proceedings of the 6th International Conference on Advanced Mechatronics (ICAM2015), pp.14-15, Tokyo, Japan, December 5-8, 2015.</li>
+ 	<li>中川友紀子, 青木政武, 佐倉俊佑, 中川範晃, 上田隆一: "Raspberry Pi マウス ---Linux 環境でプログラミング可能なロボット教材の開発," 第16回システムインテグレーション部門講演会 (SI2015), pp. 1854-1855, 2015.</li>
+ 	<li>上田隆一, 水田恒太郎, 山川宏, 岡田浩之: "エピソード上のパーティクルフィルタによる齧歯類の迷路学習のシミュレーション," 第33回日本ロボット学会学術講演会, 2015.</li>
+</ul>
+<h3>Nonacademic publications</h3>
+<ul>
+ 	<li>Raspberry Piで始めるかんたんロボット製作, 日経Linux, 日経PB社, 2015年6月号〜11月号（雑誌連載）</li>
+</ul>

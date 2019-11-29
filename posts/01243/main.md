@@ -1,1 +1,60 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第1回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年9月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>動機付け（なんでこの講義があるのか）</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>講義の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>第1回: 確率ロボティクスとは（今回）</li>-c-c-c- 	<li>第2回: デッドレコニング</li>-c-c-c- 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>-c-c-c- 	<li>第4回: センサ情報処理の実装</li>-c-c-c- 	<li>第5回: リサンプリング、リセット</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第6回: マルコフ決定過程</li>-c-c-c- 	<li>第7回: 価値反復</li>-c-c-c- 	<li>第8回: 強化学習</li>-c-c-c- 	<li>第9回: POMDP</li>-c-c-c- 	<li>第10回: POMDPに対する実装の例</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<ul>-c-c-c- 	<li>第11回: SLAM</li>-c-c-c- 	<li>第12回: オンラインSLAM</li>-c-c-c- 	<li>第13回: オフラインSLAM</li>-c-c-c- 	<li>第14回: 課題についての議論と解説</li>-c-c-c- 	<li>第15回: まとめ</li>-c-c-c-</ul>-c-c-c-<h2><!--nextpage--></h2>-c-c-c-<h2>テスト・レポート等</h2>-c-c-c-<ul>-c-c-c- 	<li>課題は2回-c-c-c-<ul>-c-c-c- 	<li>各20点（＋α）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>テストは1回-c-c-c-<ul>-c-c-c- 	<li>60点</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>出席-c-c-c-<ul>-c-c-c- 	<li>8回以上で成績をつける対象</li>-c-c-c- 	<li>遅刻、早退は0.5回とカウント</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>参考図書</h2>-c-c-c-<!--nextpage-->-c-c-c-<h2>次回</h2>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第1回</h2>
+上田 隆一
+
+2016年9月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>動機付け（なんでこの講義があるのか）</li>
+</ul>
+<!--nextpage-->
+<h2>講義の内容</h2>
+<ul>
+ 	<li>第1回: 確率ロボティクスとは（今回）</li>
+ 	<li>第2回: デッドレコニング</li>
+ 	<li>第3回: センサ計測をパーティクルの分布に反映させる方法</li>
+ 	<li>第4回: センサ情報処理の実装</li>
+ 	<li>第5回: リサンプリング、リセット</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第6回: マルコフ決定過程</li>
+ 	<li>第7回: 価値反復</li>
+ 	<li>第8回: 強化学習</li>
+ 	<li>第9回: POMDP</li>
+ 	<li>第10回: POMDPに対する実装の例</li>
+</ul>
+<h2><!--nextpage--></h2>
+<ul>
+ 	<li>第11回: SLAM</li>
+ 	<li>第12回: オンラインSLAM</li>
+ 	<li>第13回: オフラインSLAM</li>
+ 	<li>第14回: 課題についての議論と解説</li>
+ 	<li>第15回: まとめ</li>
+</ul>
+<h2><!--nextpage--></h2>
+<h2>テスト・レポート等</h2>
+<ul>
+ 	<li>課題は2回
+<ul>
+ 	<li>各20点（＋α）</li>
+</ul>
+</li>
+ 	<li>テストは1回
+<ul>
+ 	<li>60点</li>
+</ul>
+</li>
+ 	<li>出席
+<ul>
+ 	<li>8回以上で成績をつける対象</li>
+ 	<li>遅刻、早退は0.5回とカウント</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>参考図書</h2>
+<!--nextpage-->
+<h2>次回</h2>

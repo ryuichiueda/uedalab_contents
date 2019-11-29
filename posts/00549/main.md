@@ -1,1 +1,68 @@
-<h1 style="font-size:300%">楽しい（？）-c-c-c-研究室生活</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>配属おめでとうございます</h2>-c-c-c-　-c-c-c-<p>第一志望の人もそうでない人も</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>質問があります</h2>-c-c-c-　-c-c-c-<p>研究室って何するところか分かります？？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>私なりの答え：</h2>-c-c-c-　-c-c-c-<p style="font-size:200%">学校と社会のつなぎ</p>-c-c-c-　-c-c-c-<p>とても大事。なぜか？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学校と社会の違い１</h2>-c-c-c-　-c-c-c-<h3>「価値」の違い</h3>-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校: 自分自身の価値を高める・見せることを評価</li>-c-c-c-	<ul>-c-c-c-		<li>講義で良い点を取る</li>-c-c-c-		<li>資格・学位を取る</li>-c-c-c-		<li>実習ですごいものを作る</li>-c-c-c-	</ul>-c-c-c- <p>&nbsp;</p>-c-c-c-	<li style="color:yellow">社会: 価値を生み出すことを評価</li>-c-c-c-	<ul>-c-c-c-		<li>「学校での価値」は悪趣味な自慢話</li>-c-c-c-		<li>「で、何やってくれるの？」</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学校と社会の違い２</h2>-c-c-c-　-c-c-c-<h3>「公平さ」の違い</h3>-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校: 同じ条件で点数が付く</li>-c-c-c-	<ul>-c-c-c-		<li>えこひいきしない</li>-c-c-c-		<li>掲示板を見ていれば情報は入る</li>-c-c-c-	</ul>-c-c-c- <p>&nbsp;</p>-c-c-c-	<li style="color:yellow">社会: 利益の引っ張り合いで物事が決まる</li>-c-c-c-	<ul>-c-c-c-		<li>自分に価値がないと後回しにされる</li>-c-c-c-		<li>情報は自分から取りに行かなければ取れない</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c-
+<h1 style="font-size:300%">楽しい（？）
+研究室生活</h1>
+　
+<h2>文責: 上田</h2>
+
+<!--nextpage-->
+
+<h2>配属おめでとうございます</h2>
+　
+<p>第一志望の人もそうでない人も</p>
+
+<!--nextpage-->
+
+<h2>質問があります</h2>
+　
+<p>研究室って何するところか分かります？？</p>
+
+
+<!--nextpage-->
+
+<h2>私なりの答え：</h2>
+　
+<p style="font-size:200%">学校と社会のつなぎ</p>
+　
+<p>とても大事。なぜか？</p>
+
+
+<!--nextpage-->
+
+<h2>学校と社会の違い１</h2>
+　
+<h3>「価値」の違い</h3>
+<ul style="font-size:130%;line-height:130%">
+	<li>学校: 自分自身の価値を高める・見せることを評価</li>
+	<ul>
+		<li>講義で良い点を取る</li>
+		<li>資格・学位を取る</li>
+		<li>実習ですごいものを作る</li>
+	</ul>
+ <p>&nbsp;</p>
+	<li style="color:yellow">社会: 価値を生み出すことを評価</li>
+	<ul>
+		<li>「学校での価値」は悪趣味な自慢話</li>
+		<li>「で、何やってくれるの？」</li>
+	</ul>
+</ul>
+
+
+<!--nextpage-->
+
+<h2>学校と社会の違い２</h2>
+　
+<h3>「公平さ」の違い</h3>
+<ul style="font-size:130%;line-height:130%">
+	<li>学校: 同じ条件で点数が付く</li>
+	<ul>
+		<li>えこひいきしない</li>
+		<li>掲示板を見ていれば情報は入る</li>
+	</ul>
+ <p>&nbsp;</p>
+	<li style="color:yellow">社会: 利益の引っ張り合いで物事が決まる</li>
+	<ul>
+		<li>自分に価値がないと後回しにされる</li>
+		<li>情報は自分から取りに行かなければ取れない</li>
+	</ul>
+</ul>
+
+

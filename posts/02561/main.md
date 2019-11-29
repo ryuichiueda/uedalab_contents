@@ -1,1 +1,33 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第11回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年12月21日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>ネットワーク</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>Raspberry Pi, 他UNIXシステムと通信</h2>-c-c-c-<ul>-c-c-c- 	<li>デスクトップ用途でない場合、普通は別の PCの端末エミュレータからログインして使用-c-c-c-<ul>-c-c-c- 	<li>理由-c-c-c-<ul>-c-c-c- 	<li>複数人で使う（第5回の資料参照）</li>-c-c-c- 	<li>自分のキーボードで、自分の座席で</li>-c-c-c- 	<li>Raspberry Piを組み込んだロボットからHDMI等の線を 出したくない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>ssh接続する-c-c-c-<ul>-c-c-c- 	<li>よく接続に失敗する</li>-c-c-c- 	<li>よく分からないとストレス</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第11回</h2>
+上田 隆一
+
+2016年12月21日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<ul>
+ 	<li>ネットワーク</li>
+</ul>
+<!--nextpage-->
+<h2>Raspberry Pi, 他UNIXシステムと通信</h2>
+<ul>
+ 	<li>デスクトップ用途でない場合、普通は別の PCの端末エミュレータからログインして使用
+<ul>
+ 	<li>理由
+<ul>
+ 	<li>複数人で使う（第5回の資料参照）</li>
+ 	<li>自分のキーボードで、自分の座席で</li>
+ 	<li>Raspberry Piを組み込んだロボットからHDMI等の線を 出したくない</li>
+</ul>
+</li>
+</ul>
+</li>
+ 	<li>ssh接続する
+<ul>
+ 	<li>よく接続に失敗する</li>
+ 	<li>よく分からないとストレス</li>
+</ul>
+</li>
+</ul>

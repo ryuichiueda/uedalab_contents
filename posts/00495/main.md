@@ -1,1 +1,38 @@
-<h1 style="font-size:300%">楽しい（？）-c-c-c-研究室生活</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>配属おめでとうございます</h2>-c-c-c-　-c-c-c-<p>第一志望の人もそうでない人も</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>質問があります</h2>-c-c-c-　-c-c-c-<p>研究室って何するところか分かります？？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>私なりの答え：</h2>-c-c-c-　-c-c-c-<p style="font-size:200%">学校と社会のつなぎ</p>-c-c-c-　-c-c-c-<p>とても大事。なぜか？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学校（研究室を除く）と社会の違い１</h2>-c-c-c-　-c-c-c-<h3>評価の違い</h3>-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校: 講義で良い点をとる</li>-c-c-c-	<li style="color:yellow">社会: 金を稼ぐ</li>-c-c-c-</ul>-c-c-c--c-c-c-
+<h1 style="font-size:300%">楽しい（？）
+研究室生活</h1>
+　
+<h2>文責: 上田</h2>
+
+<!--nextpage-->
+
+<h2>配属おめでとうございます</h2>
+　
+<p>第一志望の人もそうでない人も</p>
+
+<!--nextpage-->
+
+<h2>質問があります</h2>
+　
+<p>研究室って何するところか分かります？？</p>
+
+
+<!--nextpage-->
+
+<h2>私なりの答え：</h2>
+　
+<p style="font-size:200%">学校と社会のつなぎ</p>
+　
+<p>とても大事。なぜか？</p>
+
+
+<!--nextpage-->
+
+<h2>学校（研究室を除く）と社会の違い１</h2>
+　
+<h3>評価の違い</h3>
+<ul style="font-size:130%;line-height:130%">
+	<li>学校: 講義で良い点をとる</li>
+	<li style="color:yellow">社会: 金を稼ぐ</li>
+</ul>
+
+

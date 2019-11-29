@@ -1,1 +1,15 @@
-ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2016?src=hash" target="_blank">#probrobo2016</a>-c-c-c--c-c-c-iPhoneのブラウザ（ChromeとSafari）だとスライドが見られないという現象があります。-c-c-c-<h2>第1回</h2>-c-c-c-<ul>-c-c-c- 	<li><a href="https://lab.ueda.asia/?presenpress=%e7%a2%ba%e7%8e%87%e3%83%ad%e3%83%9c%e3%83%86%e3%82%a3%e3%82%af%e3%82%b92016%e7%ac%ac1%e5%9b%9e">スライド</a></li>-c-c-c-</ul>-c-c-c-<h2>第2回</h2>-c-c-c-<ul>-c-c-c- 	<li><a href="https://lab.ueda.asia/?presenpress=%e7%a2%ba%e7%8e%87%e3%83%ad%e3%83%9c%e3%83%86%e3%82%a3%e3%82%af%e3%82%b92016%e7%ac%ac2%e5%9b%9e">スライド</a></li>-c-c-c-</ul>-c-c-c-<h2>第3回</h2>-c-c-c-<ul>-c-c-c- 	<li>スライド</li>-c-c-c-</ul>
+ハッシュタグ: <a href="https://twitter.com/hashtag/probrobo2016?src=hash" target="_blank">#probrobo2016</a>
+
+iPhoneのブラウザ（ChromeとSafari）だとスライドが見られないという現象があります。
+<h2>第1回</h2>
+<ul>
+ 	<li><a href="https://lab.ueda.asia/?presenpress=%e7%a2%ba%e7%8e%87%e3%83%ad%e3%83%9c%e3%83%86%e3%82%a3%e3%82%af%e3%82%b92016%e7%ac%ac1%e5%9b%9e">スライド</a></li>
+</ul>
+<h2>第2回</h2>
+<ul>
+ 	<li><a href="https://lab.ueda.asia/?presenpress=%e7%a2%ba%e7%8e%87%e3%83%ad%e3%83%9c%e3%83%86%e3%82%a3%e3%82%af%e3%82%b92016%e7%ac%ac2%e5%9b%9e">スライド</a></li>
+</ul>
+<h2>第3回</h2>
+<ul>
+ 	<li>スライド</li>
+</ul>

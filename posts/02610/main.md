@@ -1,1 +1,73 @@
-<h1 style="font-size: 250%;">確率ロボティクス</h1>-c-c-c-<h2>第11回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年12月21日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>本日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>SLAM</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>SLAM</h2>-c-c-c-<ul>-c-c-c- 	<li>SLAM（simultaneous localization and mapping）-c-c-c-<ul>-c-c-c- 	<li>自己位置推定と地図生成を同時に行う方法</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>移動の誤差を考慮しなくても良い場合のアルゴリズム</li>-c-c-c-</ul>-c-c-c-&nbsp;-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>SLAM問題</h2>-c-c-c-<ul>-c-c-c- 	<li>次のような地図[latex]m^*[/latex]を求める問題-c-c-c-<ul>-c-c-c- 	<li>[latex]m^* = \\text{argmax}_m P(m |x_{0:t}, u_{1:t}, z_{1:t})[/latex]-c-c-c-<ul>-c-c-c- 	<li>[latex]x_{0:t}[/latex]: 行動のシーケンス[latex]（x_0,x_1,x_2,...,x_t）[/latex]</li>-c-c-c- 	<li>[latex]u_{1:t}[/latex]: センサ情報のシーケンス[latex]（u_1,u_2,u_3,...,u_t）[/latex]</li>-c-c-c- 	<li>[latex]z_{1:t}[/latex]: センサ情報のシーケンス[latex]（z_1,z_2,z_3,...,z_t）[/latex]</li>-c-c-c- 	<li>（面倒なのでベクトルも細字で書いてます）</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>SLAMの基本手続き</h2>-c-c-c-<ul>-c-c-c- 	<li>これで地図ができる （2次元の例, 距離センサを想定）-c-c-c-<ul>-c-c-c- 	<li>最初のロボットの位置[latex]x_0[/latex]（絶対座標）を[latex] (x,y,θ) = (0,0,0)[/latex]とする</li>-c-c-c- 	<li>以下の繰り返し-c-c-c-<ol>-c-c-c- 	<li>センサで障害物の位置を計測</li>-c-c-c- 	<li>障害物の位置を絶対座標に変換して記録</li>-c-c-c- 	<li>ロボットを動かしてロボットの座標を更新</li>-c-c-c-</ol>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>問題-c-c-c-<ul>-c-c-c- 	<li>移動誤差、センサの雑音</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>実際の例</h2>-c-c-c-<ul>-c-c-c- 	<li>日経Linux 2015年11月号の上田の記事より</li>-c-c-c-</ul>-c-c-c-<table>-c-c-c-<tbody>-c-c-c-<tr>-c-c-c-<td><a href="https://lab.ueda.asia/wp-content/uploads/2016/12/env.png"><img class="size-medium wp-image-2607 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/12/env-300x223.png" alt="" width="300" height="223" /></a></td>-c-c-c-<td><img class=" wp-image-2608 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/12/map-300x300.png" alt="" width="223" height="223" /></td>-c-c-c-</tr>-c-c-c-</tbody>-c-c-c-</table>
+<h1 style="font-size: 250%;">確率ロボティクス</h1>
+<h2>第11回</h2>
+上田 隆一
+
+2016年12月21日\@千葉工業大学
+
+<!--nextpage-->
+<h2>本日の内容</h2>
+<ul>
+ 	<li>SLAM</li>
+</ul>
+<!--nextpage-->
+<h2>SLAM</h2>
+<ul>
+ 	<li>SLAM（simultaneous localization and mapping）
+<ul>
+ 	<li>自己位置推定と地図生成を同時に行う方法</li>
+</ul>
+</li>
+ 	<li>移動の誤差を考慮しなくても良い場合のアルゴリズム</li>
+</ul>
+&nbsp;
+
+<!--nextpage-->
+<h2>SLAM問題</h2>
+<ul>
+ 	<li>次のような地図[latex]m^*[/latex]を求める問題
+<ul>
+ 	<li>[latex]m^* = \\text{argmax}_m P(m |x_{0:t}, u_{1:t}, z_{1:t})[/latex]
+<ul>
+ 	<li>[latex]x_{0:t}[/latex]: 行動のシーケンス[latex]（x_0,x_1,x_2,...,x_t）[/latex]</li>
+ 	<li>[latex]u_{1:t}[/latex]: センサ情報のシーケンス[latex]（u_1,u_2,u_3,...,u_t）[/latex]</li>
+ 	<li>[latex]z_{1:t}[/latex]: センサ情報のシーケンス[latex]（z_1,z_2,z_3,...,z_t）[/latex]</li>
+ 	<li>（面倒なのでベクトルも細字で書いてます）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>SLAMの基本手続き</h2>
+<ul>
+ 	<li>これで地図ができる （2次元の例, 距離センサを想定）
+<ul>
+ 	<li>最初のロボットの位置[latex]x_0[/latex]（絶対座標）を[latex] (x,y,θ) = (0,0,0)[/latex]とする</li>
+ 	<li>以下の繰り返し
+<ol>
+ 	<li>センサで障害物の位置を計測</li>
+ 	<li>障害物の位置を絶対座標に変換して記録</li>
+ 	<li>ロボットを動かしてロボットの座標を更新</li>
+</ol>
+</li>
+</ul>
+</li>
+ 	<li>問題
+<ul>
+ 	<li>移動誤差、センサの雑音</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>実際の例</h2>
+<ul>
+ 	<li>日経Linux 2015年11月号の上田の記事より</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td><a href="https://lab.ueda.asia/wp-content/uploads/2016/12/env.png"><img class="size-medium wp-image-2607 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/12/env-300x223.png" alt="" width="300" height="223" /></a></td>
+<td><img class=" wp-image-2608 alignnone" src="https://lab.ueda.asia/wp-content/uploads/2016/12/map-300x300.png" alt="" width="223" height="223" /></td>
+</tr>
+</tbody>
+</table>

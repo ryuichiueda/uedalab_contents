@@ -1,1 +1,29 @@
-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第5回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2016年10月?日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>今日の内容</h2>-c-c-c-<!--nextpage-->-c-c-c-<h2>カーネルの再構築</h2>-c-c-c-<ul>-c-c-c- 	<li>LinuxをGitHubからクローンしてビルドしてカーネルを作ります</li>-c-c-c- 	<li>手順-c-c-c-<ol>-c-c-c- 	<li><span style="color: #00ffff;">$ git clone https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ cd raspberry_pi_kernel_build_scripts</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ sudo ./kernel_build_and_install_for_pi2_pi3.bash</span></li>-c-c-c- 	<li><span style="color: #00ffff;">$ sudo reboot</span></li>-c-c-c-</ol>-c-c-c-</li>-c-c-c- 	<li>スクリプトの中は一度読んでおいてください</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>カーネルの入れ替わりの確認</h2>-c-c-c-<ul>-c-c-c- 	<li>uname -aでビルドされた日時を確認</li>-c-c-c-</ul>-c-c-c-<pre>pi\@raspberrypi:~ $ uname -a-c-c-c-Linux raspberrypi 4.4.22-v7+ #1 SMP Mon Sep 26 13:11:18 JST 2016 armv7l GNU/Linux</pre>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第5回</h2>
+上田 隆一
+
+2016年10月?日\@千葉工業大学
+
+<!--nextpage-->
+<h2>今日の内容</h2>
+<!--nextpage-->
+<h2>カーネルの再構築</h2>
+<ul>
+ 	<li>LinuxをGitHubからクローンしてビルドしてカーネルを作ります</li>
+ 	<li>手順
+<ol>
+ 	<li><span style="color: #00ffff;">$ git clone https://github.com/ryuichiueda/raspberry_pi_kernel_build_scripts.git</span></li>
+ 	<li><span style="color: #00ffff;">$ cd raspberry_pi_kernel_build_scripts</span></li>
+ 	<li><span style="color: #00ffff;">$ sudo ./kernel_build_and_install_for_pi2_pi3.bash</span></li>
+ 	<li><span style="color: #00ffff;">$ sudo reboot</span></li>
+</ol>
+</li>
+ 	<li>スクリプトの中は一度読んでおいてください</li>
+</ul>
+<!--nextpage-->
+<h2>カーネルの入れ替わりの確認</h2>
+<ul>
+ 	<li>uname -aでビルドされた日時を確認</li>
+</ul>
+<pre>pi\@raspberrypi:~ $ uname -a
+Linux raspberrypi 4.4.22-v7+ #1 SMP Mon Sep 26 13:11:18 JST 2016 armv7l GNU/Linux</pre>

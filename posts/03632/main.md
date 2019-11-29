@@ -1,1 +1,43 @@
-<h2>HoloLensを用いた移動ロボットのナビゲーションデバッグツール</h2>-c-c-c-HoloLensでパーティクルフィルタのパーティクルを表示する試み。動画中では手の操作でロボットの目的地を置く操作を行っている。-c-c-c--c-c-c-<iframe src="https://www.youtube.com/embed/Kvja3ROYhB4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>-c-c-c--c-c-c-<h2>Raspberry Pi Mouse solves kidnapped robot problem using ROS navigation stack</h2>-c-c-c--c-c-c-小型の移動ロボットに誘拐ロボット問題（ロボットが人によって任意の場所に運ばれると、自己位置を見失う問題）を解かせるという研究のムービー。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZaB9VDrkW28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c-<h2>YOLOv2による物体認識を用いたアッポーペン</h2>-c-c-c--c-c-c-YOLOとPPAPがはやっていたのでやってみました。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/NnxcNu3dGdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c--c-c-c-<h2>Jupyter Notebook + Robot</h2>-c-c-c--c-c-c-Jupyter Notebookとロボットを接続した教材を考えるというテーマでの作品です。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/KiiLwgnJNnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c-<h2>ARによるロボットのセンサ値の可視化</h2>-c-c-c--c-c-c-ARを使い、ロボットが受けているセンサデータを可視化し、デバッグなどに活用するという研究テーマのデモです。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/CPMrsBE1d30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c-<h2>視覚を使わずに歩行可能なヘッドマウント装置の製作</h2>-c-c-c--c-c-c-LiDARを視覚の代わりに使う実験です。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/qUoPkOeB7qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c-<h2>PFoEのパーティクルフィルタ可視化- 妨害あり</h2>-c-c-c--c-c-c-妨害を受けても教えられた動作を繰り返すロボットです。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/exxJxSHOl-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-c-c-c--c-c-c-
+<h2>HoloLensを用いた移動ロボットのナビゲーションデバッグツール</h2>
+HoloLensでパーティクルフィルタのパーティクルを表示する試み。動画中では手の操作でロボットの目的地を置く操作を行っている。
+
+<iframe src="https://www.youtube.com/embed/Kvja3ROYhB4" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+<h2>Raspberry Pi Mouse solves kidnapped robot problem using ROS navigation stack</h2>
+
+小型の移動ロボットに誘拐ロボット問題（ロボットが人によって任意の場所に運ばれると、自己位置を見失う問題）を解かせるという研究のムービー。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZaB9VDrkW28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>YOLOv2による物体認識を用いたアッポーペン</h2>
+
+YOLOとPPAPがはやっていたのでやってみました。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnxcNu3dGdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h2>Jupyter Notebook + Robot</h2>
+
+Jupyter Notebookとロボットを接続した教材を考えるというテーマでの作品です。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KiiLwgnJNnQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>ARによるロボットのセンサ値の可視化</h2>
+
+ARを使い、ロボットが受けているセンサデータを可視化し、デバッグなどに活用するという研究テーマのデモです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CPMrsBE1d30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>視覚を使わずに歩行可能なヘッドマウント装置の製作</h2>
+
+LiDARを視覚の代わりに使う実験です。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qUoPkOeB7qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>PFoEのパーティクルフィルタ可視化- 妨害あり</h2>
+
+妨害を受けても教えられた動作を繰り返すロボットです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/exxJxSHOl-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

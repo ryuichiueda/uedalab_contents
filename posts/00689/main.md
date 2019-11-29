@@ -1,1 +1,219 @@
-<h1 style="font-size:300%">楽しい（？）-c-c-c-研究室生活のために</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>配属おめでとうございます</h2>-c-c-c-　-c-c-c-<p>第一志望の人もそうでない人も</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>質問があります</h2>-c-c-c-　-c-c-c-<p>研究室って何するところか分かります？？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>私なりの答え：</h2>-c-c-c-　-c-c-c-<p style="font-size:200%">学校と社会のつなぎ</p>-c-c-c-　-c-c-c-<p>とても大事。なぜか？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学校と社会の違い１</h2>-c-c-c-　-c-c-c-<h3>「価値」の違い</h3>-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校: 自分自身の価値を高める・見せることを評価</li>-c-c-c-	<ul>-c-c-c-		<li>講義で良い点を取る</li>-c-c-c-		<li>資格・学位を取る</li>-c-c-c-		<li>実習ですごいものを作る</li>-c-c-c-		<li>マニアックなことをいろいろ知っている</li>-c-c-c-	</ul>-c-c-c- <p>&nbsp;</p>-c-c-c-	<li style="color:yellow">社会: 価値を生み出すことを評価</li>-c-c-c-	<ul>-c-c-c-		<li>「学校での価値」は悪趣味な自慢話</li>-c-c-c-		<li>「で、俺のために何やってくれるの？」</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学校と社会の違い２</h2>-c-c-c-　-c-c-c-<h3>「公平さ」の違い</h3>-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校: 同じ条件で点数が付く</li>-c-c-c-	<ul>-c-c-c-		<li>えこひいきしない</li>-c-c-c-		<li>掲示板や大学のサイトを見ていれば情報は入る</li>-c-c-c-	</ul>-c-c-c- <p>&nbsp;</p>-c-c-c-	<li style="color:yellow">社会: 利益の引っ張り合いで物事が決まる</li>-c-c-c-	<ul>-c-c-c-		<li>自分に価値がないと後回しにされる</li>-c-c-c-		<li>情報は自分から取りに行かなければ取れない</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>研究室</h2>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>学校と社会のつなぎ</li>-c-c-c-	<ul>-c-c-c-		<li>引き続き自身の価値を高めていく</li>-c-c-c- <p>&nbsp;</p>-c-c-c-		<li>価値のあるものを作る訓練・実践</li>-c-c-c-		<ul>-c-c-c-			<li>卒論で作れることを証明して卒業</li>-c-c-c-		</ul>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c-　-c-c-c-<p style="color:yellow">しかし、価値ってなんだろう？</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>価値の例１</h2>-c-c-c-　　-c-c-c-<h3>商業的な価値</h3>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>作った商品が売れる</li>-c-c-c-	<li>商品の一部を作る</li>-c-c-c-	<li>商品を売る</li>-c-c-c-	<li>商品を売るのを手伝う</li>-c-c-c-	<li>自分自身を商品にする</li>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>価値の例２</h2>-c-c-c-　　-c-c-c-<h3>コミュニティーに対する価値</h3>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>周囲の人が知りたいことを調べて教える</li>-c-c-c-	<li>周囲の人が見たことのないものを見せる</li>-c-c-c-	<li>周囲の人を楽しませる・助ける・ビックリさせる</li>-c-c-c-</ul>-c-c-c-　-c-c-c-<p style="font-size:120%;line-height:120%">ふわっとしているが、商業活動の起点になる。-c-c-c-堅い人たちが「立派な仕事」とみなす職種もこれに寄生</p>-c-c-c-<p>音楽、文筆、漫画、映画、インターネット、-c-c-c-ゲーム、得体の知れない機械の発明・・・</p>-c-c-c-<p style="font-size:120%;line-height:120%;color:yellow">研究活動も基本はここに属する</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>学術</h2>-c-c-c-<p style="font-size:120%;line-height:120%;color:yellow">面白いことを発案・実現するために効率の良い「術」</p>-c-c-c-　　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>事例調査</li>-c-c-c-	<ul>-c-c-c-		<li>車輪の再発明をしない・必要な人に教える</li>-c-c-c-	</ul>-c-c-c-	<li>新しいものの提案</li>-c-c-c-	<ul>-c-c-c-		<li>新規性・有用性を分かりやすく伝える</li>-c-c-c-	</ul>-c-c-c-	<li>価値の証明</li>-c-c-c-	<ul>-c-c-c-		<li>客観的なデータを見せる</li>-c-c-c-	</ul>-c-c-c-</ul>-c-c-c-　-c-c-c--c-c-c-<p style="font-size:120%;line-height:110%">このような方法を経ないで創られたものも多いが、-c-c-c-「一人当たりの打率」で見ると効率が向上</p>-c-c-c--c-c-c-<p>芸術活動でも、その分野に深い知識を持っている人の割合は多い</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>で、研究室でどう過ごすか？</h2>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>若いうちに学術的な技法をしっかり身につける</li>-c-c-c-	<ul>-c-c-c-		<li>世の多くの人は身についておらず・・・</li>-c-c-c-		<ul>-c-c-c-			<li>車輪の再発明をして時間を無駄に</li>-c-c-c-			<li>自分のやったことを人に理解してもらえない</li>-c-c-c-			<li>自分の主観で世間を評論して恥を振りまく</li>-c-c-c-		</ul>-c-c-c-	</ul>-c-c-c-<p>&nbsp;</p>-c-c-c-	<li>GPAの高い人も低い人も、まだ身についてない</li>-c-c-c-	<li>私も疲れるとそうなる。常に自身を調整している</li>-c-c-c-</ul>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>もっと具体的に</h2>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>論文の読み書き</li>-c-c-c-	<ul>-c-c-c-		<li>研究の手続きがストレートに表れている</li>-c-c-c-		<li>背景、目的、従来研究、提案、実験、結論</li>-c-c-c-	</ul>-c-c-c-<p>&nbsp;</p>-c-c-c-	<li>興味のある分野の論文を10本読む。話はそれから</li>-c-c-c-	<ul>-c-c-c-		<li>何が問題や興味の対象となっているかを知る。</li>-c-c-c-		<li>誰が何をしたかを知る。</li>-c-c-c-		<li>何をどうやって実現したのかを知る。</li>-c-c-c-	</ul>-c-c-c-<p>&nbsp;</p>-c-c-c-	<li>巷では100本理解すると専門家と呼ばれるらしい</li>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>来週までの課題</h2>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>論文を10本読んでレポートを書く</li>-c-c-c-	<ul>-c-c-c-		<li>予稿でも何でも良いができれば-c-c-c-半分は英語のものを。昔読んだものでも良い。</li>-c-c-c-		<li>各論文の著者が何を目的としてどうやって達成したかを簡潔にまとめる（2,3行）</li>-c-c-c-		<li>全体を通して何が言えるかを簡潔に（2,3行）</li>-c-c-c-	</ul>-c-c-c-<p>&nbsp;</p>-c-c-c-	<li>この課題では質より量を求めているので、-c-c-c-そんなに力まないで時間をかけないでさっとやる</li>-c-c-c-</ul>-c-c-c--c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>その他研究室の生活について</h2>-c-c-c-　-c-c-c-<ul style="font-size:130%;line-height:130%">-c-c-c-	<li>研究室生活の目的は甲斐甲斐しく研究室に来ることではなく、各人がエゴイスティックに自身を鍛えること、面白いことをすること</li>-c-c-c-	<li>あとは自由</li>-c-c-c-	<li>生活が乱れてたらアドバイスします</li>-c-c-c-<p>&nbsp;</p>-c-c-c-	<li>来客が見て恥ずかしいものは隠しておくこと</li>-c-c-c-</ul>
+<h1 style="font-size:300%">楽しい（？）
+研究室生活のために</h1>
+　
+<h2>文責: 上田</h2>
+
+<!--nextpage-->
+
+<h2>配属おめでとうございます</h2>
+　
+<p>第一志望の人もそうでない人も</p>
+
+<!--nextpage-->
+
+<h2>質問があります</h2>
+　
+<p>研究室って何するところか分かります？？</p>
+
+
+<!--nextpage-->
+
+<h2>私なりの答え：</h2>
+　
+<p style="font-size:200%">学校と社会のつなぎ</p>
+　
+<p>とても大事。なぜか？</p>
+
+
+<!--nextpage-->
+
+<h2>学校と社会の違い１</h2>
+　
+<h3>「価値」の違い</h3>
+<ul style="font-size:130%;line-height:130%">
+	<li>学校: 自分自身の価値を高める・見せることを評価</li>
+	<ul>
+		<li>講義で良い点を取る</li>
+		<li>資格・学位を取る</li>
+		<li>実習ですごいものを作る</li>
+		<li>マニアックなことをいろいろ知っている</li>
+	</ul>
+ <p>&nbsp;</p>
+	<li style="color:yellow">社会: 価値を生み出すことを評価</li>
+	<ul>
+		<li>「学校での価値」は悪趣味な自慢話</li>
+		<li>「で、俺のために何やってくれるの？」</li>
+	</ul>
+</ul>
+
+
+<!--nextpage-->
+
+<h2>学校と社会の違い２</h2>
+　
+<h3>「公平さ」の違い</h3>
+<ul style="font-size:130%;line-height:130%">
+	<li>学校: 同じ条件で点数が付く</li>
+	<ul>
+		<li>えこひいきしない</li>
+		<li>掲示板や大学のサイトを見ていれば情報は入る</li>
+	</ul>
+ <p>&nbsp;</p>
+	<li style="color:yellow">社会: 利益の引っ張り合いで物事が決まる</li>
+	<ul>
+		<li>自分に価値がないと後回しにされる</li>
+		<li>情報は自分から取りに行かなければ取れない</li>
+	</ul>
+</ul>
+
+
+<!--nextpage-->
+
+<h2>研究室</h2>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>学校と社会のつなぎ</li>
+	<ul>
+		<li>引き続き自身の価値を高めていく</li>
+ <p>&nbsp;</p>
+		<li>価値のあるものを作る訓練・実践</li>
+		<ul>
+			<li>卒論で作れることを証明して卒業</li>
+		</ul>
+	</ul>
+</ul>
+　
+<p style="color:yellow">しかし、価値ってなんだろう？</p>
+
+
+<!--nextpage-->
+
+<h2>価値の例１</h2>
+　　
+<h3>商業的な価値</h3>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>作った商品が売れる</li>
+	<li>商品の一部を作る</li>
+	<li>商品を売る</li>
+	<li>商品を売るのを手伝う</li>
+	<li>自分自身を商品にする</li>
+</ul>
+
+<!--nextpage-->
+
+<h2>価値の例２</h2>
+　　
+<h3>コミュニティーに対する価値</h3>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>周囲の人が知りたいことを調べて教える</li>
+	<li>周囲の人が見たことのないものを見せる</li>
+	<li>周囲の人を楽しませる・助ける・ビックリさせる</li>
+</ul>
+　
+<p style="font-size:120%;line-height:120%">ふわっとしているが、商業活動の起点になる。
+堅い人たちが「立派な仕事」とみなす職種もこれに寄生</p>
+<p>音楽、文筆、漫画、映画、インターネット、
+ゲーム、得体の知れない機械の発明・・・</p>
+<p style="font-size:120%;line-height:120%;color:yellow">研究活動も基本はここに属する</p>
+
+
+<!--nextpage-->
+
+<h2>学術</h2>
+<p style="font-size:120%;line-height:120%;color:yellow">面白いことを発案・実現するために効率の良い「術」</p>
+　　
+<ul style="font-size:130%;line-height:130%">
+	<li>事例調査</li>
+	<ul>
+		<li>車輪の再発明をしない・必要な人に教える</li>
+	</ul>
+	<li>新しいものの提案</li>
+	<ul>
+		<li>新規性・有用性を分かりやすく伝える</li>
+	</ul>
+	<li>価値の証明</li>
+	<ul>
+		<li>客観的なデータを見せる</li>
+	</ul>
+</ul>
+　
+
+<p style="font-size:120%;line-height:110%">このような方法を経ないで創られたものも多いが、
+「一人当たりの打率」で見ると効率が向上</p>
+
+<p>芸術活動でも、その分野に深い知識を持っている人の割合は多い</p>
+
+
+<!--nextpage-->
+
+<h2>で、研究室でどう過ごすか？</h2>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>若いうちに学術的な技法をしっかり身につける</li>
+	<ul>
+		<li>世の多くの人は身についておらず・・・</li>
+		<ul>
+			<li>車輪の再発明をして時間を無駄に</li>
+			<li>自分のやったことを人に理解してもらえない</li>
+			<li>自分の主観で世間を評論して恥を振りまく</li>
+		</ul>
+	</ul>
+<p>&nbsp;</p>
+	<li>GPAの高い人も低い人も、まだ身についてない</li>
+	<li>私も疲れるとそうなる。常に自身を調整している</li>
+</ul>
+
+<!--nextpage-->
+
+<h2>もっと具体的に</h2>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>論文の読み書き</li>
+	<ul>
+		<li>研究の手続きがストレートに表れている</li>
+		<li>背景、目的、従来研究、提案、実験、結論</li>
+	</ul>
+<p>&nbsp;</p>
+	<li>興味のある分野の論文を10本読む。話はそれから</li>
+	<ul>
+		<li>何が問題や興味の対象となっているかを知る。</li>
+		<li>誰が何をしたかを知る。</li>
+		<li>何をどうやって実現したのかを知る。</li>
+	</ul>
+<p>&nbsp;</p>
+	<li>巷では100本理解すると専門家と呼ばれるらしい</li>
+</ul>
+
+
+<!--nextpage-->
+
+<h2>来週までの課題</h2>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>論文を10本読んでレポートを書く</li>
+	<ul>
+		<li>予稿でも何でも良いができれば
+半分は英語のものを。昔読んだものでも良い。</li>
+		<li>各論文の著者が何を目的としてどうやって達成したかを簡潔にまとめる（2,3行）</li>
+		<li>全体を通して何が言えるかを簡潔に（2,3行）</li>
+	</ul>
+<p>&nbsp;</p>
+	<li>この課題では質より量を求めているので、
+そんなに力まないで時間をかけないでさっとやる</li>
+</ul>
+
+
+
+<!--nextpage-->
+
+<h2>その他研究室の生活について</h2>
+　
+<ul style="font-size:130%;line-height:130%">
+	<li>研究室生活の目的は甲斐甲斐しく研究室に来ることではなく、各人がエゴイスティックに自身を鍛えること、面白いことをすること</li>
+	<li>あとは自由</li>
+	<li>生活が乱れてたらアドバイスします</li>
+<p>&nbsp;</p>
+	<li>来客が見て恥ずかしいものは隠しておくこと</li>
+</ul>

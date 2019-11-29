@@ -1,1 +1,208 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第12回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2017年1月11日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>課題1補足・雑感</h2>-c-c-c-<ul>-c-c-c- 	<li>元のコードを書いた人（この場合は私）の名前は残しておきましょう。</li>-c-c-c- 	<li>コピペが下手くそな人が-c-c-c-<ul>-c-c-c- 	<li>レイアウトが崩れたり1行飛ばしになっている</li>-c-c-c- 	<li>ちゃんとGitHubのforkやダウンロード機能を使いましょう</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>私にとっては仕事なので「お忙しいところ恐縮で・・・」とメールに書く必要はないっす。</li>-c-c-c- 	<li>これは課題なので、変に動画を凝るくらいならコードの方に工夫が欲しいところ。-c-c-c-<ul>-c-c-c- 	<li>何が求められているかはなかなか相手（私）からは聞き出せないので厄介だなとは思いますが・・・</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>調べ物した人はリファレンスも欲しいところ</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>本日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>通信・暗号（その2）</li>-c-c-c- 	<li>ROS</li>-c-c-c- 	<li>Raspbian -&gt; Ubuntu</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>暗号</h2>-c-c-c-<ul>-c-c-c- 	<li>通信において重要な役割-c-c-c-<ul>-c-c-c- 	<li>暗号化していないパケットの内容は簡単に覗ける</li>-c-c-c- 	<li>インターネットのパケットはどこを通るか分からない</li>-c-c-c- 	<li>通販サイトで暗号化していないとどうなるか？</li>-c-c-c- 	<li>ネットワークカメラで暗号化していないとどうなるか？</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>暗号化の方式-c-c-c-<ul>-c-c-c- 	<li>ざっくり分類: 共通鍵暗号方式、公開鍵暗号方式</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>共通鍵暗号方式</h2>-c-c-c-<ul>-c-c-c- 	<li>基本的にはパスワードの延長線上にあるもの</li>-c-c-c- 	<li>データを鍵で暗号化し、同じ鍵で復号</li>-c-c-c- 	<li>送信者と受信者が同じ鍵を持つ</li>-c-c-c- 	<li><span style="color: #ff0000;">通信の時の問題: どうやって鍵を交換するか？</span>-c-c-c-<ul>-c-c-c- 	<li>社会的には「別のメールでパスワードを送ります」等、-c-c-c-本当にそれで良いのかいまいち謎な方法でごまかしている</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>公開鍵暗号方式</h2>-c-c-c-<ul>-c-c-c- 	<li>二つの鍵を使う-c-c-c-<ul>-c-c-c- 	<li><span style="color: #ff0000;">「公開鍵」と「秘密鍵」</span></li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>公開鍵-c-c-c-<ul>-c-c-c- 	<li>暗号化に用いる。人に見せても良い</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>秘密鍵-c-c-c-<ul>-c-c-c- 	<li>複号に用いる。人に見せてはいけない</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li><span style="color: #ff0000;">誰でもデータを暗号化できるが、復号できるのは秘密鍵の所有者のみ</span></li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>セキュアシェル（SSH）</h2>-c-c-c-<ul>-c-c-c- 	<li>セキュアシェル（SSH）-c-c-c-<ul>-c-c-c- 	<li>遠隔の計算機と暗号通信をするためのプロトコル</li>-c-c-c- 	<li>コマンドのssh(1) はセキュアシェルを使って遠隔の計算機と通信するためのもの</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>特に暗号化が必要のないところでも使うことになっている-c-c-c-<ul>-c-c-c- 	<li>かつてはrshというものがあったが使わないことになっている</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>サーバへのssh接続</h2>-c-c-c-<ul>-c-c-c- 	<li>パスワードを使う場合-c-c-c-<ol>-c-c-c- 	<li>パスワードを送る前にサーバからクライアントへ公開鍵というものが送られる</li>-c-c-c- 	<li>クライアントは以下をサーバに送信-c-c-c-<ul>-c-c-c- 	<li>もらった公開鍵で通信用の共通鍵を暗号化したもの</li>-c-c-c- 	<li>パスワードを共通鍵で暗号化したもの</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>サーバは自身の秘密鍵でもらった共通鍵とパスワードを復元共通鍵で通信開始</li>-c-c-c-</ol>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>SSHの鍵認証</h2>-c-c-c-<ul>-c-c-c- 	<li>パスワードの代わりに公開鍵を使う</li>-c-c-c- 	<li>方法-c-c-c-<ol>-c-c-c- 	<li>クライアント側（自分のノートPC等）で秘密鍵と公開鍵を作る（<a href="http://webkaru.net/linux/tera-term-ssh-login-public-key/">Windowsの場合はこちら</a>）-c-c-c-<pre><span style="color: #ffffff;">$ mkdir .ssh</span>-c-c-c-<span style="color: #ffffff;">$ chmod 700 .ssh/</span>-c-c-c-<span style="color: #ffffff;">$ cd .ssh/</span>-c-c-c-<span style="color: #ffffff;">$ ssh-keygen</span>-c-c-c-<span style="color: #ffffff;">###いろいろ聞かれるが基本returnで</span><span style="color: #ffffff;"> （一度はちゃんと読みましょう）###</span></pre>-c-c-c-</li>-c-c-c- 	<li>自分の公開鍵をサーバ側（Raspberry Pi等）のauthorized_keysに登録</li>-c-c-c- 	<li>-c-c-c-<pre><span style="color: #ffffff;">###サーバのIPアドレスにscp###</span>-c-c-c-<span style="color: #ffffff;">$ scp ~/.ssh/id_rsa.pub pi\@192.168.?.?:~/</span>-c-c-c-<span style="color: #ffffff;">$ ssh pi\@192.168.?.?</span>-c-c-c-<span style="color: #ffffff;">$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys</span>-c-c-c-<span style="color: #ffffff;">$ chmod 600 .ssh/authorized_keys</span></pre>-c-c-c-</li>-c-c-c-</ol>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>OSイメージからの-c-c-c-セットアップ</h2>-c-c-c-<ul>-c-c-c- 	<li>13,14回はROSを使います-c-c-c-<ul>-c-c-c- 	<li>OSをRaspbianからUbuntuに変えた方が良い</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>OSのイメージ-c-c-c-<ul>-c-c-c- 	<li><a href="https://wiki.ubuntu.com/ARM/RaspberryPi">https://wiki.ubuntu.com/ARM/RaspberryPi</a> の-c-c-c-<a class="http" href="http://www.finnie.org/software/raspberrypi/ubuntu-rpi3/ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz">ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz</a>-c-c-c-<ul>-c-c-c- 	<li>これをmicroSDに流し込むと起動</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>方法</h2>-c-c-c-<ul>-c-c-c- 	<li>Linux環境</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ xzcat ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz</span>-c-c-c-<span style="color: #ffffff;"> | sudo dd bs=1MB of=/dev/（microSDカードのデバイスファイル）</span></pre>-c-c-c-<ul>-c-c-c- 	<li>Mac</li>-c-c-c-</ul>-c-c-c-<pre><span style="color: #ffffff;">$ xzcat ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz-c-c-c- | sudo dd bs=1m of=/dev/（microSDカードのデバイスファイル）</span></pre>-c-c-c-<ul>-c-c-c- 	<li>Window-c-c-c-<ul>-c-c-c- 	<li>何かツールを使う（よくわからない）</li>-c-c-c- 	<li>仮想マシンを使う</li>-c-c-c- 	<li>アダプタを使ってラズパイのUSBにmicroSDをさして操作</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>インストール後の作業1</h2>-c-c-c-<ul>-c-c-c- 	<li>カーネルをアップデートすると動かないという-c-c-c-よろしくない状況なので、-c-c-c-カーネルのアップデートを止める-c-c-c-<ul>-c-c-c- 	<li>-c-c-c-<pre class="p1"><span style="color: #ffffff;"><span class="s1">$ echo linux-image-raspi2 hold | sudo dpkg --set-selections</span>-c-c-c-<span class="s1">$ echo linux-headers-raspi2 hold | sudo dpkg --set-selections</span></span></pre>-c-c-c-</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c- 	<li>「hold」になっていることを確認</li>-c-c-c- 	<li>-c-c-c-<pre class="p1"><span style="color: #ffffff;"><span class="s1">$ dpkg --get-selections | grep hold-c-c-c-</span><span class="s1">linux-headers-raspi2<span class="Apple-converted-space">                            </span>hold-c-c-c-</span><span class="s1">linux-image-raspi2<span class="Apple-converted-space">                              </span>hold</span></span></pre>-c-c-c-&nbsp;</li>-c-c-c-</ul>-c-c-c-<!--nextpage-->-c-c-c-<h2>インストール後の作業2</h2>-c-c-c-<ul>-c-c-c- 	<li>これをしておいた方が良さそう</li>-c-c-c- 	<li>-c-c-c-<pre class="p1"><span class="s1" style="color: #ffffff;">sudo apt purge cloud-init</span></pre>-c-c-c-</li>-c-c-c- 	<li>ROSのインストール-c-c-c-</li>-c-c-c-</ul>
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第12回</h2>
+上田 隆一
+
+2017年1月11日\@千葉工業大学
+
+<!--nextpage-->
+<h2>課題1補足・雑感</h2>
+<ul>
+ 	<li>元のコードを書いた人（この場合は私）の名前は残しておきましょう。</li>
+ 	<li>コピペが下手くそな人が
+<ul>
+ 	<li>レイアウトが崩れたり1行飛ばしになっている</li>
+ 	<li>ちゃんとGitHubのforkやダウンロード機能を使いましょう</li>
+</ul>
+</li>
+ 	<li>私にとっては仕事なので「お忙しいところ恐縮で・・・」とメールに書く必要はないっす。</li>
+ 	<li>これは課題なので、変に動画を凝るくらいならコードの方に工夫が欲しいところ。
+<ul>
+ 	<li>何が求められているかはなかなか相手（私）からは聞き出せないので厄介だなとは思いますが・・・</li>
+</ul>
+</li>
+ 	<li>調べ物した人はリファレンスも欲しいところ</li>
+</ul>
+<!--nextpage-->
+<h2>本日の内容</h2>
+<ul>
+ 	<li>通信・暗号（その2）</li>
+ 	<li>ROS</li>
+ 	<li>Raspbian -&gt; Ubuntu</li>
+</ul>
+<!--nextpage-->
+<h2>暗号</h2>
+<ul>
+ 	<li>通信において重要な役割
+<ul>
+ 	<li>暗号化していないパケットの内容は簡単に覗ける</li>
+ 	<li>インターネットのパケットはどこを通るか分からない</li>
+ 	<li>通販サイトで暗号化していないとどうなるか？</li>
+ 	<li>ネットワークカメラで暗号化していないとどうなるか？</li>
+</ul>
+</li>
+ 	<li>暗号化の方式
+<ul>
+ 	<li>ざっくり分類: 共通鍵暗号方式、公開鍵暗号方式</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>共通鍵暗号方式</h2>
+<ul>
+ 	<li>基本的にはパスワードの延長線上にあるもの</li>
+ 	<li>データを鍵で暗号化し、同じ鍵で復号</li>
+ 	<li>送信者と受信者が同じ鍵を持つ</li>
+ 	<li><span style="color: #ff0000;">通信の時の問題: どうやって鍵を交換するか？</span>
+<ul>
+ 	<li>社会的には「別のメールでパスワードを送ります」等、
+本当にそれで良いのかいまいち謎な方法でごまかしている</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>公開鍵暗号方式</h2>
+<ul>
+ 	<li>二つの鍵を使う
+<ul>
+ 	<li><span style="color: #ff0000;">「公開鍵」と「秘密鍵」</span></li>
+</ul>
+</li>
+ 	<li>公開鍵
+<ul>
+ 	<li>暗号化に用いる。人に見せても良い</li>
+</ul>
+</li>
+ 	<li>秘密鍵
+<ul>
+ 	<li>複号に用いる。人に見せてはいけない</li>
+</ul>
+</li>
+ 	<li><span style="color: #ff0000;">誰でもデータを暗号化できるが、復号できるのは秘密鍵の所有者のみ</span></li>
+</ul>
+<!--nextpage-->
+<h2>セキュアシェル（SSH）</h2>
+<ul>
+ 	<li>セキュアシェル（SSH）
+<ul>
+ 	<li>遠隔の計算機と暗号通信をするためのプロトコル</li>
+ 	<li>コマンドのssh(1) はセキュアシェルを使って遠隔の計算機と通信するためのもの</li>
+</ul>
+</li>
+ 	<li>特に暗号化が必要のないところでも使うことになっている
+<ul>
+ 	<li>かつてはrshというものがあったが使わないことになっている</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>サーバへのssh接続</h2>
+<ul>
+ 	<li>パスワードを使う場合
+<ol>
+ 	<li>パスワードを送る前にサーバからクライアントへ公開鍵というものが送られる</li>
+ 	<li>クライアントは以下をサーバに送信
+<ul>
+ 	<li>もらった公開鍵で通信用の共通鍵を暗号化したもの</li>
+ 	<li>パスワードを共通鍵で暗号化したもの</li>
+</ul>
+</li>
+ 	<li>サーバは自身の秘密鍵でもらった共通鍵とパスワードを復元共通鍵で通信開始</li>
+</ol>
+</li>
+</ul>
+<!--nextpage-->
+<h2>SSHの鍵認証</h2>
+<ul>
+ 	<li>パスワードの代わりに公開鍵を使う</li>
+ 	<li>方法
+<ol>
+ 	<li>クライアント側（自分のノートPC等）で秘密鍵と公開鍵を作る（<a href="http://webkaru.net/linux/tera-term-ssh-login-public-key/">Windowsの場合はこちら</a>）
+<pre><span style="color: #ffffff;">$ mkdir .ssh</span>
+<span style="color: #ffffff;">$ chmod 700 .ssh/</span>
+<span style="color: #ffffff;">$ cd .ssh/</span>
+<span style="color: #ffffff;">$ ssh-keygen</span>
+<span style="color: #ffffff;">###いろいろ聞かれるが基本returnで</span><span style="color: #ffffff;"> （一度はちゃんと読みましょう）###</span></pre>
+</li>
+ 	<li>自分の公開鍵をサーバ側（Raspberry Pi等）のauthorized_keysに登録</li>
+ 	<li>
+<pre><span style="color: #ffffff;">###サーバのIPアドレスにscp###</span>
+<span style="color: #ffffff;">$ scp ~/.ssh/id_rsa.pub pi\@192.168.?.?:~/</span>
+<span style="color: #ffffff;">$ ssh pi\@192.168.?.?</span>
+<span style="color: #ffffff;">$ cat id_rsa.pub &gt;&gt; .ssh/authorized_keys</span>
+<span style="color: #ffffff;">$ chmod 600 .ssh/authorized_keys</span></pre>
+</li>
+</ol>
+</li>
+</ul>
+<!--nextpage-->
+<h2>OSイメージからの
+セットアップ</h2>
+<ul>
+ 	<li>13,14回はROSを使います
+<ul>
+ 	<li>OSをRaspbianからUbuntuに変えた方が良い</li>
+</ul>
+</li>
+ 	<li>OSのイメージ
+<ul>
+ 	<li><a href="https://wiki.ubuntu.com/ARM/RaspberryPi">https://wiki.ubuntu.com/ARM/RaspberryPi</a> の
+<a class="http" href="http://www.finnie.org/software/raspberrypi/ubuntu-rpi3/ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz">ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz</a>
+<ul>
+ 	<li>これをmicroSDに流し込むと起動</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>方法</h2>
+<ul>
+ 	<li>Linux環境</li>
+</ul>
+<pre><span style="color: #ffffff;">$ xzcat ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz</span>
+<span style="color: #ffffff;"> | sudo dd bs=1MB of=/dev/（microSDカードのデバイスファイル）</span></pre>
+<ul>
+ 	<li>Mac</li>
+</ul>
+<pre><span style="color: #ffffff;">$ xzcat ubuntu-16.04-preinstalled-server-armhf+raspi3.img.xz
+ | sudo dd bs=1m of=/dev/（microSDカードのデバイスファイル）</span></pre>
+<ul>
+ 	<li>Window
+<ul>
+ 	<li>何かツールを使う（よくわからない）</li>
+ 	<li>仮想マシンを使う</li>
+ 	<li>アダプタを使ってラズパイのUSBにmicroSDをさして操作</li>
+</ul>
+</li>
+</ul>
+<!--nextpage-->
+<h2>インストール後の作業1</h2>
+<ul>
+ 	<li>カーネルをアップデートすると動かないという
+よろしくない状況なので、
+カーネルのアップデートを止める
+<ul>
+ 	<li>
+<pre class="p1"><span style="color: #ffffff;"><span class="s1">$ echo linux-image-raspi2 hold | sudo dpkg --set-selections</span>
+<span class="s1">$ echo linux-headers-raspi2 hold | sudo dpkg --set-selections</span></span></pre>
+</li>
+</ul>
+</li>
+ 	<li>「hold」になっていることを確認</li>
+ 	<li>
+<pre class="p1"><span style="color: #ffffff;"><span class="s1">$ dpkg --get-selections | grep hold
+</span><span class="s1">linux-headers-raspi2<span class="Apple-converted-space">                            </span>hold
+</span><span class="s1">linux-image-raspi2<span class="Apple-converted-space">                              </span>hold</span></span></pre>
+&nbsp;</li>
+</ul>
+<!--nextpage-->
+<h2>インストール後の作業2</h2>
+<ul>
+ 	<li>これをしておいた方が良さそう</li>
+ 	<li>
+<pre class="p1"><span class="s1" style="color: #ffffff;">sudo apt purge cloud-init</span></pre>
+</li>
+ 	<li>ROSのインストール
+</li>
+</ul>

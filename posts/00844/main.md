@@ -1,1 +1,17 @@
-林原研の学生さんと一緒に、ディジタル回路の教材用に<a href="http://www.tamiya.com/japan/products/70198hugging_mouse/" target="_blank">タミヤの壁伝いネズミ</a>を光で操作できるように改造しました。ある団体様のイベント用に設計しました。-c-c-c--c-c-c-<ul>-c-c-c-	<li>作ったものを持ち帰られるようになるべく安価なこと</li>-c-c-c-	<li>コンパクトにまとまっていること</li>-c-c-c-	<li>教材として無駄なものがないこと</li>-c-c-c-</ul>-c-c-c--c-c-c-が要件となります。で、学生さんがミニマムな感じで作ってきてくれました。（自分の趣味に走らず、ちゃんと要件に沿って作ってくれるのはさすがです。）-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2016/06/ファイル-2016-06-04-11-49-34.jpeg"><img src="https://lab.ueda.asia/wp-content/uploads/2016/06/ファイル-2016-06-04-11-49-34-1024x810.jpeg" alt="" width="1024" height="810" class="aligncenter size-large wp-image-838" /></a>-c-c-c--c-c-c-こちらが動いているところ。-c-c-c--c-c-c-<iframe width="420" height="315" src="https://www.youtube.com/embed/5WNjF-kcHEA" frameborder="0" allowfullscreen></iframe>-c-c-c--c-c-c-これからGitHubにつくり方や部品の調達方法を書いていきます。こういった「教材」というものは巷にゴマンとあるので、差がつくのはそういうところです（学生さんへのプレッシャー）。
+林原研の学生さんと一緒に、ディジタル回路の教材用に<a href="http://www.tamiya.com/japan/products/70198hugging_mouse/" target="_blank">タミヤの壁伝いネズミ</a>を光で操作できるように改造しました。ある団体様のイベント用に設計しました。
+
+<ul>
+	<li>作ったものを持ち帰られるようになるべく安価なこと</li>
+	<li>コンパクトにまとまっていること</li>
+	<li>教材として無駄なものがないこと</li>
+</ul>
+
+が要件となります。で、学生さんがミニマムな感じで作ってきてくれました。（自分の趣味に走らず、ちゃんと要件に沿って作ってくれるのはさすがです。）
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2016/06/ファイル-2016-06-04-11-49-34.jpeg"><img src="https://lab.ueda.asia/wp-content/uploads/2016/06/ファイル-2016-06-04-11-49-34-1024x810.jpeg" alt="" width="1024" height="810" class="aligncenter size-large wp-image-838" /></a>
+
+こちらが動いているところ。
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/5WNjF-kcHEA" frameborder="0" allowfullscreen></iframe>
+
+これからGitHubにつくり方や部品の調達方法を書いていきます。こういった「教材」というものは巷にゴマンとあるので、差がつくのはそういうところです（学生さんへのプレッシャー）。

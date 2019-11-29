@@ -1,1 +1,11 @@
-Experiments with <a href="https://github.com/ryuichiueda/ProbabilisticRaspiMouse/tree/master/value_iteration">this code</a>.-c-c-c--c-c-c-<h2>from several poses</h2>-c-c-c--c-c-c-The initial pose of the robot is given by hand. Particles are placed based on the given pose at first. -c-c-c--c-c-c-[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/11/from_different_pos.mp4"][/video]-c-c-c--c-c-c-<h2>from the same pose</h2>-c-c-c--c-c-c-[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/11/from_a_position.mp4"][/video]
+Experiments with <a href="https://github.com/ryuichiueda/ProbabilisticRaspiMouse/tree/master/value_iteration">this code</a>.
+
+<h2>from several poses</h2>
+
+The initial pose of the robot is given by hand. Particles are placed based on the given pose at first. 
+
+[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/11/from_different_pos.mp4"][/video]
+
+<h2>from the same pose</h2>
+
+[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/11/from_a_position.mp4"][/video]

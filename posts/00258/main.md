@@ -1,1 +1,20 @@
-for the lecture of probabilistic robotics-c-c-c--c-c-c-<h2 id="random">random resetting</h2>-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset.gif" alt="with_reset" width="360" height="360" class="alignleft size-full wp-image-222" /></a>-c-c-c--c-c-c-[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset_silent.mp4"][/video]-c-c-c--c-c-c-<h2 id="sensor">sensor resetting</h2>-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_one_sensor_reset_at_first.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_one_sensor_reset_at_first.gif" alt="take1_one_sensor_reset_at_first" width="360" height="360" class="alignleft size-full wp-image-223" /></a>-c-c-c--c-c-c-[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_silent1.mp4"][/video]-c-c-c--c-c-c--c-c-c-<h2 id="expansion">expansion resettings</h2>-c-c-c--c-c-c-15[deg] difference between the actual initial direction of the robot and the average direction of the particles. The robot hit a wall but the particles tracked the actual pose thanks to adjustments by some expansion resettings.-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_er.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_er.gif" alt="take4_er" width="360" height="360" class="alignleft size-full wp-image-226" /></a>[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_silent.mp4"][/video]
+for the lecture of probabilistic robotics
+
+<h2 id="random">random resetting</h2>
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset.gif" alt="with_reset" width="360" height="360" class="alignleft size-full wp-image-222" /></a>
+
+[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/with_reset_silent.mp4"][/video]
+
+<h2 id="sensor">sensor resetting</h2>
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_one_sensor_reset_at_first.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_one_sensor_reset_at_first.gif" alt="take1_one_sensor_reset_at_first" width="360" height="360" class="alignleft size-full wp-image-223" /></a>
+
+[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/take1_silent1.mp4"][/video]
+
+
+<h2 id="expansion">expansion resettings</h2>
+
+15[deg] difference between the actual initial direction of the robot and the average direction of the particles. The robot hit a wall but the particles tracked the actual pose thanks to adjustments by some expansion resettings.
+
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_er.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_er.gif" alt="take4_er" width="360" height="360" class="alignleft size-full wp-image-226" /></a>[video width="1280" height="720" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/take4_silent.mp4"][/video]

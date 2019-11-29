@@ -1,1 +1,16 @@
-<h2></h2>-c-c-c-<h1 style="font-size: 250%;">ロボットシステム学</h1>-c-c-c-<h2>第13回</h2>-c-c-c-上田 隆一-c-c-c--c-c-c-2017年1月18日\@千葉工業大学-c-c-c--c-c-c-<!--nextpage-->-c-c-c-<h2>本日の内容</h2>-c-c-c-<ul>-c-c-c- 	<li>ROS-c-c-c-<ul>-c-c-c- 	<li>ノード間の通信</li>-c-c-c-</ul>-c-c-c-</li>-c-c-c-</ul>
+<h2></h2>
+<h1 style="font-size: 250%;">ロボットシステム学</h1>
+<h2>第13回</h2>
+上田 隆一
+
+2017年1月18日\@千葉工業大学
+
+<!--nextpage-->
+<h2>本日の内容</h2>
+<ul>
+ 	<li>ROS
+<ul>
+ 	<li>ノード間の通信</li>
+</ul>
+</li>
+</ul>

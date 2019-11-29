@@ -1,1 +1,3 @@
-<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/ok.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/ok.gif" alt="ok" width="360" height="360" class="alignleft size-full wp-image-220" /></a>-c-c-c--c-c-c-[video width="1920" height="1080" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/ok_silent.mp4"][/video]
+<a href="https://lab.ueda.asia/wp-content/uploads/2015/10/ok.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2015/10/ok.gif" alt="ok" width="360" height="360" class="alignleft size-full wp-image-220" /></a>
+
+[video width="1920" height="1080" mp4="https://lab.ueda.asia/wp-content/uploads/2015/10/ok_silent.mp4"][/video]
