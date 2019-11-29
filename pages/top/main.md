@@ -3,6 +3,7 @@ Copyright: (C) **Ryuichi Ueda**
 ---
 
 
-# MySQLが爆発したので工事中
+# 研究室の動画集
 
-仕事が増えた。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjd7ynLRpGEifbhdlS9QrMHO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
