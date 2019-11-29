@@ -23,6 +23,11 @@ links:
   href: '/?page=project'
 - text: '共同研究の案内'
   href: '/?page=collaboration_info'
+- text: '外部リンク'
+  href: '#'
+  sublinks:
+  - text: '千葉工業大学'
+    href: 'https://www.it-chiba.ac.jp/'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/uedalaboratory'
