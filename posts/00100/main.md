@@ -1,1 +1,0 @@
-<!-- wp:columns -->\<div class="wp-block-columns has-2-columns"></div>\<!-- /wp:columns -->\\<!-- wp:columns -->\<div class="wp-block-columns has-2-columns"></div>\<!-- /wp:columns -->\\<!-- wp:columns -->\<div class="wp-block-columns has-2-columns"></div>\<!-- /wp:columns -->\\<!-- wp:columns -->\<div class="wp-block-columns has-2-columns"></div>\<!-- /wp:columns -->
