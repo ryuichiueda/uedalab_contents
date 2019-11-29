@@ -1,5 +1,0 @@
-We have succeeded to create a map of a room with a tiny micromouse type robot that has a Hokuyo URG-LX04. The robot, <a href="http://products.rt-net.jp/micromouse/raspberry-pi-mouse">Raspberry Pi Mouse</a>, is provided by RT-Corporation. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b2kYQ11PUSI" frameborder="0" allowfullscreen></iframe>
-
-The detail will be published as a part of a book in the next spring.

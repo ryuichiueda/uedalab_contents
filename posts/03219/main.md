@@ -1,6 +1,0 @@
-B3加藤さんが先日始めたプロジェクトです。今後も色々試すそうです。
-
-&lt;blockquote class="twitter-tweet" data-lang="ja"&gt;&lt;p lang="ja" dir="ltr"&gt;未ロボの上田研究室ではロボットの動きや頭の中を可視化するソフトウェアを作っています。これは動いた経路を拡張現実で見せるというデモです。B3の加藤さんの作品。&lt;a href="https://t.co/O04oBCnvLT"&gt;https://t.co/O04oBCnvLT&lt;/a&gt;&lt;/p&gt;&amp;mdash; CIT未来ロボティクス学科 (\@robo_cit) &lt;a href="https://twitter.com/robo_cit/status/918796967278403584?ref_src=twsrc%5Etfw"&gt;2017年10月13日&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-
-&nbsp;

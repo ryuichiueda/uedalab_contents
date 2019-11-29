@@ -1,3 +1,0 @@
-2016年12月4日（日曜日）、<a href="http://canvas.ws/">NPO法人CANVAS</a>さんにて、小・中学生を対象に「電子工作で光で動くロボットをつくろう！」というイベントを行いました。
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcanvas.jp%2Fposts%2F1363536170347881&width=500" width="500" height="708" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>

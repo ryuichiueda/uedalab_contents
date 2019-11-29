@@ -1,3 +1,0 @@
-Hey guys, DO YOUR RESEARCH!!
-
-<a href="https://lab.ueda.asia/wp-content/uploads/2016/07/animation.gif"><img src="https://lab.ueda.asia/wp-content/uploads/2016/07/animation.gif" alt="animation" width="300" height="533" class="aligncenter size-full wp-image-1083" /></a>

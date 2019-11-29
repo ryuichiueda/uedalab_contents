@@ -1,1 +1,0 @@
-RT corporation has developed a micromouse that has a Raspberry Pi as its controller. Prof. Ueda was brought into a discussion on software when it was developed, and has contributed articles to Nikkei Linux with this robot.
