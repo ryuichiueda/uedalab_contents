@@ -1,0 +1,1 @@
+B3の岡崎さんがROSの搭載されたRaspberry Pi Mouseをゲームコントローラで操作できるパッケージをリリースしました。オープンソース公開デビューなので、ドキュメント等々、今のところ結構荒削りですが、外からのフィードバックが作法を身につけるのに一番の教材なので、ぜひissueに書くなりプルリクエストをするなりをお願いいたします。-c-c-c--c-c-c-リポジトリ: <a href="https://github.com/zaki0929/raspimouse_game_controller">https://github.com/zaki0929/raspimouse_game_controller</a>-c-c-c--c-c-c--c-c-c-上田（私のリポジトリも結構荒削りです・・・）

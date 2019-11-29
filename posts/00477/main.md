@@ -1,0 +1,1 @@
+<h1 style="font-size:300%">楽しい（？）-c-c-c-研究室生活</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>配属おめでとうございます</h2>-c-c-c-　-c-c-c-<p>第一志望の人もそうでない人も</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c-

@@ -1,0 +1,1 @@
+<ul>-c-c-c- <li><a href="#pfc">emergence of intelligent behavior under uncertain environments</a></li>-c-c-c- <li>explanation of hippocampus based on robotics</li>-c-c-c- <li>development of robots for education</li>-c-c-c-</ul>-c-c-c--c-c-c-<h2 id="pfc">emergence of intelligent behavior under uncertain environments</h2>

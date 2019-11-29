@@ -1,0 +1,1 @@
+彼はこれで、3年前期の単位をとりました。このままアッポーペンで卒業どうぞ。（注意:厳正な審査を突破できるならば）-c-c-c--c-c-c-音声をオンにして閲覧ください。-c-c-c--c-c-c-<iframe width="560" height="315" src="https://www.youtube.com/embed/NnxcNu3dGdU" frameborder="0" allowfullscreen></iframe>-c-c-c--c-c-c-

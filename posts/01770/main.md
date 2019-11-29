@@ -1,0 +1,1 @@
+マニピュレータのコントローラ、リニューアルの準備中です。-c-c-c-<ul>-c-c-c- 	<li><a href="https://ryuichiueda.github.io/RobotDesign3/index.html">マニュアルのサイト</a></li>-c-c-c- 	<li><a href="https://github.com/ryuichiueda/RobotDesign3">GitHubのリポジトリ</a></li>-c-c-c-</ul>

@@ -1,0 +1,1 @@
+<h1 style="font-size:250%">RoboCup2016 \@homeリーグ参戦記</h1>-c-c-c-<h2>未来ロボティクス総合セミナー２</h2>-c-c-c--c-c-c-<p>&nbsp;</p>-c-c-c-<p>上田</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>RoboCup2016に参加してきました</h2>-c-c-c-　-c-c-c-

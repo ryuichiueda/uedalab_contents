@@ -1,0 +1,1 @@
+タミヤの模型に電子回路をくっつけて安くロボットを作るプロジェクトです。-c-c-c--c-c-c-<h1>壁伝いネズミに電子回路を載せる</h1>-c-c-c--c-c-c-6千円〜8千円で作るブライテンベルグビーグル-c-c-c--c-c-c-<a href="https://lab.ueda.asia/wp-content/uploads/2016/08/MouseRobot.jpg"><img src="https://lab.ueda.asia/wp-content/uploads/2016/08/MouseRobot-1024x768.jpg" alt="MouseRobot" width="530" height="398" class="aligncenter size-large wp-image-1125" /></a>

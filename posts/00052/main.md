@@ -1,0 +1,1 @@
+# The laboratory is launched.

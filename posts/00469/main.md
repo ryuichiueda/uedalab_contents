@@ -1,0 +1,1 @@
+<h1 style="font-size:250%">楽しい（）研究室生活</h1>-c-c-c-　-c-c-c-<h2>文責: 上田</h2>-c-c-c--c-c-c-<p>&nbsp;</p>-c-c-c-<p>2016年度配属説明会</p>-c-c-c--c-c-c-<!--nextpage-->-c-c-c--c-c-c-<h2>自律</h2>-c-c-c-　-c-c-c-<p style="font-size:120%">他からの支配や助力を受けず、-c-c-c-自分の行動を自分の立てた規律に従って-c-c-c-正しく規制すること。 </p>-c-c-c-<p>---三省堂 大辞林 第三版（オンライン版）より</p>-c-c-c--c-c-c--c-c-c-<!--nextpage-->-c-c-c-
