@@ -17,6 +17,8 @@ links:
   href: '/?page=member'
 - text: 'publications'
   href: '/?page=publication'
+- text: '共同研究の案内'
+  href: '/?page=collaboration_info'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/uedalaboratory'
