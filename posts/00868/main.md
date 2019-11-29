@@ -1,4 +1,4 @@
-# タミヤの壁伝いネズミの改造 (customization of Tamiya''s mouse for education of digital circuits)
+# タミヤの壁伝いネズミの改造 (customization of Tamiya's mouse for education of digital circuits)
 林原研の学生さんと一緒に、ディジタル回路の教材用に<a href="http://www.tamiya.com/japan/products/70198hugging_mouse/" target="_blank">タミヤの壁伝いネズミ</a>を光で操作できるように改造しました。ある団体様のイベント用に設計しました。
 
 <!--more-->
