@@ -13,7 +13,7 @@ Copyright: (C) Ryuichi Ueda
  	<li><a href="https://ryuichiueda.github.io/LNPR_SLIDES/contents/20190515_chubu-u_robot_flontier3.html" target="_blank" rel="noopener noreferrer">第三回</a></li>
 </ul>
 </li>
- 	<li><a href="https://lab.ueda.tech/?p=3564">ロボットシステム学</a></li>
+ 	<li><a href="https://lab.ueda.tech/?page=robosys_2019">ロボットシステム学</a></li>
  	<li><a href="https://lab.ueda.tech/?page_id=3572">ロボット設計製作論3</a></li>
  	<li><a href="https://lab.ueda.tech/?page_id=3589">確率ロボティクス</a></li>
 </ul>
