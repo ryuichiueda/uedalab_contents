@@ -1,3 +1,8 @@
+---
+Keywords: RoboCup
+Copyright: (C) 2019 Ryuichi Ueda
+---
+
 # CIT Brains @Home are going to participate in RoboCup JapanOpen 2016 and RoboCup 2016
 
 We have received a notification from the committee of RoboCup 2016 Leipzig though the team was born four months ago. Students and staff of Hayashibara lab., Fujie lab., and our lab. are hastily preparing hardware, software, and fund for our successful participation.
