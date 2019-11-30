@@ -1,5 +1,5 @@
 ---
-Keywords: 出版
+Keywords: 出版, ラズパイマウス
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 

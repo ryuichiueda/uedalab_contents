@@ -1,4 +1,10 @@
+---
+Keywords: ラズパイマウス
+Copyright: (C) 2019 Ryuichi Ueda
+---
+
 # ラズパイマウスでROSのナビゲーション機能が利用可能に
+
 3年の岡崎さんの仕事です。URGとジャイロが必要というセンサが贅沢な状態ですが、ナビゲーションメタパッケージのソフトウェアでラズパイマウスをナビゲーションできるようになりました。
 
 <a href="https://github.com/zaki0929/raspimouse_navigation_2">https://github.com/zaki0929/raspimouse_navigation_2</a>
