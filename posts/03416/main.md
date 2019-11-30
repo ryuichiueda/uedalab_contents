@@ -1,4 +1,10 @@
+---
+Keywords: 出版
+Copyright: (C) 2019 Ryuichi Ueda
+---
+
 # Raspberry Piで学ぶ ROSロボット入門の英語版が出ました
+
 <a href="http://www.nikkeibp.co.jp/atclpubmkt/book/18/267950/">好評につき、Raspberry Piで学ぶ ROSロボット入門が英訳されました</a>。というより英訳しました。
 <blockquote class="twitter-tweet" data-partner="tweetdeck">
 <p dir="ltr" lang="ja">（改めて）自身初めて英語で書籍が出ますです。よろしくおねがいいたします。 <a href="https://t.co/FK2erMiQXv">pic.twitter.com/FK2erMiQXv</a></p>
