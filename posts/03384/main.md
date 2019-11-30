@@ -1,4 +1,10 @@
+---
+Keywords: 学会発表, 国際学会
+Copyright: (C) 2019 Ryuichi Ueda
+---
+
 # 2018 IEEE International Conference on Robotics and Automation
+
 オーストラリア、ブリスベンで開催されたIEEE International Conference on Robotics and Automationで、上田が論文発表をしました。
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ロボティクスに関連するトップカンファレンスであるICRA2018がオーストラリアのブリスベンで開催されています。学科からは上田先生が考案したアルゴリズムを発表します。<br><br>（と、自分で書いてみたり。上田。） <a href="https://t.co/19lnSDhyNc">pic.twitter.com/19lnSDhyNc</a></p>&mdash; 千葉工大 未来ロボティクス学科 (\@robo_cit) <a href="https://twitter.com/robo_cit/status/998792164200005632?ref_src=twsrc%5Etfw">May 22, 2018</a></blockquote>
