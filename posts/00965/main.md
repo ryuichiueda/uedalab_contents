@@ -1,3 +1,8 @@
+---
+Keywords: 学外勉強会, 唐揚げ
+Copyright: (C) 2019 Ryuichi Ueda
+---
+
 # 唐揚げロボットのお手伝い（some contributions for "the karaage robot"）
 アールティ社様が唐揚げの盛り付けロボットのデモを<a href="http://connpass.com/event/30845/" target="_blank">TensorFlow勉強会</a>で行いました。バイトであり当研究室B3のX氏がTensorFlowを使った画像処理を担当しました。
 
