@@ -1,5 +1,5 @@
 ---
-Keywords: メディア
+Keywords: メディア, 唐揚げ
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
