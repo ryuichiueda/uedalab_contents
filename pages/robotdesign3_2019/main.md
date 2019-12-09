@@ -10,6 +10,16 @@
  	<li>スライド: <a href="https://ryuichiueda.github.io/manipulator_practice_b3/">https://ryuichiueda.github.io/manipulator_practice_b3/</a></li>
  	<li>スライドの原稿: <a href="https://github.com/ryuichiueda/manipulator_practice_b3">https://github.com/ryuichiueda/manipulator_practice_b3</a></li>
 </ul>
+
+### 新マニピュレータの課題提出
+
+* 中間発表
+    * 以下を上田までメール
+        * コードをGitHubにアップしてURLをメールに書く
+        * デモムービーをYouTube等にアップしてURLをメールに書く
+        * 発表資料をメールに添付
+
+
 <h2>工作について</h2>
 <h4>図面チェック項目</h4>
 
