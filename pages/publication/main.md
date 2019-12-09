@@ -3,17 +3,22 @@ Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=060
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
- 	<li><a href="#2018">2019</a></li>
+ 	<li><a href="#2019">2019</a></li>
  	<li><a href="#2018">2018</a></li>
  	<li><a href="#2017">2017</a></li>
  	<li><a href="#2016">2016</a></li>
  	<li><a href="#2015">2015</a></li>
 </ul>
-<h2 id="2018">2019</h2>
-<h3>Book</h3>
-<ul>
- 	<li>上田隆一: 詳解確率ロボティクス, 講談社, 2019.</li>
-</ul>
+
+<h2 id="2019">2019</h2>
+
+### 書籍
+
+* 上田隆一: 詳解確率ロボティクス, 講談社, 2019.
+
+### Invited presentations
+
+* 詳解確率ロボティクス ハンズオン, 計測自動制御学会 システム・情報部門 自律分散システム部会 第65回自律分散システム部会研究会, 千葉, 2019年.
 
 ### Conference proceedings (non-peer-reviewed)
 
