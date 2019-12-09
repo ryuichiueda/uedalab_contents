@@ -31,7 +31,8 @@
 （班の名称は適当です。）
 
 ### 班1
-    * [コード](https://github.com/shuta-tech/crane_x7_ros/blob/robot_design3/crane_x7_examples/scripts/crane_x7_pick_and_place_demo2.py)
-    * [README](https://github.com/shuta-tech/crane_x7_ros/blob/robot_design3/crane_x7_examples/README_robot_design3.md)
+
+* [コード](https://github.com/shuta-tech/crane_x7_ros/blob/robot_design3/crane_x7_examples/scripts/crane_x7_pick_and_place_demo2.py)
+* [README](https://github.com/shuta-tech/crane_x7_ros/blob/robot_design3/crane_x7_examples/README_robot_design3.md)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2CDxoViR-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
