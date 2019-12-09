@@ -5,28 +5,14 @@
 <ul>
  	<li><a href="http://www.kikulab.it-chiba.ac.jp/class/sekkei3/index.html">http://www.kikulab.it-chiba.ac.jp/class/sekkei3/index.html</a></li>
 </ul>
-<h2>新マニピュレータのテキスト</h2>
-<ul>
- 	<li>スライド: <a href="https://ryuichiueda.github.io/manipulator_practice_b3/">https://ryuichiueda.github.io/manipulator_practice_b3/</a></li>
- 	<li>スライドの原稿: <a href="https://github.com/ryuichiueda/manipulator_practice_b3">https://github.com/ryuichiueda/manipulator_practice_b3</a></li>
-</ul>
 
-### 新マニピュレータの課題提出
+## 工作について
 
-* 中間発表
-    * 以下を上田までメール（代表者一名）
-        * チームのメンバーの学籍番号、氏名
-        * コードをGitHubにアップしてURLをメールに書く
-        * デモムービーをYouTube等にアップしてURLをメールに書く
-        * 発表資料をメールに添付
-
-
-<h2>工作について</h2>
-<h4>図面チェック項目</h4>
+### 図面チェック項目
 
 * [図面チェック項目2019](図面チェック項目2019.pdf)
 
-<h4>製作論３で提供する材料</h4>
+### 製作論３で提供する材料
 <ul>
  	<li>シャフト（表面研磨の炭素鋼相当）：φ2,φ3,φ4,φ6</li>
  	<li>板材（アルミ）：t1, t2, t3</li>
@@ -42,7 +28,8 @@
  	<li>これ以外の材料を使う場合には10月中に相談のこと</li>
 </ul>
 &nbsp;
-<h2>マニピュレータ講習日程（2019年度）</h2>
+
+## マニピュレータ講習日程（2019年度）
 Google ChromeとTera Termが必要なのでマニピュレータの講習までに使用するPCにインストールしておいてください。
 前半13:40～、後半14:50～
 <ul>
@@ -56,6 +43,7 @@ Google ChromeとTera Termが必要なのでマニピュレータの講習まで�
  	<li>11/18: Q, R</li>
  	<li>12/2: S, T</li>
 </ul>
+
 <h2>ロボットの操作</h2>
 <ul>
  	<li><a href="https://ryuichiueda.github.io/RobotDesign3/index.html">マニュアルのサイト</a></li>
