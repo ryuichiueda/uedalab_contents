@@ -18,7 +18,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Invited presentations
 
-* 詳解確率ロボティクス ハンズオン, 計測自動制御学会 システム・情報部門 自律分散システム部会 第65回自律分散システム部会研究会, 千葉, 2019年.
+* 上田隆一: 詳解確率ロボティクス ハンズオン, 計測自動制御学会 システム・情報部門 自律分散システム部会 第65回自律分散システム部会研究会, 千葉, 2019年.
 
 ### Conference proceedings (non-peer-reviewed)
 
