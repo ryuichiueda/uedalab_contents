@@ -1,5 +1,5 @@
 ---
-Keywords: 国際ロボット展
+Keywords: 国際ロボット展, デモ
 Copyright: (C) 2019 Ryuichi Ueda
 ---
 
