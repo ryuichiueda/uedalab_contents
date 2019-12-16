@@ -40,8 +40,8 @@
 
 ### 班2
 
-* [README等](https://github.com/GakuKuwano/crane_x7_ros/tree/master/crane_x7_examples)
 * [コード](https://github.com/GakuKuwano/crane_x7_ros/blob/master/crane_x7_examples/scripts/papercup_tower.py)
+* [README等](https://github.com/GakuKuwano/crane_x7_ros/tree/master/crane_x7_examples)
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9H0dxWXuLgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,6 +51,13 @@
 * [コード](https://github.com/RyokoShiojima/crane_x7_ros/tree/unko)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/budKGyaflAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 班4
+
+* [コード](https://github.com/ShioriSugiyama/crane_x7_ros/tree/master/crane_x7_robot_design3/src)
+* [README](https://github.com/ShioriSugiyama/crane_x7_ros/blob/master/crane_x7_robot_design3/README.md)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2-XMopff29E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### おまけ
 
