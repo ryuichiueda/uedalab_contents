@@ -3,7 +3,7 @@ host: 'lab.ueda.tech'
 sitetitle: 'CIT自律ロボット研究室'
 subtitle: '千葉工業大学 先進工学部 未来ロボティクス学科 上田隆一研究室'
 headline:
-- text: '以前のWordpress製のサイトをラボ主がぶっ壊してしまいましたのでbashcms2に引っ越しました。まだリンク等、おかしいところがあります。'
+- text: '上田研のB4, M2を見かけたら、卒論/修論書いているかとしつこく聞いて下さい。'
 twitter:
 - account: 'uedalaboratory'
 facebook: '@'
