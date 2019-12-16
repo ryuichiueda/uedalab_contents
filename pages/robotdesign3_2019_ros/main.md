@@ -64,6 +64,12 @@
 * [コード](https://github.com/HayatoKitaura/crane_x7_ros/tree/master/crane_x7_examples/scripts)
 * [README](https://github.com/HayatoKitaura/crane_x7_ros/tree/master/crane_x7_examples)
 
+### 班6
+
+* [コード](https://github.com/habu94/crane_x7_accelerometer)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/43tAk9re8Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### おまけ
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">wwwwwwwww <a href="https://t.co/YAAq9dcNFP">pic.twitter.com/YAAq9dcNFP</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1201399538541400064?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
