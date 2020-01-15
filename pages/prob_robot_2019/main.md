@@ -18,4 +18,4 @@ Copyright: (C) Ryuichi Ueda
 
 ## 試験
 
-* [昨年度の過去問](probrobot2018test.pdf)
+* [昨年度の問題](probrobot2018test.pdf)
