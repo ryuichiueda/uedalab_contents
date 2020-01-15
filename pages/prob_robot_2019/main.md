@@ -16,3 +16,6 @@ Copyright: (C) Ryuichi Ueda
 　電子メール（上田のメールアドレスはGitHubにあります）の件名に「確率ロボティクス課題 番号 氏名」を書き、本文にGitHub上のノートブックのURLを貼り付けてください。
 
 
+## 試験
+
+* [昨年度の過去問](probrobot2018test.pdf)
