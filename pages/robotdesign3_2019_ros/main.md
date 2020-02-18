@@ -105,3 +105,10 @@
 * [コード](https://github.com/ShioriSugiyama/crane_x7_ros/tree/master/crane_x7_robot_design3_pcl)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YwxTDPTYzWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### 班5
+
+* [コード](https://github.com/HayatoKitaura/crane_x7_ros/tree/master/crane_x7_examples)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0n9izmeAt4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
