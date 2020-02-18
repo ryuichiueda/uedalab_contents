@@ -80,6 +80,12 @@
 
 ## 最終発表
 
+### 班1
+
+* [コード](https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge/src)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BpDZ0-9jQR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 班3
 
 * [コード](https://github.com/Souya25/crane_x7_ros/tree/master/crane_x7_robot_design3)
