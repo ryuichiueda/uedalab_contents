@@ -86,6 +86,13 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BpDZ0-9jQR0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### 班2
+
+* [コード](https://github.com/GakuKuwano/crane_x7_ros/blob/master/crane_x7_examples/README.md)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36TV19ttN3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### 班3
 
 * [コード](https://github.com/Souya25/crane_x7_ros/tree/master/crane_x7_robot_design3)
