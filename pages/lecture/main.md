@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## 2020
 
-* <li><a href="https://lab.ueda.tech/?page=robosys_2020">ロボットシステム学</a></li>
+* [ロボットシステム学](https://lab.ueda.tech/?page=robosys_2020)
 
 ## 2019
 
