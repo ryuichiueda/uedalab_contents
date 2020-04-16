@@ -6,6 +6,11 @@ Copyright: (C) Ryuichi Ueda
 
 ハッシュタグ: [#CITロボットシステム学](https://twitter.com/search?q=%23CIT%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%AD%A6&src=typed_query&f=live)
 
+## 講義の前に
+
+* 決して安い出費ではありませんが、Raspberry Piの購入をお願いします。
+    * 少しだけ貸出できますが、貸出の際は購入できない理由をお聞きします。
+
 ## 資料 
 資料はGitHubにアップしてあります。
 
