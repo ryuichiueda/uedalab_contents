@@ -42,6 +42,11 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Epu7o9_-sGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+### おまけ（3年生の課題）
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZMpj_mBggjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## VR、ARによる移動ロボットのためのツール作成
 
 タブレットを覗くとロボットのセンシングの様子が覗けるツールを作成しています。単にツールを作るだけではなく、タブレット内の演算結果を利用してロボットの動きをキャリブレーションする手法の研究をしています。
