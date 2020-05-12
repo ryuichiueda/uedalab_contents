@@ -46,12 +46,13 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 
 タブレットを覗くとロボットのセンシングの様子が覗けるツールを作成しています。単にツールを作るだけではなく、タブレット内の演算結果を利用してロボットの動きをキャリブレーションする手法の研究をしています。
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ARツールを使って、ロボットの推定移動量と実際の移動量を計算し、移動量の推定パラメータをキャリブレーションする研究 <a href="https://t.co/f019oQgQG7">https://t.co/f019oQgQG7</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260020422541631489?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+こちらはARツールを使って、ロボットの推定移動量と実際の移動量を計算し、移動量の推定パラメータをキャリブレーションする研究のデモムービーです。
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/52zwd1RE2wM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">こちらはビジュアルに凝ったロボットの頭の中のモニタリングシステム<a href="https://t.co/kmgkKwzB22">https://t.co/kmgkKwzB22</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260020895772315653?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+こちらはビジュアルに凝ったロボットの頭の中のモニタリングシステムです。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/10RygjfTLuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## つくばチャレンジ（林原研のお手伝い）
