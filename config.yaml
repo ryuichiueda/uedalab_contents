@@ -23,7 +23,7 @@ links:
   href: '/?page=project'
 - text: '共同研究の案内'
   href: '/?page=collaboration_info'
-- text: '3年生向け情報'
+- text: '3年生&院試受験者向け情報'
   href: '/?page=guidance_for_b3_2020'
   sublinks:
   - text: '上田研の研究'
