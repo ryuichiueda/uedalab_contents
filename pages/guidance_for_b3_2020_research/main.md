@@ -17,8 +17,9 @@
 
 ### コントローラで教えた動きを再現
 
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">ロボットが壁にぶつかったり床ですべったりする環境で、教えた動きをどうやってロボットに安定的に再現させるか、という研究のデモビデオ<br><br>Teach-and-replay with PFoE <a href="https://t.co/23OObTUvwV">https://t.co/23OObTUvwV</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1259973776776654848?ref_src=twsrc%5Etfw">May 11, 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ロボットが壁にぶつかったり床ですべったりする環境で、教えた動きをどうやってロボットに安定的に再現させるか、という研究です。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oyWM3GlXHbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## マニピュレーションの共同研究
 
