@@ -76,3 +76,12 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## 教育活動や教育ツール
+
+研究と呼べるものと呼べないものがありますが、教材を作るという課題に取り組んでもらうこともあります。
+
+
+### 実機とJupyter Notebookをつなげてカルマンフィルタのサンプルを作成
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0IRqv7ILLj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
