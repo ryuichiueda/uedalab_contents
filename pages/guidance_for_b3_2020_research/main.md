@@ -1,6 +1,6 @@
 # 2020年度3年生配属ガイダンス（研究紹介）
 
-* その他上田研情報については: https://lab.ueda.tech/?page=guidance_for_b3_2020
+* [ガイダンストップページへ](https://lab.ueda.tech/?page=guidance_for_b3_2020)
 
 ## 確率ロボティクス関係
 
