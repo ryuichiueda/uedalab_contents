@@ -38,7 +38,7 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 
 ### 唐揚げをつかむ
 
-これは一区切りついた研究ですが、山盛りのからあげを上から見ても、どれが個々のからあげかを識別するのは難しいのですが、それを可能とした研究です。アールティさんとの共同研究です（学生さん一人が出向して実装。上田はアドバイス程度です）。
+これは一区切りついた研究ですが、山盛りのからあげを上から見ても、どれが個々のからあげかを識別するのは難しいのですが、それを可能とした研究です。アールティさんとの共同研究です（学生さん一人が出向して実装。上田の寄与度は研究の進め方のアドバイス程度です）。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Epu7o9_-sGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
