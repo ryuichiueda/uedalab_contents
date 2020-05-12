@@ -76,12 +76,28 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 教育活動や教育ツール
+## 教育活動や教育ツール、その他活動
 
-研究と呼べるものと呼べないものがありますが、教材を作るという課題に取り組んでもらうこともあります。
+研究と呼べるものと呼べないものがありますが、教材を作るという課題に取り組んでもらうこともあります。また、遊んでいると研究になることがあります。
 
 
-### 実機とJupyter Notebookをつなげてカルマンフィルタのサンプルを作成
+### 実機とJupyter Notebookをつなげた教材の作成
+
+ビデオはカルマンフィルタのサンプルを作成したものです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0IRqv7ILLj8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 講義ビデオの作成
+
+これは私のビデオですが、学生が講義しても別に罰は当たらないと思いますのでぜひ。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjfOLwmuuBbXKUX45rZsM8iH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+### 自由な何か
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M2WgAUXNwz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnxcNu3dGdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
