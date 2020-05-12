@@ -94,10 +94,51 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbUh9y6MXvjfOLwmuuBbXKUX45rZsM8iH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 
-### 自由な何か
+### 自由な工作活動
+
+あんまりやってると論文書けと言われます。（注意: 中には3年のポスター発表ネタもあります。）
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M2WgAUXNwz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NnxcNu3dGdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ちゃんと実機でも宴会芸できた <a href="https://t.co/V0UGo89Y01">pic.twitter.com/V0UGo89Y01</a></p>&mdash; ハバタ (@habatafuture) <a href="https://twitter.com/habatafuture/status/1188007485807849473?ref_src=twsrc%5Etfw">October 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">猿回し <a href="https://t.co/xMs6uqjsiB">pic.twitter.com/xMs6uqjsiB</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149139355996344320?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote class="twitter-tweet"><p lang="ja" dir="ltr">猿回し <a href="https://t.co/xMs6uqjsiB">pic.twitter.com/xMs6uqjsiB</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1149139355996344320?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">数値が地獄なんですが。 <a href="https://t.co/DFrTL3fqQ5">pic.twitter.com/DFrTL3fqQ5</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1147048428460883968?ref_src=twsrc%5Etfw">July 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/%E4%B8%8A%E7%94%B0%E7%A0%94%E3%81%AE%E5%A0%B4%E5%90%88?src=hash&amp;ref_src=twsrc%5Etfw">#上田研の場合</a> <a href="https://t.co/a0YZncQFBe">pic.twitter.com/a0YZncQFBe</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1031497790562566145?ref_src=twsrc%5Etfw">August 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">誰だこんなもん作ったの💢 <a href="https://t.co/9VaPduakhL">pic.twitter.com/9VaPduakhL</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1082503780736749569?ref_src=twsrc%5Etfw">January 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">お腹痛いwwwwwwwwwwwwww <a href="https://t.co/cPS0gEZR8O">pic.twitter.com/cPS0gEZR8O</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1088673293421273089?ref_src=twsrc%5Etfw">January 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">未ロボ新B3の方々 &gt; こんな感じの研究室ですのでご自由に見学どうぞ。（何やってるのか全く伝わらない・・・）<a href="https://t.co/FZIZYzIzLt">https://t.co/FZIZYzIzLt</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1111622098647044096?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">昨日ハッパをかけられた4年生の精神が壊れ始めて変な遊びが流行り始めたのでもうダメかもしれません。 <a href="https://t.co/eNlZLbZ3Au">pic.twitter.com/eNlZLbZ3Au</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1092660475236511744?ref_src=twsrc%5Etfw">February 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">上田研発謎宗教の道具 <a href="https://twitter.com/hashtag/%E6%8D%A8%E3%81%A6%E3%81%BE%E3%81%99?src=hash&amp;ref_src=twsrc%5Etfw">#捨てます</a> <a href="https://twitter.com/hashtag/%E9%99%90%E7%95%8C%E7%A0%94%E7%A9%B6%E5%AE%A4?src=hash&amp;ref_src=twsrc%5Etfw">#限界研究室</a> <a href="https://t.co/QPVat7hzrO">pic.twitter.com/QPVat7hzrO</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1011806899094708224?ref_src=twsrc%5Etfw">June 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">上田「んなことやってないで論文書いてー💢」<br>H氏「単位が・・・欲しい・・・」 <a href="https://t.co/qo9zgWp6SB">pic.twitter.com/qo9zgWp6SB</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1074829143185940480?ref_src=twsrc%5Etfw">December 18, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">これひどすぎるやろwwwwwwwww <a href="https://t.co/q7z5UTOTTz">pic.twitter.com/q7z5UTOTTz</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/983967709149868032?ref_src=twsrc%5Etfw">April 11, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">わ～い。スプレッドシートでロボット動いた～ <a href="https://twitter.com/hashtag/%E6%99%82%E9%96%93%E3%81%AE%E7%84%A1%E9%A7%84?src=hash&amp;ref_src=twsrc%5Etfw">#時間の無駄</a> <a href="https://twitter.com/hashtag/%E7%84%A1%E9%A7%84%E3%81%AE%E6%A5%B5%E3%81%BF?src=hash&amp;ref_src=twsrc%5Etfw">#無駄の極み</a> <a href="https://twitter.com/hashtag/%E6%AC%A1%E5%9B%9E%E3%81%AF%E3%82%B9%E3%83%97%E3%83%AC%E3%83%83%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88%E3%81%A7%E8%BF%B7%E8%B7%AF%E8%B5%B0%E8%A1%8C?src=hash&amp;ref_src=twsrc%5Etfw">#次回はスプレッドシートで迷路走行</a> <a href="https://t.co/tatsUBYUHg">pic.twitter.com/tatsUBYUHg</a></p>&mdash; おーかわ (@masamasa9841) <a href="https://twitter.com/masamasa9841/status/879931680286429184?ref_src=twsrc%5Etfw">June 28, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/6am8ySZVF3">pic.twitter.com/6am8ySZVF3</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/879601202790453248?ref_src=twsrc%5Etfw">June 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">学生部屋に行ったら自分の私物が分解されててこの研究室には治安が悪いんじゃなくて治安という概念がないことを再認識した。 <a href="https://twitter.com/hashtag/%E3%83%89%E3%82%A4%E3%83%92%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#ドイヒー</a> <a href="https://t.co/4eCbUrujSf">pic.twitter.com/4eCbUrujSf</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/879266943462588416?ref_src=twsrc%5Etfw">June 26, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「うんこを載せることができた」 <a href="https://twitter.com/hashtag/%E3%82%BC%E3%83%9F?src=hash&amp;ref_src=twsrc%5Etfw">#ゼミ</a> <a href="https://twitter.com/hashtag/%E3%81%8A%E3%81%84?src=hash&amp;ref_src=twsrc%5Etfw">#おい</a> <a href="https://t.co/gnnrzhjtRn">pic.twitter.com/gnnrzhjtRn</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/861440027540115456?ref_src=twsrc%5Etfw">May 8, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">自動で孵化 <a href="https://t.co/9ORCTuOGH2">pic.twitter.com/9ORCTuOGH2</a></p>&mdash; ハバタ (@habatafuture) <a href="https://twitter.com/habatafuture/status/759757757150965761?ref_src=twsrc%5Etfw">July 31, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やめろおおおおおお！！！ <a href="https://t.co/FQ9LlUPAxp">https://t.co/FQ9LlUPAxp</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/752387565127208960?ref_src=twsrc%5Etfw">July 11, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">「学生部屋で豚キムチ食べてたら臭いと言われたので先生の部屋で食ってました」<br><br>💢💢💢💢💢💢💢💢💢💢💢</p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1055702374084304896?ref_src=twsrc%5Etfw">October 26, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
