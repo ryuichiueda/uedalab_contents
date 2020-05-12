@@ -61,3 +61,10 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 
 
 ## つくばチャレンジ（林原研のお手伝い）
+
+上田研からもつくばチャレンジに参加できます。上田研では長期的なテーマを研究課題としています。
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">写真のように障害物があったときに、直接それをセンシングするのではなく、「通るのがいやだ度」を深層学習の学習結果から得て、ロボットに迂回させるという研究 <a href="https://t.co/nnrD47RolG">pic.twitter.com/nnrD47RolG</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260024565654118402?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
