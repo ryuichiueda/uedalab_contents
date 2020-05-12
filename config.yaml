@@ -23,6 +23,13 @@ links:
   href: '/?page=project'
 - text: '共同研究の案内'
   href: '/?page=collaboration_info'
+- text: '3年生向け情報'
+  href: '#'
+  sublinks:
+  - text: '上田研の研究'
+    href: '/?page=guidance_for_b3_2020_research'
+  - text: '上田研の生活'
+    href: '/?page=guidance_for_b3_2020'
 - text: '外部リンク'
   href: '#'
   sublinks:
