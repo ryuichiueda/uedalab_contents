@@ -108,7 +108,8 @@ RGB-Dカメラを使って物体を観測して、ロボットハンドでつか
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">数値が地獄なんですが。 <a href="https://t.co/DFrTL3fqQ5">pic.twitter.com/DFrTL3fqQ5</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1147048428460883968?ref_src=twsrc%5Etfw">July 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">1500ppmをめぐる攻防を家で鼻をほじってビール飲んで観戦中。 <a href="https://t.co/S8Ro6PbqGR">pic.twitter.com/S8Ro6PbqGR</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1148552704538447872?ref_src=twsrc%5Etfw">July 9, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">やばい <a href="https://t.co/Nbj4cqR82t">pic.twitter.com/Nbj4cqR82t</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1151049650230743042?ref_src=twsrc%5Etfw">July 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/%E4%B8%8A%E7%94%B0%E7%A0%94%E3%81%AE%E5%A0%B4%E5%90%88?src=hash&amp;ref_src=twsrc%5Etfw">#上田研の場合</a> <a href="https://t.co/a0YZncQFBe">pic.twitter.com/a0YZncQFBe</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1031497790562566145?ref_src=twsrc%5Etfw">August 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
