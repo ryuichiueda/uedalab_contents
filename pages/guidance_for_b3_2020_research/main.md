@@ -28,10 +28,17 @@
 
 ### 物体のどこを掴めばよいかを決定するアルゴリズム
 
-RGB-Dカメラを使って物体を観測して、ロボットハンドでつかみやすい部分を検出する研究です。使用する技術としては、3次元点群処理と、機械学習、その他幾何計算です。
+RGB-Dカメラを使って物体を観測して、ロボットハンドでつかみやすい部分を検出する研究です。使用する技術としては、3次元点群処理と、機械学習、その他幾何計算です。東芝さんとの共同研究です。
 
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">物体の3次元点群から、ロボットハンドでどこをつかめばよいか計算するアルゴリズムの出力例（シミュレーション結果。赤いところを中心に掴む）<br><br>昨年のロボット学会で発表した、東芝さんとの共同研究です。 <a href="https://t.co/3eoBCSsQvg">pic.twitter.com/3eoBCSsQvg</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260010226478010369?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">これはヤカンの例 <a href="https://t.co/UoFL5CtzKI">pic.twitter.com/UoFL5CtzKI</a></p>&mdash; CIT未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1260011470319833089?ref_src=twsrc%5Etfw">May 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 唐揚げをつかむ
+
+これは一区切りついた研究ですが、山盛りのからあげを上から見ても、どれが個々のからあげかを識別するのは難しいのですが、それを可能とした研究です。アールティさんとの共同研究です（学生さん一人が出向して実装。上田はアドバイス程度です）。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Epu7o9_-sGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
