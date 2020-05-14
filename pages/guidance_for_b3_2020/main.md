@@ -7,3 +7,4 @@
 ## その他の情報源
 
 * 某研究室メンバーのブログ: https://www.asrobot.me/
+* 上田のYouTubeチャンネル: https://www.youtube.com/user/ryuichiueda/
