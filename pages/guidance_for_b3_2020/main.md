@@ -8,3 +8,4 @@
 
 * 某研究室メンバーのブログ: https://www.asrobot.me/
 * 上田のYouTubeチャンネル: https://www.youtube.com/user/ryuichiueda/
+* シェル芸のYouTubeチャンネル: https://www.youtube.com/channel/UCNnuBjHrb2UYBUi0I5otmjQ
