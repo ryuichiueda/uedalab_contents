@@ -17,29 +17,20 @@
 * Yuuki Watanabe
 * Hiroya Ishikawa
 * Yohei Ashino
+* Kensuke Saito
+* Mitsuki Fujiwara
 
-* Kento Arai
-* Norihiro Kondo
 * Taimei Okabe
 * Yoshito Osanai
-* Kazuma Narumi
-* Riku Sekiuchi
 * Tomotaka Suzuki
-* Yuya Suzuki
-* Masakazu Tamura
-* Atuyuki Yamano
 * Hiroyuki Watanabe
-* Sarasa Watanabe
-* Kosuke Ikeda
 * Katsuhide Kusano
 * Nguyen Anh Quan
-* Kensuke Saito
 * Haruki Shimosakai
 * Shota Soyama
 * Kazuki Takahara
 * Shinya Ishihara
 * Takaya Nozawa
-* Mitsuki Fujiwara
 * Kaira Iwai
 * Kenta Yoshida
 
@@ -85,3 +76,12 @@
 * Shogo Ota
 * Tomoya Fujita
 * Takumi Ikeda
+* Kento Arai
+* Norihiro Kondo
+* Kazuma Narumi
+* Riku Sekiuchi
+* Yuya Suzuki
+* Masakazu Tamura
+* Atuyuki Yamano
+* Sarasa Watanabe
+* Kosuke Ikeda
