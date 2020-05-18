@@ -25,11 +25,6 @@ links:
   href: '/?page=collaboration_info'
 - text: '新3年生&院試受験者向け情報'
   href: '/?page=guidance_for_b3_2020'
-  sublinks:
-  - text: '上田研の研究'
-    href: '/?page=guidance_for_b3_2020_research'
-  - text: '上田研の生活'
-    href: '/?page=guidance_for_b3_2020_mission'
 - text: '外部リンク'
   href: '#'
   sublinks:
