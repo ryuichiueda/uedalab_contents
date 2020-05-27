@@ -3,12 +3,25 @@ Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=060
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
+ 	<li><a href="#2020">2020</a></li>
  	<li><a href="#2019">2019</a></li>
  	<li><a href="#2018">2018</a></li>
  	<li><a href="#2017">2017</a></li>
  	<li><a href="#2016">2016</a></li>
  	<li><a href="#2015">2015</a></li>
 </ul>
+
+<h2 id="2020">2020</h2>
+
+### Invited presentations
+
+* 上田隆一: PythonとJupyter Notebookを利用した教科書「詳解確率ロボティクス」の企画と執筆, 第64回システム制御情報学会研究発表講演予稿集, pp.146-149, オンライン開催, 2020. 
+
+### Conference proceedings (non-peer-reviewed)
+
+* 加藤祐介, 上田隆一: ARツールを用いたオドメトリのキャリブレーションシステムにおけるマーカのズレ量の計測法, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 1A1-L03, 2020. 
+* 齊藤篤志, 上田隆一: Particle Filter on EpisodeにおけるHSMM-HDPを用いたリセット法, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 2A1-L09, 2020. 
+* 島田滉己, 上田隆一, 林原靖男: トポロジカルマップとシナリオを用いたナビゲーション ---人が道案内に用いる情報の取得と評価, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 2P1-K02, 2020. 
 
 <h2 id="2019">2019</h2>
 
