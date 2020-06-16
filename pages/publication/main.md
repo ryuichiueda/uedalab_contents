@@ -20,7 +20,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 ### Conference proceedings (non-peer-reviewed)
 
 * 加藤祐介, 上田隆一: ARツールを用いたオドメトリのキャリブレーションシステムにおけるマーカのズレ量の計測法, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 1A1-L03, 2020. 
-* 齊藤篤志, 上田隆一: Particle Filter on EpisodeにおけるHSMM-HDPを用いたリセット法, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 2A1-L09, 2020. 
+* 齊藤篤志, 上田隆一: Particle Filter on EpisodeにおけるHDP-HSMMを用いたリセット法, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 2A1-L09, 2020. 
 * 島田滉己, 上田隆一, 林原靖男: トポロジカルマップとシナリオを用いたナビゲーション ---人が道案内に用いる情報の取得と評価, 日本機械学会ロボティクス・メカトロニクス講演会2020講演論文集, 2P1-K02, 2020. 
 
 <h2 id="2019">2019</h2>
