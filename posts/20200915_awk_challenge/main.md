@@ -17,7 +17,7 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">学生たちが自律移動ロボットで自動運転とAIの技術を競う「AWSロボットデリバリーチャレンジ」開催！優勝は千葉工業大学 -ロボスタ- <a href="https://t.co/7bG0k5clO7">https://t.co/7bG0k5clO7</a> <a href="https://t.co/7nL6gFwKPm">pic.twitter.com/7nL6gFwKPm</a></p>&mdash; ロボットスタート（ロボスタ） (@robotstart) <a href="https://twitter.com/robotstart/status/1306144068489994241?ref_src=twsrc%5Etfw">September 16, 2020</a></blockquote>
 
-研究室では、<strong>ちゃんと研究するなら</strong>引き続きロボコン参加者を支援していきます。
+研究室では、<strong>ちゃんと文章を書く訓練をするなら</strong>引き続きロボコン参加者を支援していきます。
 
 
 上田
