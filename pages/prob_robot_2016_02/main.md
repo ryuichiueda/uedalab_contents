@@ -5,7 +5,7 @@
 
 2016年9月28日\@千葉工業大学
 
-\(\\usepackage{amsmath,amssymb} \)
+$$ \\usepackage{amsmath,amssymb} $$
 
 <!--nextpage-->
 <h2>今日の内容</h2>
