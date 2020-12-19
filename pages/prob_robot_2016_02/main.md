@@ -16,9 +16,9 @@
 <ul>
  	<li>状態について考えた
 <ul>
- 	<li>状態空間[latex]\\mathcal{X}[/latex]</li>
- 	<li>状態[latex]\\boldsymbol{x} = (x_1,x_2,\\dots,x_n) \\in \\mathcal{X}[/latex]</li>
- 	<li>状態変数[latex]x_1,x_2,\\dots,x_n[/latex]</li>
+ 	<li>状態空間$$\\mathcal{X}$$</li>
+ 	<li>状態$$\\boldsymbol{x} = (x_1,x_2,\\dots,x_n) \\in \\mathcal{X}$$</li>
+ 	<li>状態変数$$x_1,x_2,\\dots,x_n$$</li>
 </ul>
 </li>
  	<li>制御の上で区別すべきものを考慮して状態を定義すべき</li>
@@ -40,9 +40,9 @@
  	<li>時刻の導入
 <ul>
  	<li>ディジタルの計算機を使うときは基本、離散系で考えてよい</li>
- 	<li>[latex]\\boldsymbol{x}_0,\\boldsymbol{x}_1,\\dots,\\boldsymbol{x}_t,\\dots[/latex]（[latex]t[/latex]:時刻）
+ 	<li>$$\\boldsymbol{x}_0,\\boldsymbol{x}_1,\\dots,\\boldsymbol{x}_t,\\dots$$（$$t$$:時刻）
 <ul>
- 	<li>（この表記だと[latex]x[/latex]が太字か細字かで添字の意味が違うので注意）</li>
+ 	<li>（この表記だと$$x$$が太字か細字かで添字の意味が違うので注意）</li>
  	<li>（わかりにくくてごめんなさい）</li>
 </ul>
 </li>
@@ -61,13 +61,13 @@
 <ul>
  	<li>状態を動かすもの
 <ul>
- 	<li>[latex]\\boldsymbol{u} = (u_1,u_2,\\dots,u_m)[/latex]</li>
- 	<li>[latex]u_1,u_2,\\dots,u_m[/latex]: 制御変数</li>
+ 	<li>$$\\boldsymbol{u} = (u_1,u_2,\\dots,u_m)$$</li>
+ 	<li>$$u_1,u_2,\\dots,u_m$$: 制御変数</li>
 </ul>
 </li>
  	<li>制御出力空間
 <ul>
- 	<li>[latex]\\boldsymbol{u} \\in \\mathcal{U}[/latex]</li>
+ 	<li>$$\\boldsymbol{u} \\in \\mathcal{U}$$</li>
 </ul>
 </li>
  	<li>制御出力を与えるもの
@@ -80,16 +80,16 @@
 <!--nextpage-->
 <h2>状態遷移</h2>
 <ul>
- 	<li>ある時刻の状態[latex]\\boldsymbol{x}_{t-1}[/latex]でエージェントが制御出力[latex]\\boldsymbol{u}_t[/latex]を
-選んだら[latex]\\boldsymbol{x}_t[/latex]に状態が変化</li>
+ 	<li>ある時刻の状態$$\\boldsymbol{x}_{t-1}$$でエージェントが制御出力$$\\boldsymbol{u}_t$$を
+選んだら$$\\boldsymbol{x}_t$$に状態が変化</li>
  	<li>状態遷移の式（状態方程式）
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t)[/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t)$$</li>
 </ul>
 </li>
  	<li>状態遷移関数
 <ul>
- 	<li>[latex]f: \\mathcal{X} \\times \\mathcal{U} \\longrightarrow \\mathcal{X}[/latex]</li>
+ 	<li>$$f: \\mathcal{X} \\times \\mathcal{U} \\longrightarrow \\mathcal{X}$$</li>
 </ul>
 </li>
 </ul>
@@ -107,7 +107,7 @@
 </li>
  	<li><a href="/?presenpress=確率ロボティクス2016第1回#/14" target="_blank" rel="noopener">ロボット2</a>
 <ul>
- 	<li>入力はステップモータの周波数[latex]\\propto[/latex]角速度</li>
+ 	<li>入力はステップモータの周波数$$\\propto$$角速度</li>
  	<li>ステップモータじゃなくてDCモータならどうなる？</li>
 </ul>
 </li>
@@ -133,15 +133,15 @@
  	<li>いくつかの定式化</li>
  	<li>線形な状態方程式
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = A \\boldsymbol{x}_{t-1} + B\\boldsymbol{u}_t +\\boldsymbol{\\varepsilon}_t [/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = A \\boldsymbol{x}_{t-1} + B\\boldsymbol{u}_t +\\boldsymbol{\\varepsilon}_t $$</li>
 </ul>
 </li>
  	<li>非線形な方程式
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t [/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t $$</li>
 </ul>
 </li>
- 	<li><span style="color: #ffff00;">[latex]\\boldsymbol{x}_t[/latex]が決定論的でなくなる</span>
+ 	<li><span style="color: #ffff00;">$$\\boldsymbol{x}_t$$が決定論的でなくなる</span>
 <ul>
  	<li>上記のような数式では非決定論的なものが表現しづらい</li>
 </ul>
@@ -153,31 +153,31 @@
 <ul>
  	<li>状態遷移の書き方
 <ul>
- 	<li>[latex] \\boldsymbol{x}_t \\sim p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) [/latex]
+ 	<li>$$ \\boldsymbol{x}_t \\sim p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) $$
 <ul>
- 	<li>意味: [latex]\\boldsymbol{x}_{t-1}[/latex]で[latex]\\boldsymbol{u}_t[/latex]を選択したときの、遷移後の状態が
-従う確率密度関数[latex]p(\\boldsymbol{x})[/latex]に従って、[latex]\\boldsymbol{x}_t[/latex]が決まる</li>
+ 	<li>意味: $$\\boldsymbol{x}_{t-1}$$で$$\\boldsymbol{u}_t$$を選択したときの、遷移後の状態が
+従う確率密度関数$$p(\\boldsymbol{x})$$に従って、$$\\boldsymbol{x}_t$$が決まる</li>
 </ul>
 </li>
 </ul>
 </li>
- 	<li>依然[latex]\\boldsymbol{x}_t[/latex]が実際には何なのかは分からない
+ 	<li>依然$$\\boldsymbol{x}_t$$が実際には何なのかは分からない
 <ul>
  	<li>分かるのは真の状態がどれなのかという<span style="color: #ffff00;">確率密度関数</span></li>
 </ul>
 </li>
  	<li>確率密度関数（<span style="color: #ffff00;">状態遷移確率</span>）を求める式
 <ul>
- 	<li>[latex]bel_t(\\boldsymbol{x}) = \\int_\\mathcal{X} p(\\boldsymbol{x} | \\boldsymbol{x}',\\boldsymbol{u}_t )bel_{t-1}(\\boldsymbol{x}') d\\boldsymbol{x}'[/latex]</li>
- 	<li>[latex]bel[/latex]: 状態に関する確率密度関数</li>
+ 	<li>$$bel_t(\\boldsymbol{x}) = \\int_\\mathcal{X} p(\\boldsymbol{x} | \\boldsymbol{x}',\\boldsymbol{u}_t )bel_{t-1}(\\boldsymbol{x}') d\\boldsymbol{x}'$$</li>
+ 	<li>$$bel$$: 状態に関する確率密度関数</li>
 </ul>
 </li>
 </ul>
 
 <!--nextpage-->
-<h2>[latex]bel[/latex]という表記</h2>
+<h2>$$bel$$という表記</h2>
 <ul>
- 	<li>[latex]bel[/latex]: belief、信念
+ 	<li>$$bel$$: belief、信念
 <ul>
  	<li><span style="color: #ffff00;">エージェントが持っている</span>、状態に対する理解</li>
  	<li>何か正解があるわけではなく、
@@ -193,74 +193,74 @@
 </ul>
 
 <!--nextpage-->
-<h2>[latex]bel[/latex]の計算（ガウス分布）</h2>
+<h2>$$bel$$の計算（ガウス分布）</h2>
 <ul>
  	<li>問題
 <ul>
- 	<li>状態は一次元: [latex]x \\in \\Re[/latex]</li>
- 	<li>制御出力: 状態の変位[latex]\\Delta_t[/latex]
+ 	<li>状態は一次元: $$x \\in \\Re$$</li>
+ 	<li>制御出力: 状態の変位$$\\Delta_t$$
 <ul>
- 	<li>[latex]x[/latex]から[latex]x + \\Delta_t + \\epsilon[/latex]に移動
+ 	<li>$$x$$から$$x + \\Delta_t + \\epsilon$$に移動
 <ul>
- 	<li>雑音[latex]\\epsilon[/latex]は標準偏差[latex]\\delta_t[/latex]でガウス分布に従う</li>
+ 	<li>雑音$$\\epsilon$$は標準偏差$$\\delta_t$$でガウス分布に従う</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 </li>
- 	<li><span style="color: #ffff00;">[latex]bel_t[/latex]を以下から導出してみましょう（かなり難しい）</span>
+ 	<li><span style="color: #ffff00;">$$bel_t$$を以下から導出してみましょう（かなり難しい）</span>
 <ul>
- 	<li>[latex]bel_{t-1}(x) = \\frac{1}{\\sqrt{2\\pi \\sigma_{t-1}^2}}\\exp \\{-\\frac{(x-\\hat{x}_{t-1})^2}{2\\sigma_{t-1}^2}\\}[/latex]
+ 	<li>$$bel_{t-1}(x) = \\frac{1}{\\sqrt{2\\pi \\sigma_{t-1}^2}}\\exp \\{-\\frac{(x-\\hat{x}_{t-1})^2}{2\\sigma_{t-1}^2}\\}$$
 <ul>
- 	<li>[latex]\\hat{x}_{t-1}: t-1[/latex]における分布の中心（状態の推定値）</li>
- 	<li>[latex]\\sigma_{t-1}: t-1[/latex]における分布の標準偏差</li>
+ 	<li>$$\\hat{x}_{t-1}: t-1$$における分布の中心（状態の推定値）</li>
+ 	<li>$$\\sigma_{t-1}: t-1$$における分布の標準偏差</li>
 </ul>
 </li>
- 	<li>[latex]p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},\\Delta_t) =\\frac{1}{\\sqrt{2\\pi \\delta_t^2}}\\exp \\{-\\frac{(x-x_{t-1}-\\Delta_t)^2}{2\\delta_t^2}\\}[/latex]</li>
+ 	<li>$$p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},\\Delta_t) =\\frac{1}{\\sqrt{2\\pi \\delta_t^2}}\\exp \\{-\\frac{(x-x_{t-1}-\\Delta_t)^2}{2\\delta_t^2}\\}$$</li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>[latex]bel[/latex]の式にガウス分布を代入</h2>
-[latex]bel_t(x) = \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi\\delta_t^2}}e^{-\\frac{1}{2\\delta_t^2}(x - x_{t-1} - \\Delta_t)^2}\\frac{1}{\\sqrt{2\\pi\\sigma_{t-1}^2}}e^{-\\frac{1}{2\\sigma_{t-1}^2}(x_{t-1} - \\hat{x_{t-1}})^2}dx_{t-1}\\\\= \\eta\\int_{-\\infty}^{\\infty} e^{\\frac{-1}{2}L}dx_{t-1}\\\\[/latex]
+<h2>$$bel$$の式にガウス分布を代入</h2>
+$$bel_t(x) = \\int_{-\\infty}^{\\infty} \\frac{1}{\\sqrt{2\\pi\\delta_t^2}}e^{-\\frac{1}{2\\delta_t^2}(x - x_{t-1} - \\Delta_t)^2}\\frac{1}{\\sqrt{2\\pi\\sigma_{t-1}^2}}e^{-\\frac{1}{2\\sigma_{t-1}^2}(x_{t-1} - \\hat{x_{t-1}})^2}dx_{t-1}\\\\= \\eta\\int_{-\\infty}^{\\infty} e^{\\frac{-1}{2}L}dx_{t-1}\\\\$$
 <ul>
  	<li>ここで
 <ul>
- 	<li>[latex]\\eta[/latex]は定数項</li>
- 	<li>[latex]L[/latex]は指数部の[latex]-1/2[/latex]を除く部分</li>
+ 	<li>$$\\eta$$は定数項</li>
+ 	<li>$$L$$は指数部の$$-1/2$$を除く部分</li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>[latex]L[/latex]から[latex]x_{t-1}[/latex]を分離</h2>
-[latex] L = \\frac{1}{\\delta_t^2}(x - x_{t-1} - \\Delta_t)^2 + \\frac{1}{\\sigma_{t-1}^2}(x_{t-1} - \\hat{x_{t-1}})^2 \\\\
-= \\frac{\\sigma_{t-1}^2 + \\delta_t^2}{\\sigma_{t-1}^2\\delta_t^2}\\left\\{ x_{t-1} - \\frac{\\sigma_{t-1}^2(x - \\Delta_t) + \\delta_t^2\\hat{x_{t-1}}}{\\sigma_{t-1}^2 + \\delta_t^2}\\right\\}^2 + \\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{\\sigma_{t-1}^2 + \\delta_t^2}\\\\[/latex]
+<h2>$$L$$から$$x_{t-1}$$を分離</h2>
+$$ L = \\frac{1}{\\delta_t^2}(x - x_{t-1} - \\Delta_t)^2 + \\frac{1}{\\sigma_{t-1}^2}(x_{t-1} - \\hat{x_{t-1}})^2 \\\\
+= \\frac{\\sigma_{t-1}^2 + \\delta_t^2}{\\sigma_{t-1}^2\\delta_t^2}\\left\\{ x_{t-1} - \\frac{\\sigma_{t-1}^2(x - \\Delta_t) + \\delta_t^2\\hat{x_{t-1}}}{\\sigma_{t-1}^2 + \\delta_t^2}\\right\\}^2 + \\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{\\sigma_{t-1}^2 + \\delta_t^2}\\\\$$
 
-<span style="color: #00ffff;">左側と右側の項</span><span style="color: #00ffff;">をそれぞれ[latex]L(x_{t-1},x),L(x)[/latex]とおきましょう</span>
+<span style="color: #00ffff;">左側と右側の項</span><span style="color: #00ffff;">をそれぞれ$$L(x_{t-1},x),L(x)$$とおきましょう</span>
 
 &nbsp;
 <h2><!--nextpage--></h2>
-<h2>再び[latex]bel_t[/latex]の式に代入</h2>
-[latex]bel_t(x) = \\eta\\int_{-\\infty}^{\\infty} e^{\\frac{-1}{2}L}dx_{t-1}\\\\
+<h2>再び$$bel_t$$の式に代入</h2>
+$$bel_t(x) = \\eta\\int_{-\\infty}^{\\infty} e^{\\frac{-1}{2}L}dx_{t-1}\\\\
 =\\eta\\int_{-\\infty}^{\\infty} e^{- \\frac{1}{2}L(x_{t-1},x) - \\frac{1}{2} L(x)}dx_{t-1}\\\\
 =\\eta e^{-\\frac{1}{2} L(x)}\\int_{-\\infty}^{\\infty} e^{- \\frac{1}{2}L(x_{t-1},x)}dx_{t-1}\\\\
-=\\eta e^{-\\frac{1}{2}\\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{\\sigma_{t-1}^2 + \\delta_t^2}}\\int_{-\\infty}^{\\infty} e^{- \\frac{1}{2}\\frac{\\sigma_{t-1}^2 + \\delta_t^2}{\\sigma_{t-1}^2\\delta_t^2}\\left\\{ x_{t-1} - \\frac{\\sigma_{t-1}^2(x - \\Delta_t) + \\delta_t^2\\hat{x_{t-1}}}{\\sigma_{t-1}^2 + \\delta_t^2}\\right\\}^2}dx_{t-1} \\\\[/latex]
+=\\eta e^{-\\frac{1}{2}\\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{\\sigma_{t-1}^2 + \\delta_t^2}}\\int_{-\\infty}^{\\infty} e^{- \\frac{1}{2}\\frac{\\sigma_{t-1}^2 + \\delta_t^2}{\\sigma_{t-1}^2\\delta_t^2}\\left\\{ x_{t-1} - \\frac{\\sigma_{t-1}^2(x - \\Delta_t) + \\delta_t^2\\hat{x_{t-1}}}{\\sigma_{t-1}^2 + \\delta_t^2}\\right\\}^2}dx_{t-1} \\\\$$
 
-<span style="color: #ffff00;">積分の部分がガウス分布の積分の形になっており定数となる。[latex]\\eta[/latex]に入れてしまう</span>
+<span style="color: #ffff00;">積分の部分がガウス分布の積分の形になっており定数となる。$$\\eta$$に入れてしまう</span>
 <h2><!--nextpage--></h2>
-<h2>結局[latex]bel_t[/latex]は・・・</h2>
-[latex]bel_t(x) = \\eta \\exp\\left\\{-\\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{2(\\sigma_{t-1}^2 + \\delta_t^2)}\\right\\} = \\mathcal{N}(\\hat{x_{t-1}} + \\Delta_t,\\sigma_{t-1}^2 + \\delta_t^2)[/latex]
+<h2>結局$$bel_t$$は・・・</h2>
+$$bel_t(x) = \\eta \\exp\\left\\{-\\frac{(x - \\hat{x_{t-1}} - \\Delta_t)^2}{2(\\sigma_{t-1}^2 + \\delta_t^2)}\\right\\} = \\mathcal{N}(\\hat{x_{t-1}} + \\Delta_t,\\sigma_{t-1}^2 + \\delta_t^2)$$
 <ul>
- 	<li>[latex]bel_t[/latex]は再びガウス分布となる
+ 	<li>$$bel_t$$は再びガウス分布となる
 <ul>
  	<li>分布の中心: 元の移動量に制御出力の値を加えた値</li>
- 	<li>分散: 移動の雑音の分散に元の（[latex]bel_{t-1}[/latex]の）分散を足した値</li>
+ 	<li>分散: 移動の雑音の分散に元の（$$bel_{t-1}$$の）分散を足した値</li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>[latex]bel[/latex]の計算（数値計算）</h2>
+<h2>$$bel$$の計算（数値計算）</h2>
 <ul>
  	<li>ガウス分布のように計算前後が同じ分布になるものでない場合
 <ul>
@@ -275,44 +275,44 @@
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>モンテカルロ法を使った[latex]bel[/latex]の計算</h2>
+<h2>モンテカルロ法を使った$$bel$$の計算</h2>
 <ul>
  	<li>手を動かしてみましょう
 <ul>
  	<li> 先ほどと同じ問題で
 <ul>
- 	<li>制御出力: [latex]\\Delta_t[/latex]</li>
- 	<li>誤差: [latex]\\delta_t[/latex]</li>
+ 	<li>制御出力: $$\\Delta_t$$</li>
+ 	<li>誤差: $$\\delta_t$$</li>
 </ul>
 </li>
 </ul>
 </li>
  	<li>以下をExcelかプログラミングで何度も繰り返してみる
 <ul>
- 	<li>[latex]x = 0[/latex]に点を打つ</li>
- 	<li>[latex]\\Delta = 1,\\delta = 0.1[/latex]として乱数を一つ選んで移動量とし、[latex]x[/latex]を移動
+ 	<li>$$x = 0$$に点を打つ</li>
+ 	<li>$$\\Delta = 1,\\delta = 0.1$$として乱数を一つ選んで移動量とし、$$x$$を移動
 <ul>
- 	<li>簡易的なガウス乱数の作り方: 区間[latex][0,1][/latex]から
+ 	<li>簡易的なガウス乱数の作り方: 区間$$[0,1]$$から
 12個の数字を一様乱数を選んで足し、6を引くと
-[latex]\\mathcal{N}(0,1)[/latex]にほぼ従う乱数が得られる</li>
+$$\\mathcal{N}(0,1)$$にほぼ従う乱数が得られる</li>
 </ul>
 </li>
- 	<li>数ステップ[latex]x[/latex]を動かしてみる（[latex]t=1,2,3[/latex]と3ステップ程度）</li>
+ 	<li>数ステップ$$x$$を動かしてみる（$$t=1,2,3$$と3ステップ程度）</li>
 </ul>
 </li>
  	<li>1,2,3ステップ後の分布はガウス分布？分散は？</li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>格子を使った[latex]bel[/latex]の計算</h2>
+<h2>格子を使った$$bel$$の計算</h2>
 <ul>
- 	<li>[latex]bel[/latex]の表現
+ 	<li>$$bel$$の表現
 <ul>
  	<li>状態空間を格子状に区切る
 <ul>
- 	<li>[latex]s_1,s_2,s_3,\\dots,s_N \\subset \\mathcal{X}[/latex]
+ 	<li>$$s_1,s_2,s_3,\\dots,s_N \\subset \\mathcal{X}$$
 <ul>
- 	<li>[latex]\\bigcap_{i=1}^N s_i = \\phi[/latex]</li>
- 	<li>[latex]\\bigcup_{i=1}^N s_i = \\mathcal{X}[/latex]</li>
+ 	<li>$$\\bigcap_{i=1}^N s_i = \\phi$$</li>
+ 	<li>$$\\bigcup_{i=1}^N s_i = \\mathcal{X}$$</li>
 </ul>
 </li>
 </ul>
@@ -321,7 +321,7 @@
 <ul>
  	<li>P(s_i)
 <ul>
- 	<li>[latex]\\sum_{i=1}^N P(s_i) = 1[/latex]</li>
+ 	<li>$$\\sum_{i=1}^N P(s_i) = 1$$</li>
 </ul>
 </li>
 </ul>
@@ -336,16 +336,16 @@
 </ul>
 <h2><!--nextpage--></h2>
 <ul>
- 	<li>[latex]0.1[/latex]刻みで数直線上に区間を作る
+ 	<li>$$0.1$$刻みで数直線上に区間を作る
 <ul>
  	<li>どこかの区間の確率を1に。他を0に。</li>
 </ul>
 </li>
  	<li> 以下をExcelかプログラミングで何度も繰り返してみる
 <ul>
- 	<li>[latex]\\Delta = 1[/latex]だけ分布を動かす
+ 	<li>$$\\Delta = 1$$だけ分布を動かす
 <ul>
- 	<li>雑音[latex]\\delta = 0.1[/latex]の量だけ分布をぼかす
+ 	<li>雑音$$\\delta = 0.1$$の量だけ分布をぼかす
 <ul>
  	<li>方法は議論のこと</li>
 </ul>
@@ -387,34 +387,34 @@
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>雑音がガウス分布に従う場合の[latex]bel[/latex]の導出</h2>
+<h2>雑音がガウス分布に従う場合の$$bel$$の導出</h2>
 <ul>
  	<li>おさらい
 <ul>
  	<li> 線形な状態方程式
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = A \\boldsymbol{x}_{t-1} + B\\boldsymbol{u}_t +\\boldsymbol{\\varepsilon}_t [/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = A \\boldsymbol{x}_{t-1} + B\\boldsymbol{u}_t +\\boldsymbol{\\varepsilon}_t $$</li>
 </ul>
 </li>
  	<li><span style="color: #ffff00;">非線形な方程式（行列で書けない）</span>
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t [/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t $$</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>[latex]f[/latex]を線形化</h2>
+<h2>$$f$$を線形化</h2>
 <ul>
- 	<li>姿勢の推定値[latex]\\boldsymbol{\\hat{x}}_{t-1}[/latex]まわりでテイラー展開
+ 	<li>姿勢の推定値$$\\boldsymbol{\\hat{x}}_{t-1}$$まわりでテイラー展開
 <ul>
- 	<li>[latex] f(\\boldsymbol{x},\\boldsymbol{u}) = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}) + \\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}\\big|_{\\boldsymbol{\\hat{x}}_{t-1}} (\\boldsymbol{x} - \\boldsymbol{\\hat{x}}_{t-1}) [/latex]</li>
- 	<li>この式は[latex]\\boldsymbol{x}[/latex]の線形式になっている</li>
- 	<li>[latex]\\boldsymbol{x}[/latex]: [latex]n[/latex]次元の状態ベクトル</li>
- 	<li>[latex]\\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}[/latex]: ヤコビ行列
+ 	<li>$$ f(\\boldsymbol{x},\\boldsymbol{u}) = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}) + \\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}\\big|_{\\boldsymbol{\\hat{x}}_{t-1}} (\\boldsymbol{x} - \\boldsymbol{\\hat{x}}_{t-1}) $$</li>
+ 	<li>この式は$$\\boldsymbol{x}$$の線形式になっている</li>
+ 	<li>$$\\boldsymbol{x}$$: $$n$$次元の状態ベクトル</li>
+ 	<li>$$\\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}$$: ヤコビ行列
 <ul>
- 	<li>[latex]n\\times n[/latex]行列</li>
+ 	<li>$$n\\times n$$行列</li>
 </ul>
 </li>
 </ul>
@@ -423,47 +423,47 @@
 <h2><!--nextpage--></h2>
 <h2>状態方程式の書き換え</h2>
 <ul>
- 	<li>[latex]F_t = \\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}\\big|_{\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t}[/latex]とする
+ 	<li>$$F_t = \\frac{\\partial f(\\boldsymbol{x},\\boldsymbol{u})}{\\partial\\boldsymbol{x}}\\big|_{\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t}$$とする
 <ul>
- 	<li>確率ロボティクスだと[latex]G_t[/latex]になっている</li>
+ 	<li>確率ロボティクスだと$$G_t$$になっている</li>
 </ul>
 </li>
- 	<li>[latex]\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t [/latex]に前のページで得た[latex]f[/latex]を代入
+ 	<li>$$\\boldsymbol{x}_t = f(\\boldsymbol{x}_{t-1},\\boldsymbol{u}_t) +\\boldsymbol{\\varepsilon}_t $$に前のページで得た$$f$$を代入
 <ul>
- 	<li>[latex]\\boldsymbol{x}_t = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) + F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) +\\boldsymbol{\\varepsilon}_t[/latex]</li>
+ 	<li>$$\\boldsymbol{x}_t = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) + F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) +\\boldsymbol{\\varepsilon}_t$$</li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
 <h2>状態遷移確率</h2>
 <ul>
- 	<li>[latex]p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},  \\boldsymbol{u}_t ) \\approx \\eta e^{ -\\frac{1}{2} \\left[\\boldsymbol{x} -f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) - F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1})  \\right]^T  R_t^{-1}\\left[\\boldsymbol{x} - f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) -F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) \\right]  }[/latex]
+ 	<li>$$p(\\boldsymbol{x} | \\boldsymbol{x}_{t-1},  \\boldsymbol{u}_t ) \\approx \\eta e^{ -\\frac{1}{2} \\left[\\boldsymbol{x} -f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) - F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1})  \\right]^T  R_t^{-1}\\left[\\boldsymbol{x} - f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) -F_t(\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) \\right]  }$$
 <ul>
- 	<li>[latex]\\boldsymbol{x}[/latex]: 移動後の状態の候補</li>
- 	<li>[latex]f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t)[/latex]: 移動前の推定位置から予測される移動後の状態</li>
- 	<li>[latex]\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}[/latex]: 移動前の姿勢（左辺で指定）と移動前の推定姿勢の差</li>
- 	<li>[latex]R_t[/latex]: [latex]\\boldsymbol{\\varepsilon}_t[/latex]に対応する共分散行列</li>
+ 	<li>$$\\boldsymbol{x}$$: 移動後の状態の候補</li>
+ 	<li>$$f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t)$$: 移動前の推定位置から予測される移動後の状態</li>
+ 	<li>$$\\boldsymbol{x}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}$$: 移動前の姿勢（左辺で指定）と移動前の推定姿勢の差</li>
+ 	<li>$$R_t$$: $$\\boldsymbol{\\varepsilon}_t$$に対応する共分散行列</li>
 </ul>
 </li>
 </ul>
 <h2><!--nextpage--></h2>
-<h2>導出される[latex]bel_t[/latex]</h2>
+<h2>導出される$$bel_t$$</h2>
 <ul>
- 	<li>移動前の[latex]bel_{t-1}[/latex]が次のとき
+ 	<li>移動前の$$bel_{t-1}$$が次のとき
 <ul>
  	<li>分布の形状: 多変量ガウス分布</li>
- 	<li>中心: [latex]\\boldsymbol{\\hat{x}}_{t-1}[/latex]</li>
- 	<li>共分散: [latex]\\hat\\Sigma_{t-1}[/latex]</li>
+ 	<li>中心: $$\\boldsymbol{\\hat{x}}_{t-1}$$</li>
+ 	<li>共分散: $$\\hat\\Sigma_{t-1}$$</li>
 </ul>
 </li>
- 	<li>移動後の[latex]bel_t[/latex]は
+ 	<li>移動後の$$bel_t$$は
 <ul>
- 	<li>中心: [latex]f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) + F_t(\\boldsymbol{\\hat{x}}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t)[/latex]
+ 	<li>中心: $$f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t) + F_t(\\boldsymbol{\\hat{x}}_{t-1} - \\boldsymbol{\\hat{x}}_{t-1}) = f(\\boldsymbol{\\hat{x}}_{t-1},\\boldsymbol{u}_t)$$
 <ul>
  	<li>移動前の平均値を素直に移動</li>
 </ul>
 </li>
- 	<li>共分散: [latex]F_t\\hat\\Sigma_{t-1}F_t^T + R_t[/latex]
+ 	<li>共分散: $$F_t\\hat\\Sigma_{t-1}F_t^T + R_t$$
 <ul>
  	<li>共分散行列を回転して雑音を足しているだけ</li>
 </ul>
