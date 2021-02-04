@@ -15,6 +15,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Invited presentations
 
+* 上田隆一: 移動ロボットのナビゲーション, 日本ロボット学会第131回ロボット工学セミナー, オンライン開催, 2021. 
 * 上田隆一: RoboCup 四足ロボットリーグで研究されていた確率ロボティクスの技術 ~20年前の小型四脚ロボットにおける認識と行動アルゴリズム~, 第38回日本ロボット学会学術講演会, オンライン開催, 2020. 
 * 上田隆一: PythonとJupyter Notebookを利用した教科書「詳解確率ロボティクス」の企画と執筆, 第64回システム制御情報学会研究発表講演予稿集, pp.146-149, オンライン開催, 2020. 
 
