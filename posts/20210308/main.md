@@ -33,10 +33,18 @@ L515の結果を示す。
 
 ## 議論
 
-上図が示すように、実験は失敗した。しかし、失敗した原因の意外性から、多くのいいねが稼げたので、これはこれでよいのではないだろうか。
+上図が示すように、実験は失敗した。しかし、失敗した原因の意外性から、多くのいいねが稼げたので、これはこれでよいのではないだろうか。また、猫ダークマター説など、新たな仮説を検証する動機を得た。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">黒猫ダークマター仮説の誕生じゃった。</p>&mdash; SoftwareDesign (@gihyosd) <a href="https://twitter.com/gihyosd/status/1368845305668534275?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 結論
+## 結論・今後の展望
 
-猫関係のツイートは伸びる。真面目な研究についても、多くの人に興味を持ってもらうことが今後の課題となる。
+猫は元来胴体もツイートもよく伸びることが知られているが、本実験でも同様の効果が見られた。真面目な研究についても、多くの人に興味を持ってもらうことが今後の課題となる。そして、新3年生の皆様に上田研を志願してもらえるようにいろいろ発信することも必要である。
+
+
+## appendix
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">1枚目: D435<br>2枚目: L515<br><br>特性が違って面白い． <a href="https://t.co/831c5Goc4B">pic.twitter.com/831c5Goc4B</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1368843949079597062?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
