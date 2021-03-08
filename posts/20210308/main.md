@@ -52,7 +52,6 @@ L515の結果を示す。
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">1枚目: D435<br>2枚目: L515<br><br>特性が違って面白い． <a href="https://t.co/831c5Goc4B">pic.twitter.com/831c5Goc4B</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1368843949079597062?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="ja" dir="ltr">動画撮ってみました。 <a href="https://t.co/muo4P5lCmm">pic.twitter.com/muo4P5lCmm</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1368849694315606029?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">動画撮ってみました。 <a href="https://t.co/muo4P5lCmm">pic.twitter.com/muo4P5lCmm</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1368849694315606029?ref_src=twsrc%5Etfw">March 8, 2021</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
