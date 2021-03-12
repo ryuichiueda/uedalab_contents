@@ -21,3 +21,13 @@ Copyright: (C) 2020 Ryuichi Ueda
 
 
 上田
+
+## 動画（2021年3月12日追記）
+
+### 決勝
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tvhe4P3MiTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 本戦
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wjuNznYEFNg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
