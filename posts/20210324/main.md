@@ -1,5 +1,5 @@
 ---
-Keywords: ご報告
+Keywords: ご報告,受賞
 Copyright: (C) 2021 Ryuichi Ueda
 ---
 
