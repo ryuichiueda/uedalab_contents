@@ -1,3 +1,8 @@
+---
+Keywords: 冗談
+Copyright: (C) 2021 Ryuichi Ueda
+---
+
 # 黒猫LiDAR実験
 
 ## 序論
