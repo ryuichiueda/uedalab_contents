@@ -43,4 +43,15 @@
 
 ## その他の情報源
 
+
+### シェル芸
+
+上田はロボットの研究者ですが，「シェル芸」で知られるソフトウェア業界の人でもあります．Linuxの使い方を極めたい人はぜひ．
+
+* 上田のWikipediaページ: https://ja.wikipedia.org/wiki/上田隆一
+
+### YouTube
+
+講義やシェル芸のビデオをアップしています．
+
 * 上田のYouTubeチャンネル: https://www.youtube.com/user/ryuichiueda/
