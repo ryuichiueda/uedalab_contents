@@ -2,13 +2,13 @@
 
 ## 研究テーマ
 
-研究内容については，つぎの動画をご覧ください．各自の研究テーマは，希望のテーマがある場合は（5人以上重複しない限りは）それになり，特にない場合にはたくさんあるテーマの中から選んでもらうことになります．
+　研究内容については，つぎの動画をご覧ください．各自の研究テーマは，希望のテーマがある場合は（5人以上重複しない限りは）それになり，特にない場合にはたくさんあるテーマの中から選んでもらうことになります．
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rZe2GFru3Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## OB・OG就職先
 
-2020年度の具体的な企業名については4/1以後に公表します．基本的にソフトウェア関係に強いですが，下記のように書類書きやスピーチの機会が多いので，文系就職もたまにあります．
+　2020年度の具体的な企業名については4/1以後に公表します．基本的にソフトウェア関係に強いですが，下記のように書類書きやスピーチの機会が多いので，文系就職も事例が複数あります．
 
 * https://lab.ueda.tech/?page=career
 
