@@ -1,13 +1,35 @@
 # 2021年度3年生配属ガイダンス
 
-まだ昨年のデータです。
+研究内容については，つぎの動画をご覧ください．
 
-* 研究: https://lab.ueda.tech/?page=guidance_for_b3_2020_research
-* 研究室生活: https://lab.ueda.tech/?page=guidance_for_b3_2020_mission
-* OB・OG就職先: https://lab.ueda.tech/?page=career
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZe2GFru3Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## OB・OG就職先
+
+まだ昨年度のデータです．ソフトウェア関係に強いです．
+
+* https://lab.ueda.tech/?page=career
+
+## 研究室生活
+
+### 大事だと考えていること
+
+　研究室では，自分でやったことをしっかり文章に残したり，プレゼンやその他発信する力をつけてもらえることを第一に考えて指導しています．といっても怪しいコンサルタントになってもらいたいわけではなく，どちらかというと職人タイプの学生さんに，黙々と仕事をしすぎて損をしないように，そういった力を身につけてもらいたいと思いっています．ですので，自分は職人だと思う人に来ていただくのがよいかなと考えています．結果は就活のときに明らかに出ており，自分がやったことをしっかり説明することで，すぐ就活が終わってしまうメンバーがほとんどという状況になっています．
+
+
+　ただ，職人ではなくても自分を鍛え直したいという人は（定員が許す限り）受け入れています．
+
+
+### リモートに強い
+
+　人数が多いので，<span style="color:red">コロナ以前から</span>ゼミはZoomで開催し，Slackでやりとりするなど，在宅で研究ができるようにしてきました．昨年度も，研究室での会話が少なくなるなど少々寂しい面もありましたが，特に問題なく研究活動ができています．
+
+　最近の新しい試みとして，[Gather](https://gather.town/) でオンラインの上田研を用意して，常に雑談できる環境を作りました．ゼミもここで行うことにしました．
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">今日はこんな感じでゼミをしましたが、もうちょいスポットライトとかの使い方を勉強しないと円滑にできなさそうです。 <a href="https://t.co/bWueTOTxrj">pic.twitter.com/bWueTOTxrj</a></p>&mdash; 上田 隆一 (@ryuichiueda) <a href="https://twitter.com/ryuichiueda/status/1374333583431639040?ref_src=twsrc%5Etfw">March 23, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## その他の情報源
 
-* 某研究室メンバーのブログ: https://www.asrobot.me/
 * 上田のYouTubeチャンネル: https://www.youtube.com/user/ryuichiueda/
-* シェル芸のYouTubeチャンネル: https://www.youtube.com/channel/UCNnuBjHrb2UYBUi0I5otmjQ
