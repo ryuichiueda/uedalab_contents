@@ -1,5 +1,5 @@
 ---
-Keywords: ロボコン, AWSチャレンジ
+Keywords: ロボコン, AWSチャレンジ, 受賞
 Copyright: (C) 2020 Ryuichi Ueda
 ---
 
