@@ -7,6 +7,8 @@ Copyright: (C) Ryuichi Ueda
 ## 2020
 
 * [ロボットシステム学](https://lab.ueda.tech/?page=robosys_2020)
+* [ロボット設計製作論3（知能コース）](https://lab.ueda.tech/?page=robotdesign3_2019_ros)
+
 
 ## 2019
 
