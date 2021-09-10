@@ -18,7 +18,11 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 1日1問、半年以内に習得 シェル・ワンライナー160本ノック, 技術評論社, 2021. 
 
-### Conference proceedings (non-peer-reviewed)
+### Review article
+
+* 上田隆一: "ロボットのセンサと自己位置推定・地図生成," 油空圧技術, 60(5), pp.23-27, 2021年5月.
+
+### Conference proceeding (non-peer-reviewed)
 
 * 上田隆一, 池邉龍宏, 林原靖男: brute-forceな価値反復を用いた実時間経路計画ROSパッケージ, 第39回日本ロボット学会学術講演会予稿集, pp. RSJ2021AC2I1-04, オンライン開催, 2021. 
 
