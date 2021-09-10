@@ -3,6 +3,7 @@ Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=060
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
+ 	<li><a href="#2021">2021</a></li>
  	<li><a href="#2020">2020</a></li>
  	<li><a href="#2019">2019</a></li>
  	<li><a href="#2018">2018</a></li>
@@ -10,6 +11,13 @@ Each year means the academic year in Japan, which starts from April and ends in 
  	<li><a href="#2016">2016</a></li>
  	<li><a href="#2015">2015</a></li>
 </ul>
+
+<h2 id="2021">2021</h2>
+
+### Conference proceedings (non-peer-reviewed)
+
+* 上田隆一, 池邉龍宏, 林原靖男: brute-forceな価値反復を用いた実時間経路計画ROSパッケージ, 第39回日本ロボット学会学術講演会予稿集, pp. RSJ2021AC2I1-04, オンライン開催, 2021. 
+
 
 <h2 id="2020">2020</h2>
 
