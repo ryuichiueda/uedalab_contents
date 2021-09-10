@@ -14,6 +14,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2021">2021</h2>
 
+### Book
+
+* 上田 隆一, 山田 泰宏, 田代 勝也, 中村 壮一, 今泉 光之, 上杉 尚史: 1日1問、半年以内に習得 シェル・ワンライナー160本ノック, 技術評論社, 2021. 
+
 ### Conference proceedings (non-peer-reviewed)
 
 * 上田隆一, 池邉龍宏, 林原靖男: brute-forceな価値反復を用いた実時間経路計画ROSパッケージ, 第39回日本ロボット学会学術講演会予稿集, pp. RSJ2021AC2I1-04, オンライン開催, 2021. 
@@ -42,7 +46,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2019">2019</h2>
 
-### 書籍
+### Book
 
 * 上田隆一: 詳解確率ロボティクス, 講談社, 2019.
 
