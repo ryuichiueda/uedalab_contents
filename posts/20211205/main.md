@@ -11,9 +11,8 @@ Copyright: (C) 2021 Tatsuhiro Ikebe, Ryuichi Ueda
 参加者の方と自律移動についての技術トークができたり、とても刺激を受けました。
 
 
-今回、初参加ということで色々なことを試しました。
-
-結果的には信号あり横断歩道まで走行することが出来ました！
+今回、初参加ということで色々なことを試して
+、結果的に信号あり横断歩道まで走行することが出来ました！
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">本走行は、スタートから信号あり横断歩道まで走行しました。<a href="https://t.co/fZF7aQIi54">https://t.co/fZF7aQIi54</a></p>&mdash; BEIKE (@BEIKE_RE) <a href="https://twitter.com/BEIKE_RE/status/1462623996461998083?ref_src=twsrc%5Etfw">November 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ということで、つくばチャレンジで試したことなどについて話していきます。
@@ -32,12 +31,12 @@ Copyright: (C) 2021 Tatsuhiro Ikebe, Ryuichi Ueda
 
 ## 使用した機体について
 
-つくばチャレンジに参加するために[Raspberry Pi Cat](https://rt-net.jp/products/raspberry-pi-cat/)という機体を使用しました。
+つくばチャレンジ2021に参加するために[Raspberry Pi Cat](https://rt-net.jp/products/raspberry-pi-cat/)という機体を使用しました。
 
-つくばチャレンジに参加している機体の中でも小型です。
+つくばチャレンジ2021に参加している機体の中でも小型です。
 
-つくばチャレンジに参加するためには機体の仕様条件として高さが0.6mであるのと
-非常停止スイッチがどこからでも押せる必要があります。
+つくばチャレンジに参加するためには[機体の仕様条件として高さが0.6mである](https://tsukubachallenge.jp/2021/regulations/specs#:~:text=%E5%85%A8%E9%AB%98%3A0.6%20m%20%E4%BB%A5%E4%B8%8A%E3%80%811.8%20m%20%E4%BB%A5%E4%B8%8B)のと
+[非常停止スイッチがどこからでも押せる](https://tsukubachallenge.jp/2021/regulations/specs#:~:text=%E4%BB%95%E6%A7%98-,%E3%81%A9%E3%81%AE%E6%96%B9%E5%90%91%E3%81%8B%E3%82%89,%E3%81%A4%E3%81%A7%E3%82%82%E8%89%AF%E3%81%84,-%E9%9D%9E%E5%B8%B8%E5%81%9C%E6%AD%A2%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)必要があります。
 なのでアルミフレームを追加して高さ増しをして非常停止スイッチの位置も変更しました。
 
 ![](raspicat.png)
@@ -51,7 +50,7 @@ Copyright: (C) 2021 Tatsuhiro Ikebe, Ryuichi Ueda
 
 * 2D LiDARの位置調整
 
-ソフトウェアで何でも解決させると言っておきながら調整してるのかいと思う方がいるかもしれませんが、流石に許してください。
+「ソフトウェアで何でも解決させると言っておきながら調整してるんかい！」と思う方がいるかもしれませんが、流石に許してください。
 
 安定した自己位置推定を行うためにランドマークを獲得することは重要です。
 なので、どの高さの位置に2D LiDARを設置するべきなのか現地で計測して最適な値を導きました。(多分)
