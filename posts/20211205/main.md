@@ -98,13 +98,13 @@ rosbagを取る時間やいちから地図生成を行う時間の無駄を考�
 
 #### ①芝生エリア
 
-車輪経が小さいこともあり、一度芝生エリアに入ると芝生エリアから戻る際にスタックしそうなので避けた方が良さそうです。
+車輪径が小さいこともあり、一度芝生エリアに入ると芝生エリアから戻る際にスタックしそうなので避けた方が良さそうです。
 
 [![Image from Gyazo](https://i.gyazo.com/fe7eb23f5784be413b4765e3c6fa39ff.png)](https://gyazo.com/fe7eb23f5784be413b4765e3c6fa39ff)
 
 #### ②横断歩道の段差
 
-これは実際にスタックした例ですが、やはり車輪経が小さいため横断歩道の段差を乗り越えるのが厳しく、結果的に自己位置推定にも影響が出てしまいました。
+これは実際にスタックした例ですが、やはり車輪径が小さいため横断歩道の段差を乗り越えるのが厳しく、結果的に自己位置推定にも影響が出てしまいました。
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">小型ロボットは辛い2 <a href="https://twitter.com/hashtag/%E3%81%A4%E3%81%8F%E3%83%81%E3%83%A3%E3%83%AC?src=hash&amp;ref_src=twsrc%5Etfw">#つくチャレ</a> <a href="https://t.co/Vq0mxatPHi">pic.twitter.com/Vq0mxatPHi</a></p>&mdash; 千葉工大未ロボ上田研 (@uedalaboratory) <a href="https://twitter.com/uedalaboratory/status/1461934150328504320?ref_src=twsrc%5Etfw">November 20, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -132,7 +132,7 @@ rosbagを取る時間やいちから地図生成を行う時間の無駄を考�
 
 ### 実際にナビゲーションのテストをしている様子
 
-<iframe width="1280" height="320" src="https://www.youtube.com/embed/tRTD174K4bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tRTD174K4bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 今後について
 
