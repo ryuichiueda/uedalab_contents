@@ -32,7 +32,7 @@ resolutionが0.05の地図ではナビゲーションを行うことができな
 
 ・resolution 0.05
 
-![19階地図](map_tudanumakai.png)
+![](map_tudanumakai.png)
 
 ・resolution 0.30
 
