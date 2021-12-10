@@ -1,8 +1,7 @@
 ---
 Keywords: Raspberry pi
-Copyright: (C) 2021 Kotaro Izuno  
-
-Yuichiro Hatanaka
+Copyright: (C) 2021 Kotaro Izuno 
+                    Yuichiro Hatanaka
 ---
 
 # 屋内環境でRaspberry Pi 3Bのみでナビゲーションを行った話
