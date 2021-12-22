@@ -51,7 +51,7 @@ Copyright: (C) 2021 Tatsuhiro Ikebe
 安定した自己位置推定を行うためにランドマークを獲得することは重要です。
 なので、どの高さの位置に2D LiDARを設置するべきなのか現地で計測して最適な値を導きました。(多分)
 
-花壇やベンチの高さを計測した所、地面から45cmぐらいの高さに2D LiDARを設置すると、
+花壇やベンチの高さを計測した所、地面から36cmぐらいの高さに2D LiDARを設置すると、
 花壇やベンチをマップに含ませることができます。マップに含まれるということは走行中に観測ができるということです。
 
 [![Image from Gyazo](https://i.gyazo.com/ad2c5bf6b34a1fcb4c9ecf015a2a2c2e.png)](https://gyazo.com/ad2c5bf6b34a1fcb4c9ecf015a2a2c2e)
