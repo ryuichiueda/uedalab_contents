@@ -22,6 +22,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * 上田隆一: "ロボットのセンサと自己位置推定・地図生成," 油空圧技術, 60(5), pp.23-27, 2021年5月.
 
+### Journal paper
+
+* 三上泰史, 石川弘也, 原直裕, 夏迫和也, 空閑融, 大和田恭平, 北浦勇人, 上田隆一: 密生した圃場における一部が隠れた果菜類の主茎の検出 ―写実的なCG画像で学習した深層畳み込みニューラルネットワークによるImage-to-Image変換―, 日本ロボット学会誌, Vol. 40, No. 2, 2022. 
+    * [早期公開原稿（pdf）](https://www.rsj.or.jp/#js-pdf-mdl)
 
 ### Conference proceeding (non-peer-reviewed)
 
