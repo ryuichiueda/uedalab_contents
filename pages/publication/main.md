@@ -38,6 +38,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 * 三上泰史, 石川弘也, 原直裕, 夏迫和也, 空閑融, 大和田恭平, 北浦勇人, 上田隆一: 密生した圃場における一部が隠れた果菜類の主茎の検出 ―写実的なCG画像で学習した深層畳み込みニューラルネットワークによるImage-to-Image変換―, 日本ロボット学会誌, Vol. 40, No. 2, 2022. (to appear)
     * [早期公開原稿（pdf）](https://www.rsj.or.jp/pub/jrsj/advpub/400201.html)
 
+### Conference proceeding (peer-reviewed)
+
+* 上田 隆一, 池邉 龍宏, 林原 靖男: 移動ロボットのナビゲーションのためのbrute-forceな価値反復を用いた大域計画・局所計画アルゴリズム, 第27回ロボティクスシンポジア講演論文集, pp.109-112, 2022.
+
 ### Conference proceeding (non-peer-reviewed)
 
 * 石江 義規, 岡田 眞也, 島田 滉己, 山本 大志, 清岡 優祐, 井口 颯人, 原 桃子, 春山 健太, 樋高 聖人, 上田 隆一, 林原 靖男: つくばチャレンジ2021における千葉工業大学未来ロボティクス学科チームの取り組み, 第22回計測自動制御学会システムインテグレーション部門講演会, pp.3375-3379, オンライン開催, 2021. 
