@@ -28,7 +28,7 @@ Copyright: (C) Ueda Lab. 2022
 * 英語の固有名詞の大文字小文字、スペースあけて表記するか等は、ちゃんと調査してから書く
     * ピンとこないかもしれないけど、漢字を間違える程度の恥ずかしさなので全力回避で
     * 商標の表記を間違えると叱られる。
-        * 例: NVIDIA、GitHub、MathWorks、Movable Type、Sony
+        * 例: NVIDIA、GitHub、MathWorks、Movable Type、Sony（参考: http://fuwhat.com/feature/knowledge/entry-517.html ）
 * 日本語の名前もなるべく忠実にするようにがんばる。公式が諦めているときは諦めてもいい。
     * 人名は不可能でなければ忠実に（山﨑は山崎と書かない。）
     * キヤノンをキャノンと書かない。
