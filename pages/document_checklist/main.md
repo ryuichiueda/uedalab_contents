@@ -61,8 +61,10 @@ Copyright: (C) Ueda Lab. 2022
             * 詳細の説明・・・
             * 詳細の説明・・・
 * 引用や事例を紹介するときは[人名 西暦年]を付加
-    * 例1: Uniform Monte Carlo Localization [Ueda 2002]
+    * 例1: Uniform Monte Carlo Localization [Ueda et al. 2002]
     * 例2: Woven City [TOYOTA 2020]
+    * 例3: 作物の隠れた枝の補間 [三上ら2022]
+        * 日本語の論文を指す場合は日本語
     * ↑対応する論文やサイトは予稿等に書いてあればよい
 * 他の人が作った手法やソフトウェアをフィーチャーしすぎない
     * 自分のやったことを話すのが筋
