@@ -26,6 +26,11 @@ links:
   href: '/?page=project'
 - text: '共同研究の案内'
   href: '/?page=collaboration_info'
+- text: '資料'
+  href: '#'
+  sublinks:
+  - text: '論文、スライド、プレゼンのチェックリスト'
+    href: '/?page=document_checklist'
 - text: '外部リンク'
   href: '#'
   sublinks:
