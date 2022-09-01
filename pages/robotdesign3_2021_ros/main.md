@@ -1,6 +1,29 @@
 # ロボット設計製作論実習3（2021年度知能コース）
 
-## ガイダンス
+
+## 製作物
+
+### 1班: マニピュレータでナイフゲーム
+
+https://github.com/MakiSakurai/robotdesign3_2021_1
+
+### 2班: フライ返しさせ隊
+
+https://github.com/2021-RobotDesign3-team2
+
+### 3班: 必殺うんこ仕分けロボ
+
+https://github.com/takanezawa0829/automatic_sorting_machine
+
+### 4班: 居合切りロボット
+
+https://github.com/Yusuke-Yamasaki-555/team4_robotdesign3_2021
+
+### 5班: 黒目線をひく‼
+
+https://github.com/hiro2001/crane_x7_ros_5_2021
+
+## 講義前のガイダンス
 
 社会人が見ても辛い感じに仕上がりました。
 
