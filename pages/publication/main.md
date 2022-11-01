@@ -15,6 +15,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2022">2022</h2>
 
+### Journal paper
+
+* Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, 2022. (to appear)
+
 ### Conference proceeding (non-peer-reviewed)
 
 * 上田 隆一, 池邉 龍宏, 林原 靖男: 価値反復による準静的な障害物を考慮した実時間経路計画, 第40回日本ロボット学会学術講演会予稿集, pp. RSJ2022AC12I2-01, 2022.
