@@ -17,7 +17,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Journal paper
 
-* Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, 2022. (to appear)
+* Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, Vol. 5, No. 2, pp. 29-35, 2022. 
 
 ### Conference proceeding (non-peer-reviewed)
 
