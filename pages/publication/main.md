@@ -19,6 +19,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * Ryuichi Ueda: Generation of search behavior of robots by an extended probabilistic ﬂow control, International Journal of iRobotics, Vol. 5, No. 2, pp. 29-35, 2022. 
 
+### Conference proceeding (peer-reviewed)
+
+* 上田隆一, 登内リオン, 池邉龍宏, 林原靖男: 移動ロボットのための自己位置の不確かさを考慮したセンシングできない固定障害物の回避手法 ---価値反復を用いたナビゲーションにおける状態空間の局所拡張---, 第28回ロボティクスシンポジア講演論文集, 2023. (to appear)
+
 ### Conference proceeding (non-peer-reviewed)
 
 * 金子 直樹, 大和田 恭平, 夏迫 和也, 空閑 融, 椿 由衣,  伊藤 萌峰, 上田 隆一: 植物が密生した圃場における深度画像のみを用いた茎と葉の検出, 第23回計測自動制御学会システムインテグレーション部門講演会, 1P2A04, 2022. 
