@@ -1,5 +1,5 @@
 ---
-Keywords: 論文
+Keywords: 受賞, ロボコン, 自動運転AIチャレンジ
 Copyright: (C) 2023 Ryuichi Ueda
 ---
 
