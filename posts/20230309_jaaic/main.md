@@ -15,7 +15,7 @@ Copyright: (C) 2023 Ryuichi Ueda
 <blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">先日の自動運転AIチャレンジのトロフィーとメダルを18階のロボッカップのトロフィーの横に展示しています。<br><br>（横のダンボール箱は見なかったことにしてください） <a href="https://t.co/q34iBjhWw9">pic.twitter.com/q34iBjhWw9</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1633647263858982912?ref_src=twsrc%5Etfw">March 9, 2023</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-研究室のボス（上田）は、なんか机の下でやってるなという感じで見てただけでした。年甲斐もなくライバル心がメラメラと・・・
+研究室のボス（上田）は、なんか机の下でやってるなという感じで見てただけでした。学生さんのパワーはすごいですね。年甲斐もなくライバル心がメラメラと・・・
 
 
 ## 他の記事
