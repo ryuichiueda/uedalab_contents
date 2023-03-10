@@ -26,6 +26,8 @@ Copyright: (C) 2023 Ryuichi Ueda
 
 * 開催概要
     * https://prtimes.jp/main/html/rd/p/000000066.000041897.html
+* 結果
+    * https://www.jsae.or.jp/jaaic/result.php
 * 表彰式の様子
     * https://www.jiji.com/jc/article?k=000000069.000041897&g=prt
     * https://car.watch.impress.co.jp/docs/news/1483712.html
