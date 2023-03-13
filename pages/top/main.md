@@ -5,9 +5,11 @@ Copyright: (C) **Ryuichi Ueda**
 
 # トップページ
 
-## 研究室紹介動画（2021年度配属用）
+## 研究室紹介動画（2022、2023年度配属用）
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rZe2GFru3Rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+2022年度のものです。2023年度は研究室のアクティビティーが高すぎて超多忙なので作らないと思いますたぶん。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/15oS1CI0L0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## 研究室動画集
