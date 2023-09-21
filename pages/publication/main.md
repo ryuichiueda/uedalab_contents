@@ -16,7 +16,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2023">2023</h2>
 
-### Overview Articles
+### Review Articles
 
 上田隆一: 技術チャレンジの中で育った確率ロボティクス, 日本ロボット学会誌, Vol. 41, No. 5, pp. 443-450, 2023.
 
