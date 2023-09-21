@@ -16,11 +16,27 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2023">2023</h2>
 
+### Overview Articles
+
+上田隆一: 技術チャレンジの中で育った確率ロボティクス, 日本ロボット学会誌, Vol. 41, No. 5, pp. 443-450, 2023.
+
 ### Journal paper
 
 * Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing, Journal of Robotics and Mechatronics (to appear)
 
+### Conference proceeding (non-peer-reviewed)
+
+* 井口 颯人, 樋高 聖人, 野村 駿斗, 村林 孝太郎, 上田 隆一, 林原 靖男: 屋外自律移動ロボットプラットフォームORNE-boxの開発 ---ORNE-boxの検証・改良---, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 1P1-I06, 2023. (to appear)
+* 池邉 龍宏, 林原 靖男, 上田 隆一: 未知障害物によるモンテカルロ自己位置推定の破綻を防ぐための観測範囲の制限と選択, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2A2-G06, 2023. (to appear)
+* 登内 リオン, 池邉 龍宏, 林原 靖男, 上田 隆一: 価値反復による移動ロボットの屋外ナビゲーション, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2P1-G06, 2023. (to appear)
+* 髙橋 祐樹, 白須 和暉, 藤原 柾, 上田 隆一, 林原 靖男: 視覚と行動のend-to-end学習による経路追従行動の模倣 ---データセットを収集してオフラインで訓練する手法の検討---, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2P1-G07, 2023. (to appear)
+* 石原 新也, 山田 啓太, 加藤 みのり, 姜 平, 大賀 淳一郎, 菅原 淳, 上田 隆一: ハンドアイ RGB カメラを有するマニピュレータのための透明な小袋の認識, 2P2-D22, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2P1-G07, 2023. (to appear)
+* 今井 悠月, 清岡 優祐, 春山 健太, 上田 隆一, 林原 靖男: 視覚と行動の nd-to-end学習により経路追従行動をオンラインで模倣する手法の提案 ---経路への復帰行動の解析と復帰行動を強化する教師データ収集法の検討---, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2P2-G05, 2023. (to appear)
+* 藤原 柾, 春山 健太, 馬場 琉生, 上田 隆一, 林原 靖男: 視覚と行動の end-to-end 学習により経路追従行動をオンラインで模倣する手法の提案 ---実環境における経路選択機能の検証と学習時間の短縮化の検討---, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 2P2-G06, 2023. (to appear)
+
+
 <h2 id="2022">2022</h2>
+
 
 ### Journal paper
 
