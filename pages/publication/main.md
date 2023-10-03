@@ -24,6 +24,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing, Journal of Robotics and Mechatronics (to appear)
 
+### Conference proceeding (peer-reviewed)
+
+* Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023. (to appear)
+
 ### Conference proceeding (non-peer-reviewed)
 
 * 井口 颯人, 樋高 聖人, 野村 駿斗, 村林 孝太郎, 上田 隆一, 林原 靖男: 屋外自律移動ロボットプラットフォームORNE-boxの開発 ---ORNE-boxの検証・改良---, 日本機械学会ロボティクス・メカトロニクス講演会2023講演論文集, 1P1-I06, 2023. 
