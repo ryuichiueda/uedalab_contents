@@ -16,8 +16,6 @@ line: '@'
 links:
 - text: '最新記事'
   href: '/?post'
-- text: 'メンバー'
-  href: '/?page=member'
 - text: '文献'
   href: '/?page=publication'
 - text: '講義'
