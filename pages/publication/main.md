@@ -22,7 +22,11 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Journal paper
 
-* Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing, Journal of Robotics and Mechatronics (to appear)
+* Ryuichi Ueda, Leon Tonouchi, Tatsuhiro Ikebe, and Yasuo Hayashibara: [Implementation of brute-force value iteration for mobile robot path planning and obstacle bypassing](https://www.fujipress.jp/jrm/rb/robot003500061489/), Journal of Robotics and Mechatronics, Vol.35, No.6, pp.1489-1502, 2023.
+    * [JRM Most Downloaded Paper, Jan. 2024](https://www.fujipress.jp/most_dl/rb-dl2024_01/)
+    * [JRM Most Downloaded Paper, Dec. 2023](https://www.fujipress.jp/most_dl/rb-dl2023_12/)
+
+### 2022
 
 ### Conference proceeding (peer-reviewed)
 
