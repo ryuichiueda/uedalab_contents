@@ -3,6 +3,7 @@ Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=060
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
+ 	<li><a href="#2024">2024</a></li>
  	<li><a href="#2023">2023</a></li>
  	<li><a href="#2022">2022</a></li>
  	<li><a href="#2021">2021</a></li>
@@ -13,6 +14,12 @@ Each year means the academic year in Japan, which starts from April and ends in 
  	<li><a href="#2016">2016</a></li>
  	<li><a href="#2015">2015</a></li>
 </ul>
+
+<h2 id="2024">2024</h2>
+
+### Conference proceeding (non-peer-reviewed)
+
+
 
 <h2 id="2023">2023</h2>
 
