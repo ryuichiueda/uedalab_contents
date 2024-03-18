@@ -26,8 +26,6 @@ Each year means the academic year in Japan, which starts from April and ends in 
     * [JRM Most Downloaded Paper, Jan. 2024](https://www.fujipress.jp/most_dl/rb-dl2024_01/)
     * [JRM Most Downloaded Paper, Dec. 2023](https://www.fujipress.jp/most_dl/rb-dl2023_12/)
 
-### 2022
-
 ### Conference proceeding (peer-reviewed)
 
 * Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023. (to appear)
