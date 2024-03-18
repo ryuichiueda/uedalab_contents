@@ -18,7 +18,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Review Articles
 
-上田隆一: 技術チャレンジの中で育った確率ロボティクス, 日本ロボット学会誌, Vol. 41, No. 5, pp. 443-450, 2023.
+* 上田隆一: 技術チャレンジの中で育った確率ロボティクス, 日本ロボット学会誌, Vol. 41, No. 5, pp. 443-450, 2023.
 
 ### Journal paper
 
@@ -28,7 +28,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Conference proceeding (peer-reviewed)
 
-* Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023. (to appear)
+* Haruki Shimotori, Ping Jiang, Jun'ichiro Ooga, Atsushi Sugahara, Shun Ito, Atsuya Koike, Ryuichi Ueda: Robotic grasp detection toward unknown objects using 3D edge detection and Gaussian mixture model for clustering candidates, IEEE International Conference on Robotics and Biomimetics (ROBIO2023), Koh Samui, Surat Thani Province, Thailand, December, 2023, DOI: 10.1109/ROBIO58561.2023.10354880. 
 
 ### Conference proceeding (non-peer-reviewed)
 
