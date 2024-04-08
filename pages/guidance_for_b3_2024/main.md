@@ -8,7 +8,7 @@
 
 ## 上田研の紹介動画
 
-　ふたつ（2022年度版と、2024年度差分）視聴おねがいします。
+　長いけどふたつ（2022年度版と、2024年度差分）視聴おねがいします。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/15oS1CI0L0Y?si=CktkcxtI6hif4Tu1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
