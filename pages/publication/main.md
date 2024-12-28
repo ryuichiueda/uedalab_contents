@@ -19,6 +19,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 ### Book
 
+* 長沢　伸也 (編集): イノベーションの創出―仕組み、社会実装、技術― (横幹〈知の挑戦〉シリーズ), 晃洋書房, 2024.
 * 上田隆一: ロボットの確率・統計, コロナ社, 2024. 
 
 ### Essay
