@@ -3,6 +3,7 @@ Ueda's personal/previous works are listed <a href="https://b.ueda.tech/?page=060
 
 Each year means the academic year in Japan, which starts from April and ends in the next March.
 <ul>
+ 	<li><a href="#2025">2025</a></li>
  	<li><a href="#2024">2024</a></li>
  	<li><a href="#2023">2023</a></li>
  	<li><a href="#2022">2022</a></li>
@@ -15,15 +16,27 @@ Each year means the academic year in Japan, which starts from April and ends in 
  	<li><a href="#2015">2015</a></li>
 </ul>
 
+<h2 id="2025">2025</h2>
+
+### Journal paper
+
+* 下鳥晴己, 姜平, 大賀淳一郎, 菅原淳, 伊藤駿, 小池篤哉, 藤﨑賢蔵, 小塚凌, 上田隆一: 2指ハンドとハンドアイカメラを持つ多自由度マニピュレータのための3次元点群からの把持位置検出, 日本ロボット学会誌, Vol. 42, 2025. (to appear)
+
 <h2 id="2024">2024</h2>
 
 ### Book
 
 * 上田隆一: ロボットの確率・統計, コロナ社, 2024. 
+* 長沢　伸也 (編集): [イノベーションの創出―仕組み、社会実装、技術― (横幹〈知の挑戦〉シリーズ)](https://amzn.to/3ZUwgJ1), 晃洋書房, 2024.
 
 ### Essay
 
 * 上田隆一: [育児休業に関する二つのケースと考察](https://www.jstage.jst.go.jp/article/jrsj/42/4/42_42_352/_article/-char/ja), 日本ロボット学会誌, Vol. 42, No. 4, pp. 352-355, 2024.
+
+### Conference proceeding (peer-reviewed)
+
+* 髙澤怜里, 上田隆一, 山野辺夏樹, 藤井浩光: 編み物における技能理解のためのLSTMによる手先動作の解析, 第30回ロボティクスシンポジア講演論文集, pp.173-178, 2025.
+* 吉越 誠, 林原 靖男, 上田 隆一: 移動ロボットのための彷徨しながらの衛星測位によるLiDARベースの自己位置推定の破綻からの復帰法とナビゲーションの継続, 第30回ロボティクスシンポジア講演論文集, pp.107-112, 2025.
 
 ### Conference proceeding (non-peer-reviewed)
 
