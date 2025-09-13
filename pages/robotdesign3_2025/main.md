@@ -143,47 +143,15 @@ https://github.com/hiro2001/crane_x7_ros_5_2021
 
 * [コード](https://github.com/shuta-tech/crane_x7_ros/tree/final/crane_x7_edge/src)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BpDZ0-9jQR0?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- 班2
-
-* [コード](https://github.com/GakuKuwano/crane_x7_ros/blob/master/crane_x7_examples/README.md)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/36TV19ttN3A?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-- 班3
-
-* [コード](https://github.com/Souya25/crane_x7_ros/tree/master/crane_x7_robot_design3)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mAbgiquSygA?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BpDZ0-9jQR0?si=XviUReFzmeD4tiT5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 - 班4
 
 * [コード](https://github.com/ShioriSugiyama/crane_x7_ros/tree/master/crane_x7_robot_design3_pcl)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YwxTDPTYzWY?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YwxTDPTYzWY?si=tryV_RMUggSM5oU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-- 班5
-
-* [コード](https://github.com/HayatoKitaura/crane_x7_ros/tree/master/crane_x7_examples)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0n9izmeAt4Q?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-- 班6-1
-
-* [コード](https://github.com/habu94/crane_x7_ros/tree/domino/crane_x7_examples)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ObdJRx4v56U?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- 班6-2
-
-* [コード](https://github.com/keito1029/design3_final)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_FOWcYkRxac?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - 番外編
 
