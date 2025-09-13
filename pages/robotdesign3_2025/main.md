@@ -46,6 +46,13 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mQSki3Wf1o8?si=Hc0I-KRlZwxeNVYN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+- お抹茶マシーン: https://youtube.com/shorts/kAch4zu6KIs?si=zZQuBnt4L_kReqZG
+
+### 2022年度
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/citrobotdesign3?src=hash&amp;ref_src=twsrc%5Etfw">#citrobotdesign3</a><br><br>2段組み立てうんこ <a href="https://t.co/0MdGFv2P8M">pic.twitter.com/0MdGFv2P8M</a></p>&mdash; Cola (@tukugami_cola) <a href="https://twitter.com/tukugami_cola/status/1603314567282454528?ref_src=twsrc%5Etfw">December 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ### 2021年度
 
 - 1班: マニピュレータでナイフゲーム
