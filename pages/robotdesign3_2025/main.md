@@ -184,3 +184,7 @@ https://github.com/hiro2001/crane_x7_ros_5_2021
 * [コード](https://github.com/keito1029/design3_final)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_FOWcYkRxac?loop=1&playlist=youtubeID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- 番外編
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr">wwwwwwwww <a href="https://t.co/YAAq9dcNFP">pic.twitter.com/YAAq9dcNFP</a></p>&mdash; 千葉工大 未来ロボティクス学科 (@robo_cit) <a href="https://twitter.com/robo_cit/status/1201399538541400064?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
