@@ -23,7 +23,7 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * 下鳥晴己, 姜平, 大賀淳一郎, 菅原淳, 伊藤駿, 小池篤哉, 藤﨑賢蔵, 小塚凌, 上田隆一: 2指ハンドとハンドアイカメラを持つ多自由度マニピュレータのための3次元点群からの把持位置検出, 日本ロボット学会誌, Vol. 43, 2026. (to appear)
 
-<h2 id="2026">2026</h2>
+<h2 id="2025">2025</h2>
 
 ### Conference proceeding (non-peer-reviewed)
 
