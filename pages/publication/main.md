@@ -25,6 +25,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 <h2 id="2025">2025</h2>
 
+### Conference proceeding (peer-reviewed)
+
+* 船井涼, 林原靖男, 上田隆一: 移動ロボットの自己位置推定のためのベクトル量子化による3次元占有格子地図の圧縮, 第31回ロボティクスシンポジア講演論文集, pp. 15-21, 2026. <span style="color:orange">ロボティクスシンポジア賞ファイナリスト</span>
+
 ### Conference proceeding (non-peer-reviewed)
 
 * 今井悠月, 上田隆一, 林原靖男: 視覚と行動のend-to-end 学習による経路追従行動の模倣 ―教師データの自己情報量に基づく重みづけ学習手法の提案―, 計測自動制御学会第26回システムインテグレーション部門講演会, pp.1875-1880, 2025.
