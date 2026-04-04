@@ -19,6 +19,7 @@ Copyright: (C) **Ryuichi Ueda**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dgd2tOCEYno?si=rOImDsi0RgqTZFd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CBMigGV36Eg?si=N4GB0WHzFapeNgRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Twitter
 
