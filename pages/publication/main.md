@@ -23,6 +23,12 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * 下鳥晴己, 姜平, 大賀淳一郎, 菅原淳, 伊藤駿, 小池篤哉, 藤﨑賢蔵, 小塚凌, 上田隆一: 2指ハンドとハンドアイカメラを持つ多自由度マニピュレータのための3次元点群からの把持位置検出, 日本ロボット学会誌, Vol. 43, 2026. (to appear)
 
+
+### Conference proceeding (non-peer-reviewed)
+
+* Washio Yusaku, Daiki Usami, Yusuke Kumagai, Anju Sasaki, Yosuke Sadasue, Tomonori Sekiguchi, Ryo Mizuochi, Haruki Ito, Ko Ishibashi, Ryo Ishimaru, Kobayashi Masanori, Hiroki Senshu, Tetsuro Harada, Manabu Yamada, Mengu Cho,, Daisuke Nakayama,, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Tomoko Arai: CubeLander: 6U CubeSat-Based Lander Design for Apophis, JpGU-AGU Joint Meeting, PPS09-P04, 2026. 
+* *Tomoko Arai, Tetsuro Harada, Ko Ishibashi, Manabu Yamada, Hiroki Senshu, Masanori Kobayashi, Ryo Ishimaru, Daisuke Nakayama,, Tomonori Sekiguchi, Yosuke Sadasue, Yusaku Washio, Ryo Mizuochi, Daiki Usami, Haruki Ito, Anju Sasaki, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Mengu Cho: Project Apophis: the world's first Academic-Commercial collaboration asteroid mission, JpGU-AGU Joint Meeting, PPS09-P06, 2026. 
+
 <h2 id="2025">2025</h2>
 
 ### Conference proceeding (peer-reviewed)
