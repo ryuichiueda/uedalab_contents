@@ -28,6 +28,10 @@ Each year means the academic year in Japan, which starts from April and ends in 
 
 * Washio Yusaku, Daiki Usami, Yusuke Kumagai, Anju Sasaki, Yosuke Sadasue, Tomonori Sekiguchi, Ryo Mizuochi, Haruki Ito, Ko Ishibashi, Ryo Ishimaru, Kobayashi Masanori, Hiroki Senshu, Tetsuro Harada, Manabu Yamada, Mengu Cho,, Daisuke Nakayama,, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Tomoko Arai: CubeLander: 6U CubeSat-Based Lander Design for Apophis, JpGU-AGU Joint Meeting, PPS09-P04, 2026. 
 * *Tomoko Arai, Tetsuro Harada, Ko Ishibashi, Manabu Yamada, Hiroki Senshu, Masanori Kobayashi, Ryo Ishimaru, Daisuke Nakayama,, Tomonori Sekiguchi, Yosuke Sadasue, Yusaku Washio, Ryo Mizuochi, Daiki Usami, Haruki Ito, Anju Sasaki, Schulz Victor Hugo, Corodova-Alarcon Jose Rodrigo, Ryuichi Ueda, Mengu Cho: Project Apophis: the world's first Academic-Commercial collaboration asteroid mission, JpGU-AGU Joint Meeting, PPS09-P06, 2026. 
+* 鷲尾優作, 中山大輔, 石橋高, 石丸亮, 小林正規, 千秋博紀, 原田徹郎, 山田学,  上田隆一, 荒井朋子: 小惑星表面探査機のための民生深度カメラ搭載設計と耐久性評価, 日本機械学会ロボティクス・メカトロニクス講演会2026講演論文集, 1A1-L08, 2026.
+* 山下響, 上田隆一, 林原靖男: 条件付き模倣学習とトポロジカル位置推定を統合した屋外自律走行システムの構築と実環境における検証, 日本機械学会ロボティクス・メカトロニクス講演会2026講演論文集, 2A2-O02, 2026.
+* 荻島義裕, 藤井浩光, 上田隆一: 濁水環境下における魚体の部分的3次元計測と統合による形状復元, 日本機械学会ロボティクス・メカトロニクス講演会2026講演論文集, 2A2-O11, 2026.
+* Zander Polson, Yasuo Hayashibara, Ryuichi Ueda: Pipeline for Scalable Synthetic Crop Generation using L-systems, Toward Structurally Grounded Synthetic Data for Agricultural Robotics, 日本機械学会ロボティクス・メカトロニクス講演会2026講演論文集, 1A1-K04, 2026.
 
 <h2 id="2025">2025</h2>
 
