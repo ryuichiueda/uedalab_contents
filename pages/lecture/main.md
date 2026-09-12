@@ -6,7 +6,7 @@ Copyright: (C) Ryuichi Ueda
 
 ## 2026
 
-* [ロボット設計製作論3（知能コース）](https://lab.ueda.tech/?page=robotdesign3_2026_ros)
+* [ロボット設計製作論3（知能コース）](https://lab.ueda.tech/?page=robotdesign3_2026)
 
 ## 2021
 
