@@ -47,6 +47,10 @@
 
 ### 2026年度
 
+- 学習で動かした例
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lK_TyO1XDn8?si=POvDuFl6ZGkxAjjZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### 2024年度
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lLc0S19kwPk?si=YEU84WaxIcFxq0BV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
